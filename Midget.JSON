@@ -1,0 +1,200 @@
+{
+"name":"Midget",
+"version":2.2,
+"edition":6,
+"siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"str":{"value":"15","shortname":"str","name":"Strength","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":"29","shortname":"dex","name":"Dexterity","roll":"15-","damage":"","value2":"29","roll2":"15","damage2":"","notes":""},
+"con":{"value":"15","shortname":"con","name":"Constitution","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":""},
+"int":{"value":"10","shortname":"int","name":"Intelligence","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":"PER Roll 11-"},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":""},
+"com":{"value":"0","shortname":"com","name":"Comliness","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"pre":{"value":"15","shortname":"pre","name":"Presence","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":"PRE Attack: 3d6"},
+"spd":{"value":"7","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"7","roll2":"","damage2":"","notes":"Phases: 2, 4, 6, 7, 9, 11, 12"},
+"ocv":{"value":"10","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"dcv":{"value":"10","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"omcv":{"value":"10","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"dmcv":{"value":"4","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"4","roll2":"","damage2":"","notes":""},
+"pd":{"value":"10","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":"10 PD (0 rPD)"},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"10 PD (0 rPD)"},
+"ed":{"value":"8","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":"8 ED (0 rED)"},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"8 ED (0 rED)"},
+"per":{"value":"11-","shortname":"per","name":"Perception Roll","roll":"11-","damage":"","notes":""},
+"rec":{"value":"8","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":""},
+"body":{"value":"10","shortname":"body","name":"Body","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"end":{"value":"40","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"40","roll2":"","damage2":"","notes":""},
+"stun":{"value":"30","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"30","roll2":"","damage2":"","notes":""},
+"def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"movement":{
+"run":{"combat":"22m","noncombat":"44m","primary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"secondary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"icon":"ui_run","notes":""},
+"swim":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"combat":"4m/34m","noncombat":"8m/68m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"34m/17m","value":34},"noncombat":{"description":"68m","value":68}},"icon":"ui_leap","notes":"4m/34m forward, 2m/17m upward"}},
+"skills":[
+	{"name":"Perception","roll":"11-"},
+	{"name":"Defense Maneuver I-IV ","roll":"","uid":1589598259645,"type":"Defense Maneuver","input":"I-IV","level":"0","active":"10","base":"10","XMLID":"DEFENSE_MANEUVER","modifiers":[],"adders":[]},
+	{"name":"Acrobatics","roll":"15-","uid":1589598298820,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[]},
+	{"name":"Breakfall","roll":"15-","uid":1589598302394,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[]},
+	{"name":"+3 with HTH Combat","roll":"","uid":1589598366872,"type":"Combat Skill Levels","input":"with HTH Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"Martial Arts","roll":"","uid":1589598368382,"type":"Custom Skill","input":"","level":"24","active":"24","base":"24","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[]},
+	{"name":"Rapid Attack (10 Active Points); HTH Multiple Attacks Only (-1)","roll":"","uid":1589600792715,"type":"Rapid Attack","input":"","level":"0","active":"10","base":"10","XMLID":"RAPID_ATTACK_HTH","modifiers":[{"value":"-1","name":"","uid":1589600825944,"type":"HTH Multiple Attacks Only","input":"","level":"0"}],"adders":[]}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1589600270733,"type":"Hunted","input":"Viper or other Lg Criminal Group","level":"0","active":"30","base":"30","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1589600331501,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1589600331507,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1589600331513,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1589600390188,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1589600400863,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1589600371841,"type":"Social Complication","input":"Global Celebrity","level":"0","active":"10","base":"10","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1589600432833,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1589600432839,"type":"Effects of Restrictions","input":"Minor","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1589600424278,"type":"Hunted","input":"Insert Villain Name Here","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1589600485550,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1589600485556,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1589600485562,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1589600551966,"type":"Psychological Complication","input":"Code of the Randini","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1589600613719,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1589600613725,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1589598366872,"type":"Combat Skill Levels","input":"with HTH Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1589599783179,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"4","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Circus Fighting","uid":1589599086169,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"40","base":"40","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sucker Punch","uid":1589599139450,"type":"Hand-To-Hand Attack","damage":"8d6","range":"","input":"","level":"8","end":"4","active":"40","base":"40","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589599246527,"type":"Hand-To-Hand Attack","damage":"8d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Dimwit Mock","uid":1589599193141,"type":"Killing Attack - Hand-To-Hand","damage":"2d6 (2½d6 w/STR)","range":"","input":"PD","level":"2","end":"4","active":"37","base":"30","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1589599278838,"type":"Armor Piercing","damage":"2d6 (2½d6 w/STR)","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Mind Blower","uid":1589599194751,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"4","end":"3","active":"35","base":"20","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589599324967,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1589599324976,"type":"Alternate Combat Value","damage":"4d6","range":"","input":"uses OMCV against DMCV","level":"0"},{"value":"+½","name":"","uid":1589599324978,"type":"Penetrating","damage":"4d6","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Go Mental","uid":1589599196520,"type":"Mental Blast","damage":"4d6","range":"LOS","input":"","level":"4","end":"4","active":"40","base":"40","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589599401385,"type":"Limited Normal Range","damage":"4d6","range":"LOS","input":"","level":"0"}],"adders":[]},
+	{"name":"Whack-a-Mole","uid":1589599198227,"type":"Drain","damage":"2d6","range":"","input":"Characteristics","level":"2","end":"4","active":"40","base":"20","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1589599478362,"type":"Expanded Effect (x2 Characteristics or Powers simultaneously)","damage":"2d6","range":"","input":"","level":"2"},{"value":"+½","name":"","uid":1589599478363,"type":"Variable Effect","damage":"2d6","range":"","input":"Variable Effect","level":"0"},{"value":"-½","name":"","uid":1589599478364,"type":"No Range","damage":"2d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Smile!","uid":1589599217725,"type":"Flash","damage":"8d6","range":"400m","input":"Sight Group","level":"8","end":"4","active":"40","base":"40","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Supreme Dodging","uid":1589599783179,"type":"Combat Skill Levels","damage":"","range":"","input":"with a large group of attacks","level":"4","end":"","active":"20","base":"20","XMLID":"COMBAT_LEVELS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1260289376215,"type":"Leaping","damage":"","range":"","input":"","level":"30","end":"1","active":"15","base":"15","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1260289389387,"type":"Requires A Roll","damage":"","range":"","input":"Skill roll","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1260289414899,"type":"Running","damage":"","range":"","input":"","level":"10","end":"1","active":"10","base":"10","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1589599775794,"type":"Shrinking","damage":"0.5 m tall, 6.25 kg mass, -2 PER Rolls to perceive character, +2 DCV, takes +6m KB","range":"","input":"","level":"1","end":"0","active":"10","base":"6","XMLID":"SHRINKING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1589599860065,"type":"Persistent","damage":"0.5 m tall, 6.25 kg mass, -2 PER Rolls to perceive character, +2 DCV, takes +6m KB","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1589599949077,"type":"Reduced Endurance","damage":"0.5 m tall, 6.25 kg mass, -2 PER Rolls to perceive character, +2 DCV, takes +6m KB","range":"","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1589599975691,"type":"Always On","damage":"0.5 m tall, 6.25 kg mass, -2 PER Rolls to perceive character, +2 DCV, takes +6m KB","range":"","input":"","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Sucker Punch","uid":1589599139450,"gameEdition":6,"tool":"8d6, Hand-To-Hand Attack , 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Dimwit Mock","uid":1589599193141,"gameEdition":6,"tool":"2d6 (2½d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 4 end.","diceMod":0,"dice":2,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Mind Blower","uid":1589599194751,"gameEdition":6,"tool":"4d6, Hand-To-Hand Attack , 3 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Go Mental","uid":1589599196520,"gameEdition":6,"tool":"4d6, Mental Blast LOS, 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Whack-a-Mole","uid":1589599198227,"gameEdition":6,"tool":"2d6, Drain (vs. Characteristics) , 4 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Smile!","uid":1589599217725,"gameEdition":6,"tool":"8d6, Flash (vs. Sight Group) 400m, 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Supreme Dodging","uid":1589599783179,"gameEdition":6,"tool":"Combat Skill Levels (vs. with a large group of attacks) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
