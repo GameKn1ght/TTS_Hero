@@ -1,6 +1,6 @@
 {
 "name":"Defender",
-"version":2.2,
+"version":2.3,
 "edition":6,
 "siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
 "str":{"value":"15","shortname":"str","name":"Strength","roll":"12-","damage":"","value2":"40","roll2":"17","damage2":"","notes":"HTH Damage 3d6/8d6  END [1/3]"},
@@ -69,7 +69,7 @@
 	{"name":"No Name Supplied","uid":1260320797172,"type":"DCV","damage":"","range":"","input":"","level":"3","end":"","active":"15","base":"15","XMLID":"DCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"No Name Supplied","uid":1260320804332,"type":"SPD","damage":"","range":"","input":"","level":"2","end":"","active":"20","base":"20","XMLID":"SPD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"Power Pack","uid":1260610601739,"type":"Endurance Reserve","damage":"","range":"","input":"","level":"160","end":"0","active":"60","base":"40","XMLID":"ENDURANCERESERVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1260610604503,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
-	{"name":"+25 STR Punch (3 END)","uid":1589949369627,"type":"Hand-To-Hand Attack","damage":"5d6","range":"","input":"","level":"5","end":"0","active":"0","base":"0","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589949875812,"type":"Hand-To-Hand Attack","damage":"5d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1589949875811,"type":"Custom Adder","damage":"5d6","range":"","input":"","level":"0"}]},
+	{"name":"15+25 STR Punch (4 END)","uid":1589949369627,"type":"Hand-To-Hand Attack","damage":"8d6","range":"","input":"","level":"8","end":"0","active":"0","base":"0","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589951312035,"type":"Hand-To-Hand Attack","damage":"8d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1589951312034,"type":"Custom Adder","damage":"8d6","range":"","input":"","level":"0"}]},
 	{"name":"Weapons Array","uid":1260321804777,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1260610631719,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
 	{"name":"Electric Bolt","uid":1260610650585,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"6","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"Wrist Bolt Gun","uid":1260610666261,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1260610773714,"type":"Autofire","damage":"8d6","range":"400m","input":"5 Shots","level":"0"}],"adders":[]},
@@ -85,7 +85,7 @@
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
 	{"name":"+25 STR","uid":1260320743430,"gameEdition":6,"tool":"STR , 2 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"+25 STR Punch (3 END)","uid":1589949369627,"gameEdition":6,"tool":"5d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"15+25 STR Punch (4 END)","uid":1589949369627,"gameEdition":6,"tool":"8d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Electric Bolt","uid":1260610650585,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Wrist Bolt Gun","uid":1260610666261,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Overload Blast","uid":1260610685249,"gameEdition":6,"tool":"3d6, Killing Ranged (vs. ED) 450m, 16 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
@@ -93,6 +93,7 @@
 	{"name":"Electro-Bolos","uid":1260610884888,"gameEdition":6,"tool":"6d6, 6 PD/6 ED, Entangle 600m, [12] end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
 
 
 
