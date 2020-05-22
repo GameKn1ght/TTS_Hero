@@ -1,6 +1,6 @@
 {
 "name":"Ogre",
-"version":2.0,
+"version":2.2,
 "edition":6,
 "siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
 "str":{"value":"65","shortname":"str","name":"Strength","roll":"22-","damage":"","value2":"65","roll2":"22","damage2":"","notes":"HTH Damage 13d6  END [6]"},
@@ -26,20 +26,68 @@
 "stun":{"value":"74","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"74","roll2":"","damage2":"","notes":""},
 "def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
 "movement":{
-"run":{"combat":"12m","noncombat":"24m","icon":"ui_run","notes":""},
-"swim":{"combat":"4m","noncombat":"8m","icon":"ui_swim","notes":""},
-"tunnel":{"combat":"1m","noncombat":"1m","icon":"ui_tunnel","notes":""},
-"leap":{"combat":"46m","noncombat":"92m","icon":"ui_leap","notes":"46m forward, 23m upward"}},
+"run":{"combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"tunnel":{"combat":"1m","noncombat":"1m","primary":{"combat":{"description":"1m","value":1},"noncombat":{"description":"1m","value":1}},"secondary":{"combat":{"description":"1m","value":1},"noncombat":{"description":"1m","value":1}},"icon":"ui_tunnel","notes":""},
+"leap":{"combat":"46m","noncombat":"92m","primary":{"combat":{"description":"46m/23m","value":46},"noncombat":{"description":"92m","value":92}},"secondary":{"combat":{"description":"46m/23m","value":46},"noncombat":{"description":"92m","value":92}},"icon":"ui_leap","notes":"46m forward, 23m upward"}},
 "skills":[
 	{"name":"Perception","roll":"12-"},
-	{"name":"+3 with HTH Combat","roll":""},
-	{"name":"KS: The Superhuman World","roll":"8-"}],
-"attacks":[],
+	{"name":"+3 with HTH Combat","roll":"","uid":1260691617624,"type":"Combat Skill Levels","input":"with HTH Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"KS: The Superhuman World","roll":"8-","uid":1260691632510,"type":"KS","input":"The Superhuman World","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Enraged","roll":"","uid":1260691653146,"type":"Enraged","input":"in combat","level":"0","active":"30","base":"30","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1260691663975,"type":"Circumstance is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1260691663981,"type":"Chance To Become Enraged","input":"go 11-","level":"0"},{"name":"No Name Supplied","uid":1260691663987,"type":"Chance To Recover","input":"recover 14-","level":"0"},{"name":"No Name Supplied","uid":1260691665524,"type":"Berserk","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1260691678692,"type":"Psychological Complication","input":"Devolutionized Memory","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1260691689680,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1260691689686,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1260691697553,"type":"Vulnerability","input":"from Mental Powers","level":"0","active":"30","base":"15","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1260691714647,"type":"Vulnerability Multiplier","input":"2x Effect","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1260691708719,"type":"The Attack Is","input":"Very Common","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1260691617624,"type":"Combat Skill Levels","input":"with HTH Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Roomsweeper","uid":1260690815858,"type":"Naked Advantage","damage":"","range":"","input":"STR","level":"65","end":"2","active":"20","base":"65","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+¼","name":"","uid":1260690884696,"type":"Area Of Effect","damage":"","range":"","input":"Radius","level":"1"},{"value":"-½","name":"","uid":1260690884740,"type":"Extra Time","damage":"","range":"","input":"Full Phase","level":"0"},{"value":"+¼","name":"","uid":1260690892659,"type":"Personal Immunity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Roomsweeper","uid":1589692672296,"type":"Hand-To-Hand Attack","damage":"13d6","range":"","input":"","level":"13","end":"1","active":"1","base":"1","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589693041329,"type":"Hand-To-Hand Attack","damage":"13d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1589693041348,"type":"Area Of Effect","damage":"13d6","range":"","input":"Radius","level":"1"},{"value":"+¼","name":"","uid":1589693041351,"type":"Personal Immunity","damage":"13d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1589693041392,"type":"Extra Time","damage":"13d6","range":"","input":"Full Phase","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1589693041328,"type":"Custom Adder","damage":"13d6","range":"","input":"","level":"0"}]},
+	{"name":"Strike","uid":1589692391448,"type":"Hand-To-Hand Attack","damage":"13d6","range":"","input":"","level":"13","end":"0","active":"0","base":"0","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1589692592019,"type":"Hand-To-Hand Attack","damage":"13d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1589692645887,"type":"Custom Adder","damage":"13d6","range":"","input":"","level":"0"}]},
+	{"name":"No Name Supplied","uid":1260691232803,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"7","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1260691244123,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1260691242717,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"6","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1260691253402,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Devolutionized Body","uid":1260691273569,"type":"Custom Power","damage":"","range":"","input":"","level":"27","end":"0","active":"34","base":"54","XMLID":"CUSTOMPOWER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1260691318175,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[{"name":"No Name Supplied","uid":1260691314227,"type":"Defense Power","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Super-Strong Legs","uid":1260691332208,"type":"Leaping","damage":"","range":"","input":"","level":"42","end":"2","active":"21","base":"21","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Super-Strength Smash-Through","uid":1260691519087,"type":"Tunneling","damage":"1m through 15 PD material","range":"","input":"","level":"1","end":"3","active":"31","base":"31","XMLID":"TUNNELING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1260691557125,"type":"Requires A Roll","damage":"1m through 15 PD material","range":"","input":"Characteristic roll","level":"0"},{"value":"-¼","name":"","uid":1260691586162,"type":"no Noncombat movement","damage":"1m through 15 PD material","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1260691544443,"type":"+14 PD","damage":"1m through 15 PD material","range":"","input":"","level":"14"}]},
+	{"name":"Animalistic Senses","uid":1260691594614,"type":"Enhanced Perception","damage":"","range":"","input":"all Sense Groups","level":"2","end":"0","active":"6","base":"6","XMLID":"ENHANCEDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
-"rolls":[],
+"rolls":[
+	{"name":"Roomsweeper","uid":1589692672296,"gameEdition":6,"tool":"13d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":13,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Strike","uid":1589692391448,"gameEdition":6,"tool":"13d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":13,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

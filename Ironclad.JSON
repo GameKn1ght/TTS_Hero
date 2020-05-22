@@ -32,7 +32,9 @@
 "skills":[
 	{"name":"Perception","roll":"12-"},
 	{"name":"+4 with HTH Combat","roll":"","uid":1260611954555,"type":"Combat Skill Levels","input":"with HTH Combat","level":"4","active":"32","base":"32","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"Climbing","roll":"13-","uid":1590001816473,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[]},
 	{"name":"Combat Piloting","roll":"13-","uid":1260611891206,"type":"Combat Piloting","input":"","level":"0","active":"3","base":"3","XMLID":"COMBAT_PILOTING","modifiers":[],"adders":[]},
+	{"name":"AK: Malva","roll":"8-","uid":1590001838121,"type":"KS","input":"Malva","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
 	{"name":"CK: Millennium City","roll":"11-","uid":1260612037541,"type":"Knowledge Skill","input":"Millennium City","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
 	{"name":"KS: The Superhuman World","roll":"8-","uid":1260612039772,"type":"KS","input":"The Superhuman World","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
 	{"name":"Language: Perseid (idiomatic) (4 Active Points)","roll":"","uid":1260611965205,"type":"Language","input":"Perseididiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
@@ -74,7 +76,6 @@
 	{"name":"Dorvalan Gladiatorial Sword (9 END)","uid":1260611730352,"gameEdition":6,"tool":"2d6 (6d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 3 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
-
 
 
 
