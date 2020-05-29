@@ -1,0 +1,401 @@
+
+
+
+[b]Ironclad - Drogan Lar[/b]
+[table]
+	[tr]
+		[td="align: center"][b]VAL[/b][/td]
+		[td="align: center"][b]CHA[/b][/td]
+		[td="align: center"][b]Cost[/b][/td]
+		[td="align: center"][b]Total[/b][/td]
+		[td="align: center"][b]Roll[/b][/td]
+		[td="align: left"][b]Notes[/b][/td]
+	[/tr]
+
+	[tr]
+		[td="align: center"]60[/td]
+		[td="align: center"]STR[/td]
+		[td="align: center"]25[/td]
+		[td="align: center"]60[/td]
+		[td="align: center"]21-[/td]
+		[td="align: left"]HTH Damage 12d6  END [5][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]18[/td]
+		[td="align: center"]DEX[/td]
+		[td="align: center"]16[/td]
+		[td="align: center"]18[/td]
+		[td="align: center"]13-[/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]30[/td]
+		[td="align: center"]CON[/td]
+		[td="align: center"]20[/td]
+		[td="align: center"]30[/td]
+		[td="align: center"]15-[/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]13[/td]
+		[td="align: center"]INT[/td]
+		[td="align: center"]3[/td]
+		[td="align: center"]13[/td]
+		[td="align: center"]12-[/td]
+		[td="align: left"]PER Roll 12-[/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]10[/td]
+		[td="align: center"]EGO[/td]
+		[td="align: center"]0[/td]
+		[td="align: center"]10[/td]
+		[td="align: center"]11-[/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]20[/td]
+		[td="align: center"]PRE[/td]
+		[td="align: center"]10[/td]
+		[td="align: center"]20[/td]
+		[td="align: center"]13-[/td]
+		[td="align: left"]PRE Attack: 4d6[/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]7[/td]
+		[td="align: center"]OCV[/td]
+		[td="align: center"]20[/td]
+		[td="align: center"]7[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]6[/td]
+		[td="align: center"]DCV[/td]
+		[td="align: center"]15[/td]
+		[td="align: center"]6[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]3[/td]
+		[td="align: center"]OMCV[/td]
+		[td="align: center"]0[/td]
+		[td="align: center"]3[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]3[/td]
+		[td="align: center"]DMCV[/td]
+		[td="align: center"]0[/td]
+		[td="align: center"]3[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]25[/td]
+		[td="align: center"]PD[/td]
+		[td="align: center"]0[/td]
+		[td="align: center"]25[/td]
+		[td="align: center"][/td]
+		[td="align: left"]25 PD (25 rPD)[/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]25[/td]
+		[td="align: center"]ED[/td]
+		[td="align: center"]0[/td]
+		[td="align: center"]25[/td]
+		[td="align: center"][/td]
+		[td="align: left"]25 ED (25 rED)[/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]5[/td]
+		[td="align: center"]SPD[/td]
+		[td="align: center"]30[/td]
+		[td="align: center"]5[/td]
+		[td="align: center"][/td]
+		[td="align: left"]Phases:  3, 5, 8, 10, 12[/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]20[/td]
+		[td="align: center"]REC[/td]
+		[td="align: center"]16[/td]
+		[td="align: center"]20[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]60[/td]
+		[td="align: center"]END[/td]
+		[td="align: center"]8[/td]
+		[td="align: center"]60[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]15[/td]
+		[td="align: center"]BODY[/td]
+		[td="align: center"]5[/td]
+		[td="align: center"]15[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+
+	[tr]
+		[td="align: center"]60[/td]
+		[td="align: center"]STUN[/td]
+		[td="align: center"]20[/td]
+		[td="align: center"]60[/td]
+		[td="align: center"][/td]
+		[td="align: left"][/td]
+	[/tr]
+
+[/table][table]
+	[tr]
+		[td][b]Movement[/b][/td]
+		[td][b]Combat[/b][/td]
+		[td][b]NCmbat[/b][/td]
+		[td][b]Notes[/b][/td]
+	[/tr]
+
+	[tr]
+		[td]Running[/td]
+		[td="align: center"]12m[/td]
+		[td="align: center"]24m[/td]
+		[td="align: left"]END [1][/td]
+	[/tr]
+
+
+	[tr]
+		[td]Swimming[/td]
+		[td="align: center"]4m[/td]
+		[td="align: center"]8m[/td]
+		[td="align: left"]END [1][/td]
+	[/tr]
+
+
+	[tr]
+		[td]Leaping[/td]
+		[td="align: center"]30m[/td]
+		[td="align: center"]60m[/td]
+		[td="align: left"]30m forward, 15m upward[/td]
+	[/tr]
+
+
+
+
+
+[/table][table="width: 1024"]
+	[tr]
+		[td][b]Cost[/b][/td]
+		[td][b]POWERS[/b][/td]
+		[td][b]END[/b][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]0[/td]
+		[td]Perseid Charactristics[/td]
+		[td="align: right"][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]28[/td]
+		[td]1)  [b][i]Persein Physiognamy: [/i][/b]+18 PD, Resistant (+1/2) (28 Active Points) (Modifiers affect Base Characteristic)[/td]
+		[td="align: right"][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]28[/td]
+		[td]2)  +18 ED, Resistant (+1/2) (28 Active Points) (Modifiers affect Base Characteristic)[/td]
+		[td="align: right"][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]5[/td]
+		[td]3)  [b][i]Perseid Eyes: [/i][/b]Sight Group Flash Defense (5 points)[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]0[/td]
+		[td]Dense Metallic Body[/td]
+		[td="align: right"][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]25[/td]
+		[td]1)  [b][i]Iron Sinew: [/i][/b]+25 STR[/td]
+		[td="align: right"]2[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]0[/td]
+		[td]2)  [b][i]Strength 12 DCs (6 END): [/i][/b]Hand-To-Hand Attack +12d6 (Custom Adder); Hand-To-Hand Attack (-1/4)[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]9[/td]
+		[td]3)  [b][i]Iron Body: [/i][/b]Life Support  (Safe in High Pressure; Safe in High Radiation; Safe in Intense Cold; Safe in Intense Heat; Safe in Low Pressure/Vacuum)[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]14[/td]
+		[td]4)  [b][i]Iron Body: [/i][/b]Knockback Resistance -14m[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]18[/td]
+		[td]5)  [b][i]Super-Strong Legs: [/i][/b]Leaping +26m (30m forward, 15m upward) (Accurate)[/td]
+		[td="align: right"]2[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]15[/td]
+		[td]6)  [b][i]Metallic Skin: [/i][/b]Resistant Protection (5 PD/5 ED)[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]15[/td]
+		[td][b][i]Dorvalan Gladiatorial Sword (9 END): [/i][/b]Killing Attack - Hand-To-Hand 2d6 (6d6 w/STR) (30 Active Points); OAF (-1)[/td]
+		[td="align: right"]3[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]6[/td]
+		[td][b][i]Bracer Communicator: [/i][/b]Radio Perception/Transmission (Radio Group) (10 Active Points); OIF (-1/2), Affected As Hearing Group As Well As Radio Group (-1/4)[/td]
+		[td="align: right"]0[/td]
+	[/tr]
+
+[/table][table]
+	[tr]
+		[td][b]Cost[/b][/td]
+		[td][b]SKILLS[/b][/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]32[/td]
+		[td]+4 with HTH Combat[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"][/td]
+		[td] [/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]3[/td]
+		[td]Combat Piloting 13-[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]2[/td]
+		[td]CK: Millennium City 11-[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]1[/td]
+		[td]KS: The Superhuman World 8-[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]0[/td]
+		[td]Language:  Perseid (idiomatic) (4 Active Points)[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]2[/td]
+		[td]Language:  English (fluent conversation)[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]1[/td]
+		[td]Tactics 8-[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]3[/td]
+		[td]Teamwork 13-[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]3[/td]
+		[td]TF:  Science Fiction & Space Vehicles, Large Motorized Ground Vehicles, V-Jet[/td]
+	[/tr]
+
+	[tr]
+		[td="align: right"]2[/td]
+		[td]WF:  Perseid Small Arms[/td]
+	[/tr]
+
+[/table][table="width: 1024"]
+	[tr]
+		[td][b]COMPLICATIONS[/b][/td]
+		[td="align: right"][b]Value[/b][/td]
+	[/tr]
+
+	[tr]
+		[td]Hunted:  Firewing Infrequently (Mo Pow; Kill)[/td]
+		[td="align: right"]15[/td]
+	[/tr]
+
+	[tr]
+		[td]Psychological Complication:  Code Versus Killing (Common; Strong)[/td]
+		[td="align: right"]15[/td]
+	[/tr]
+
+	[tr]
+		[td]Psychological Complication:  Overconfidence (Very Common; Moderate)[/td]
+		[td="align: right"]15[/td]
+	[/tr]
+
+	[tr]
+		[td]Vulnerability:  2 x STUN from Magnetic Attacks (Uncommon)[/td]
+		[td="align: right"]10[/td]
+	[/tr]
+
+	[tr]
+		[td]Physical Complication:  Massive (Frequently; Greatly Impairing)[/td]
+		[td="align: right"]20[/td]
+	[/tr]
+
+[/table]
+Base Pts: 400
+Exp Required: 0
+Total Exp Available: 0
+Exp Unspent: 0
+Total Character Cost: 400
