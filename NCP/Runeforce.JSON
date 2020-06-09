@@ -1,0 +1,99 @@
+{
+"name":"Runeforce",
+"version":1.8,
+"str":{"value":"15","shortname":"str","name":"Strength","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":""},
+"dex":{"value":"14","shortname":"dex","name":"Dexterity","roll":"12-","damage":"","value2":"14","roll2":"12","damage2":""},
+"con":{"value":"15","shortname":"con","name":"Constitution","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":""},
+"int":{"value":"14","shortname":"int","name":"Intelligence","roll":"12-","damage":"","value2":"14","roll2":"12","damage2":""},
+"ego":{"value":"13","shortname":"ego","name":"Ego","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":""},
+"pre":{"value":"16","shortname":"pre","name":"Presence","roll":"12-","damage":"","value2":"16","roll2":"12","damage2":""},
+"spd":{"value":"5","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"5","roll2":"","damage2":""},
+"ocv":{"value":"8","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"dcv":{"value":"8","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":""},
+"dmcv":{"value":"3","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":""},
+"pd":{"value":"10","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"30","roll2":"","damage2":""},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"20","roll2":"","damage2":""},
+"ed":{"value":"10","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"30","roll2":"","damage2":""},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"20","roll2":"","damage2":""},
+"per":{"value":"12-","shortname":"per","name":"Perception Roll","roll":"12-","damage":""},
+"rec":{"value":"8","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"body":{"value":"15","shortname":"body","name":"Body","roll":"","damage":"","value2":"15","roll2":"","damage2":""},
+"end":{"value":"60","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"60","roll2":"","damage2":""},
+"stun":{"value":"40","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"40","roll2":"","damage2":""},
+"movement":{
+"run":{"combat":"12m","noncombat":"24m","icon":"ui_run"},
+"fly":{"combat":"20m","noncombat":"640m","icon":"ui_fly"},
+"swim":{"combat":"3m","noncombat":"6m","icon":"ui_swim"},
+"teleport":{"combat":"56m","noncombat":"224m","icon":"ui_teleport"},
+"leap":{"combat":"3m","noncombat":"6m","icon":"ui_leap"}},
+"skills":[
+	{"name":"Perception","roll":"12-"},
+	{"name":"Inventor","roll":"12-"},
+	{"name":"Electronics","roll":"12-"},
+	{"name":"Teamwork","roll":"12-"},
+	{"name":"Bureaucratics","roll":"12-"},
+	{"name":"High Society","roll":"12-"},
+	{"name":"Oratory","roll":"12-"}],
+"attacks":[
+	{"name":"Cosmic Energy Field","type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"6","active":"62","base":"50","XMLID":"ENERGYBLAST","strMod":false},
+	{"name":"Cosmic Pulse Blast","type":"Blast","damage":"7d6","range":"350m","input":"ED","level":"7","end":"2","active":"61","base":"35","XMLID":"ENERGYBLAST","strMod":false},
+	{"name":"Paralysis","type":"Entangle","damage":"3d6, 3 PD/3 ED","range":"300m","input":"","level":"3","end":"6","active":"60","base":"30","XMLID":"ENTANGLE","strMod":false}],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	],
+"rolls":[
+	{"name":"Cosmic Energy Field","gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 6 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Cosmic Pulse Blast","gameEdition":6,"tool":"7d6, Blast (vs. ED) 350m, 2 end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Paralysis","gameEdition":6,"tool":"3d6, 3 PD/3 ED, Entangle 300m, 6 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
