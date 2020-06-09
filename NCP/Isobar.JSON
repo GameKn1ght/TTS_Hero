@@ -1,0 +1,205 @@
+{
+"name":"Isobar",
+"version":2.3,
+"edition":6,
+"siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"str":{"value":"10","shortname":"str","name":"Strength","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":"18","shortname":"dex","name":"Dexterity","roll":"13-","damage":"","value2":"18","roll2":"13","damage2":"","notes":""},
+"con":{"value":"20","shortname":"con","name":"Constitution","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":"","notes":""},
+"int":{"value":"23","shortname":"int","name":"Intelligence","roll":"14-","damage":"","value2":"23","roll2":"14","damage2":"","notes":"PER Roll 14-"},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":""},
+"com":{"value":"0","shortname":"com","name":"Comliness","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"pre":{"value":"18","shortname":"pre","name":"Presence","roll":"13-","damage":"","value2":"18","roll2":"13","damage2":"","notes":"PRE Attack: 3½d6"},
+"spd":{"value":"5","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"5","roll2":"","damage2":"","notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":"8","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":""},
+"dcv":{"value":"8","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"dmcv":{"value":"3","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"pd":{"value":"8","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"14","roll2":"","damage2":"","notes":"8/14 PD (0/6 rPD)"},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"6","roll2":"","damage2":"","notes":"8/14 PD (0/6 rPD)"},
+"ed":{"value":"8","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"14","roll2":"","damage2":"","notes":"8/14 ED (0/6 rED)"},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"6","roll2":"","damage2":"","notes":"8/14 ED (0/6 rED)"},
+"per":{"value":"14-","shortname":"per","name":"Perception Roll","roll":"14-","damage":"","notes":""},
+"rec":{"value":"18","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"18","roll2":"","damage2":"","notes":""},
+"body":{"value":"10","shortname":"body","name":"Body","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"end":{"value":"50","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"50","roll2":"","damage2":"","notes":""},
+"stun":{"value":"45","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"45","roll2":"","damage2":"","notes":""},
+"def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"movement":{
+"run":{"combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"combat":"30m","noncombat":"60m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"icon":"ui_fly","notes":""},
+"swim":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception","roll":"14-"},
+	{"name":"Power","roll":"14-","uid":1539627596218,"type":"Power","input":"","level":"3","active":"9","base":"9","XMLID":"POWERSKILL","modifiers":[],"adders":[]},
+	{"name":"+1 with Atmospheric Pressure Multipower","roll":"","uid":1565887386491,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"Bureaucratics","roll":"13-","uid":1565886688015,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[]},
+	{"name":"Computer Programming","roll":"14-","uid":1565887166192,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[]},
+	{"name":"Deduction","roll":"14-","uid":1565886879062,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[]},
+	{"name":"Electronics","roll":"14-","uid":1565886890991,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[]},
+	{"name":"Inventor","roll":"14-","uid":1565886900323,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[]},
+	{"name":"AK: Millennium City Metro Area","roll":"11-","uid":1539313875095,"type":"Knowledge Skill","input":"Millennium City Metro Area","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"CK: Millennium City","roll":"11-","uid":1539313902892,"type":"Knowledge Skill","input":"Millennium City","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"Language: English (completely fluent) (3 Active Points)","roll":"","uid":1565886914613,"type":"Language","input":"Englishcompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
+	{"name":"Language: French (basic conversation)","roll":"","uid":1565886956126,"type":"Language","input":"Frenchbasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
+	{"name":"Language: Latin (fluent conversation)","roll":"","uid":1565886978385,"type":"Language","input":"Latinfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
+	{"name":"PS: Meteorolgist","roll":"12-","uid":1565886641489,"type":"Professional Skill","input":"Meteorolgist","level":"1","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[]},
+	{"name":"Science Skill: Meteorology","roll":"14-","uid":1565886549613,"type":"Science Skill","input":"Meteorology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[]}],
+"talents":[],
+"perks":[
+	{"name":"Contact 11-","roll":"11-","uid":1591402690151,"type":"Contact","input":"Dr. Annika Fines, head of MCU's Meteorology Department","level":"2","active":"6","base":"6","XMLID":"CONTACT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591631230640,"type":"Contact limited by identity","input":"","level":"0"},{"name":"No Name Supplied","uid":1591631230646,"type":"Contact has","input":"useful Skills or resources","level":"0"},{"name":"No Name Supplied","uid":1591631230647,"type":"Contact has access to major institutions","input":"","level":"0"},{"name":"No Name Supplied","uid":1591631230648,"type":"Contact has significant Contacts of his own","input":"","level":"0"},{"name":"No Name Supplied","uid":1591631230649,"type":"Very Good relationship with Contact","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Dependent NPC","roll":"","uid":1565889085855,"type":"Dependent NPC","input":"Dr. Gwendolyn Aames, fellow project scientist and romantic interest","level":"0","active":"10","base":"10","XMLID":"DEPENDENTNPC","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591721086277,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1591721086284,"type":"Usefulness","input":"Normal","level":"0"},{"name":"No Name Supplied","uid":1591721086285,"type":"Useful Noncombat Position or Skills","input":"","level":"0"},{"name":"No Name Supplied","uid":1591721086286,"type":"Unaware of character's adventuring career/Secret ID","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1539314496690,"type":"Hunted","input":"Dr. Destroyer","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591408672541,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1591408672547,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1591408672553,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1591408672554,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1591408731759,"type":"Psychological Complication","input":"Code vs. Killing","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591408760236,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1591408760242,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1565890360125,"type":"Psychological Complication","input":"Leery of causing too much collateral damage.","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1565890413859,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1565890413865,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Rivalry","roll":"","uid":1565888669740,"type":"Rivalry","input":"","level":"0","active":"10","base":"10","XMLID":"RIVALRY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591721071104,"type":"Rivalry Situation","input":"Professional and Romantic","level":"0"},{"name":"No Name Supplied","uid":1591721071108,"type":"Rivalry Desc.","input":"(","level":"0"},{"name":"No Name Supplied","uid":1591721071115,"type":"Rival's Power","input":"Rival is As Powerful","level":"0"},{"name":"No Name Supplied","uid":1591721071120,"type":"Fierceness of Rivalry","input":"Seek to Outdo, Embarrass, or Humiliate Rival","level":"0"},{"name":"No Name Supplied","uid":1591721071125,"type":"Knowledge of Rivalry","input":"Rival Aware of Rivalry","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1565888377551,"type":"Social Complication","input":"Secret Identity","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1565888429977,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1565888429983,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1565887386491,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Atmospheric Pressure Powers","uid":1539309431835,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"70","base":"70","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-0","name":"","uid":1591631427459,"type":"Conditional Power","damage":"","range":"","input":"Power does not work in Very Uncommon Circumstances","level":"0"}],"adders":[]},
+	{"name":"Compressed Air Blast","uid":1539309509008,"type":"Blast","damage":"9d6","range":"450m","input":"PD","level":"9","end":"7","active":"67","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1591401009625,"type":"Double Knockback","damage":"9d6","range":"450m","input":"","level":"0"},{"value":"-½","name":"","uid":1591401009666,"type":"Extra Time","damage":"9d6","range":"450m","input":"Extra Segment","level":"0"}],"adders":[]},
+	{"name":"Decompress","uid":1539309982189,"type":"Blast","damage":"7d6","range":"350m","input":"PD","level":"7","end":"7","active":"70","base":"35","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1591401058496,"type":"Area Of Effect","damage":"7d6","range":"350m","input":"Radius","level":"16"},{"value":"+¼","name":"","uid":1591401058499,"type":"Personal Immunity","damage":"7d6","range":"350m","input":"","level":"0"},{"value":"+½","name":"","uid":1591401058500,"type":"Double Knockback","damage":"7d6","range":"350m","input":"","level":"0"}],"adders":[]},
+	{"name":"Vacate or Inflate","uid":1539311792045,"type":"Blast","damage":"3d6","range":"150m","input":"PD","level":"3","end":"6","active":"60","base":"15","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1591401090909,"type":"Area Of Effect","damage":"3d6","range":"150m","input":"Radius","level":"4"},{"value":"+1","name":"","uid":1591401090932,"type":"Attack Versus Alternate Defense","damage":"3d6","range":"150m","input":"Life Support (Safe Environment -- Low Pressure/Vacuum) for Vacate or Life Support (Safe Environment -- High Pressure) for inflateVery Common -> Rare","level":"0"},{"value":"+¼","name":"","uid":1591401090938,"type":"Variable Special Effects","damage":"3d6","range":"150m","input":"Limited Group of SFX","level":"0"},{"value":"+1","name":"","uid":1591401090940,"type":"Does BODY","damage":"3d6","range":"150m","input":"","level":"0"},{"value":"+½","name":"","uid":1591401090941,"type":"Constant","damage":"3d6","range":"150m","input":"","level":"0"}],"adders":[]},
+	{"name":"Pressure Bind","uid":1565885430478,"type":"Entangle","damage":"1d6, 12 PD/12 ED","range":"100m","input":"","level":"1","end":"7","active":"70","base":"70","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591401431955,"type":"Dismissable","damage":"1d6, 12 PD/12 ED","range":"100m","input":"","level":"0"},{"name":"No Name Supplied","uid":1591401431956,"type":"+11 Additional PD","damage":"1d6, 12 PD/12 ED","range":"100m","input":"","level":"11"},{"name":"No Name Supplied","uid":1591401431957,"type":"+11 Additional ED","damage":"1d6, 12 PD/12 ED","range":"100m","input":"","level":"11"}]},
+	{"name":"Deflection/Infraction Field","uid":1539312452352,"type":"Resistant Protection","damage":"","range":"","input":"","level":"24","end":"2","active":"36","base":"36","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1591631342483,"type":"Costs Endurance","damage":"","range":"","input":"Costs Half Endurance","level":"0"},{"value":"-0","name":"","uid":1591631342505,"type":"Conditional Power","damage":"","range":"","input":"Power does not work in Very Uncommon Circumstances","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591631342477,"type":"Impermeable","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Air Bubble","uid":1565884144324,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"1","active":"13","base":"13","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1591401302635,"type":"Costs Endurance","damage":"","range":"","input":"Costs Half Endurance","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591401302627,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1591401302628,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1591401302629,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Jet Stream","uid":1539313497648,"type":"Flight","damage":"30m","range":"","input":"","level":"30","end":"1","active":"37","base":"30","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1591401367134,"type":"Reduced Endurance","damage":"30m","range":"","input":"Half END","level":"0"},{"value":"-0","name":"","uid":1591401367156,"type":"Conditional Power","damage":"30m","range":"","input":"Power does not work in Very Uncommon Circumstances","level":"0"}],"adders":[]},
+	{"name":"Protective Costume","uid":1591408982826,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1591409109821,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Compressed Air Blast","uid":1539309509008,"gameEdition":6,"tool":"9d6, Blast (vs. PD) 450m, 7 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Decompress","uid":1539309982189,"gameEdition":6,"tool":"7d6, Blast (vs. PD) 350m, 7 end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Vacate or Inflate","uid":1539311792045,"gameEdition":6,"tool":"3d6, Blast (vs. PD) 150m, 6 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Pressure Bind","uid":1565885430478,"gameEdition":6,"tool":"1d6, 12 PD/12 ED, Entangle 100m, 7 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
