@@ -23,7 +23,7 @@
 "rec":{"value":"16","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"16","roll2":"","damage2":"","notes":""},
 "body":{"value":"13","shortname":"body","name":"Body","roll":"","damage":"","value2":"13","roll2":"","damage2":"","notes":""},
 "end":{"value":"50","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"50","roll2":"","damage2":"","notes":""},
-"stun":{"value":"64","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"64","roll2":"","damage2":"","notes":""},
+"stun":{"value":"60","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"60","roll2":"","damage2":"","notes":""},
 "def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
 "movement":{
 "run":{"combat":"33m","noncombat":"66m","primary":{"combat":{"description":"33m","value":33},"noncombat":{"description":"66m","value":66}},"secondary":{"combat":{"description":"33m","value":33},"noncombat":{"description":"66m","value":66}},"icon":"ui_run","notes":""},
@@ -47,7 +47,6 @@
 	{"name":"PS: Negotiator","roll":"14-","uid":1312567491511,"type":"Professional Skill","input":"","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[]},
 	{"name":"KS: Contract Law","roll":"13-","uid":1312567515176,"type":"Knowledge Skill","input":"","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
 	{"name":"Arabic (fluent conversation) (2 Active Points)","roll":"","uid":1591299707941,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
-	{"name":"Hindi (fluent conversation) (2 Active Points)","roll":"","uid":1591299686809,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
 	{"name":"Japanese (fluent conversation) (2 Active Points)","roll":"","uid":1591299795475,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
 	{"name":"Mandarin Chinese (completely fluent) (3 Active Points)","roll":"","uid":1591299625768,"type":"Language","input":"completely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
 	{"name":"Russian (fluent conversation) (2 Active Points)","roll":"","uid":1591299718116,"type":"Language","input":"fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
@@ -64,6 +63,7 @@
 	{"name":"Social Complication","roll":"","uid":1591381650722,"type":"Social Complication","input":"","level":"0","active":"10","base":"10","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591381658031,"type":"Circumstances Occur","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1591381658037,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
 "combatlevels":[],
 "powers":[
+	{"name":"Instant Change","uid":1591900408653,"type":"Transform","damage":"1d6","range":"30m","input":"Cosmetic","level":"1","end":"1","active":"5","base":"3","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1591900527895,"type":"Trigger","damage":"1d6","range":"30m","input":"Set Trigger","level":"0"},{"value":"-½","name":"","uid":1591900563514,"type":"Limited Target","damage":"1d6","range":"30m","input":"([Limited]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591900415441,"type":"Healed back by","damage":"1d6","range":"30m","input":"","level":"0"}]},
 	{"name":"Field Manipulation I","uid":1268545373094,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"40","base":"40","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1591378175018,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1591378175022,"type":"Gestures","damage":"","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"No Name Supplied","uid":1262784403038,"type":"Running","damage":"","range":"","input":"","level":"20","end":"2","active":"20","base":"20","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
 	{"name":"No Name Supplied","uid":1398801275145,"type":"Clinging","damage":"+20 STR","range":"","input":"","level":"20","end":"0","active":"17","base":"17","XMLID":"CLINGING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
@@ -84,6 +84,7 @@
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
+	{"name":"Instant Change","uid":1591900408653,"gameEdition":6,"tool":"1d6, Transform (vs. Cosmetic) 30m, 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"No Name Supplied","uid":1398800801776,"gameEdition":6,"tool":"STR , 2 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
