@@ -1,0 +1,210 @@
+{
+"name":"The Crush (II)",
+"version":2.3,
+"edition":6,
+"siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"str":{"value":"20","shortname":"str","name":"Strength","roll":"13-","damage":"","value2":"70","roll2":"23","damage2":"","notes":"HTH Damage 4d6/14d6  END [2]"},
+"dex":{"value":"20","shortname":"dex","name":"Dexterity","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":"","notes":""},
+"con":{"value":"30","shortname":"con","name":"Constitution","roll":"15-","damage":"","value2":"30","roll2":"15","damage2":"","notes":""},
+"int":{"value":"20","shortname":"int","name":"Intelligence","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":"","notes":"PER Roll 13-"},
+"ego":{"value":"20","shortname":"ego","name":"Ego","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":"","notes":""},
+"com":{"value":"0","shortname":"com","name":"Comliness","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"pre":{"value":"20","shortname":"pre","name":"Presence","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":"","notes":"PRE Attack: 4d6"},
+"spd":{"value":"4","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"4","roll2":"","damage2":"","notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":"7","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"7","roll2":"","damage2":"","notes":""},
+"dcv":{"value":"7","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"7","roll2":"","damage2":"","notes":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"dmcv":{"value":"3","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"pd":{"value":"5","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"30","roll2":"","damage2":"","notes":"5/30 PD (0/15 rPD)"},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"15","roll2":"","damage2":"","notes":"5/30 PD (0/15 rPD)"},
+"ed":{"value":"5","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"30","roll2":"","damage2":"","notes":"5/30 ED (0/15 rED)"},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"15","roll2":"","damage2":"","notes":"5/30 ED (0/15 rED)"},
+"per":{"value":"13-","shortname":"per","name":"Perception Roll","roll":"13-","damage":"","notes":""},
+"rec":{"value":"20","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"20","roll2":"","damage2":"","notes":""},
+"body":{"value":"12","shortname":"body","name":"Body","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":""},
+"end":{"value":"50","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"50","roll2":"","damage2":"","notes":""},
+"stun":{"value":"50","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"50","roll2":"","damage2":"","notes":""},
+"def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"movement":{
+"run":{"combat":"20m","noncombat":"40m","primary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"secondary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"icon":"ui_run","notes":""},
+"fly":{"combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_fly","notes":""},
+"swim":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception","roll":"13-"},
+	{"name":"English (idiomatic) (4 Active Points)","roll":"","uid":1591756787581,"type":"Language","input":"idiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[]},
+	{"name":"Acting","roll":"8-","uid":1591756969744,"type":"Acting","input":"","level":"0","active":"0","base":"0","XMLID":"ACTING","modifiers":[],"adders":[]},
+	{"name":"Computer Programming","roll":"8-","uid":1591756984572,"type":"Computer Programming","input":"","level":"0","active":"0","base":"0","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[]},
+	{"name":"Conversation","roll":"8-","uid":1591757117980,"type":"Conversation","input":"","level":"0","active":"0","base":"0","XMLID":"CONVERSATION","modifiers":[],"adders":[]},
+	{"name":"Climbing","roll":"8-","uid":1591757137912,"type":"Climbing","input":"","level":"0","active":"0","base":"0","XMLID":"CLIMBING","modifiers":[],"adders":[]},
+	{"name":"Paramedics","roll":"8-","uid":1591757148349,"type":"Paramedics","input":"","level":"0","active":"0","base":"0","XMLID":"PARAMEDICS","modifiers":[],"adders":[]},
+	{"name":"TF: Custom Adder, Small Motorized Ground Vehicles","roll":"","uid":1591756998963,"type":"Transport Familiarity","input":"","level":"0","active":"0","base":"0","XMLID":"TRANSPORT_FAMILIARITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591757011340,"type":"Common Motorized Ground Vehicles","input":"","level":"0"},{"name":"No Name Supplied","uid":1591757014621,"type":"Custom Adder","input":"","level":"0"}]},
+	{"name":"PS: Student 8- (Custom Adder)","roll":"","uid":1591757014119,"type":"Custom Skill","input":"","level":"0","active":"0","base":"0","XMLID":"CUSTOMSKILL","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591757077213,"type":"Custom Adder","input":"","level":"0"}]},
+	{"name":"KS: Space Simulations","roll":"8-","uid":1591757077060,"type":"KS","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"CK: Millennium City","roll":"8-","uid":1591757094471,"type":"CK","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"Acrobatics","roll":"13-","uid":1591757165568,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[]},
+	{"name":"Breakfall","roll":"13-","uid":1591757167186,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[]},
+	{"name":"Concealment","roll":"13-","uid":1591757173059,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[]},
+	{"name":"Deduction","roll":"13-","uid":1591757175034,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[]},
+	{"name":"KS: Villains","roll":"13-","uid":1591757186424,"type":"KS","input":"","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"KS: Heroes","roll":"13-","uid":1591757211981,"type":"KS","input":"","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[]},
+	{"name":"Mechanics","roll":"13-","uid":1591757221107,"type":"Mechanics","input":"","level":"0","active":"3","base":"3","XMLID":"MECHANICS","modifiers":[],"adders":[]},
+	{"name":"Shadowing","roll":"13-","uid":1591757225810,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[]},
+	{"name":"SS: Physics","roll":"15-","uid":1591757248011,"type":"Science Skill","input":"","level":"2","active":"5","base":"5","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[]},
+	{"name":"Stealth","roll":"13-","uid":1591757265134,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[]}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Social Complication","roll":"","uid":1591758198651,"type":"Social Complication","input":"","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591758215736,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1591758215742,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Dependent NPC","roll":"","uid":1591758221799,"type":"Dependent NPC","input":"","level":"0","active":"20","base":"20","XMLID":"DEPENDENTNPC","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591758239196,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1591758239203,"type":"Usefulness","input":"Normal","level":"0"},{"name":"No Name Supplied","uid":1591758258747,"type":"Unaware of character's adventuring career/Secret ID","input":"","level":"0"},{"name":"No Name Supplied","uid":1591758260076,"type":"Group DNPC: x2 DNPCs","input":"","level":"1"}]},
+	{"name":"Psychological Complication","roll":"","uid":1591758276931,"type":"Psychological Complication","input":"","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591758294606,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1591758294612,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1591758330314,"type":"Hunted","input":"","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591758348343,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1591758348349,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1591758348355,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1591758392891,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Unluck: 1d6","roll":"","uid":1591758378936,"type":"Unluck: 1d6","input":"","level":"1","active":"5","base":"5","XMLID":"UNLUCK","modifiers":[],"adders":[]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Light on his feet","uid":1591757452923,"type":"DEX","damage":"","range":"","input":"","level":"10","end":"","active":"20","base":"20","XMLID":"DEX","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Light on his feet","uid":1591757488869,"type":"DCV","damage":"","range":"","input":"","level":"4","end":"","active":"20","base":"20","XMLID":"DCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Light on his feet","uid":1591757502938,"type":"SPD","damage":"","range":"","input":"","level":"1","end":"","active":"10","base":"10","XMLID":"SPD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Damaged Super Suit Helmet","uid":1591757562769,"type":"Nightvision","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"NIGHTVISION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1591757592575,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Damaged Super Suit Helmet","uid":1591757606164,"type":"High Range Radio Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"HRRP","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1591757637861,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Damaged Super Suit","uid":1591758060948,"type":"Resistant Protection","damage":"","range":"","input":"","level":"30","end":"0","active":"45","base":"45","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1591758184568,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591758169340,"type":"Impermeable","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Gravitic Awareness","uid":1591757640299,"type":"Spatial Awareness","damage":"","range":"","input":"","level":"0","end":"0","active":"37","base":"37","XMLID":"SPATIALAWARENESS","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1591757724703,"type":"Unified Power","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591757724702,"type":"Discriminatory","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Gravitic Boost","uid":1591757747211,"type":"Flight","damage":"40m","range":"","input":"","level":"40","end":"6","active":"56","base":"45","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1591757786300,"type":"Usable [As Second Mode Of Movement]","damage":"40m","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1591757751738,"type":"Unified Power","damage":"40m","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1591757770964,"type":"Position Shift","damage":"40m","range":"","input":"","level":"0"}]},
+	{"name":"No Name Supplied","uid":1591757814644,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"70","base":"70","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1591757825906,"type":"Unified Power","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1591757870583,"type":"Density Increase","damage":"84,000 kg mass, +50 STR, +10 PD/ED, -20m KB","range":"","input":"","level":"10","end":"4","active":"40","base":"40","XMLID":"DENSITYINCREASE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1591757918237,"type":"Lockout","damage":"84,000 kg mass, +50 STR, +10 PD/ED, -20m KB","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1591757891523,"type":"CON","damage":"","range":"","input":"","level":"10","end":"","active":"10","base":"10","XMLID":"CON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1591757958033,"type":"Lockout","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Gravitic Boost","uid":1591757973859,"type":"Telekinesis","damage":"(46 STR)","range":"690m","input":"","level":"46","end":"7","active":"69","base":"69","XMLID":"TELEKINESIS","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Gravitic Push","uid":1591757997521,"type":"Blast","damage":"9d6","range":"450m","input":"PD","level":"9","end":"7","active":"67","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1591758024730,"type":"Double Knockback","damage":"9d6","range":"450m","input":"","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Gravitic Boost","uid":1591757973859,"gameEdition":6,"tool":"(46 STR), Telekinesis 690m, 7 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Gravitic Push","uid":1591757997521,"gameEdition":6,"tool":"9d6, Blast (vs. PD) 450m, 7 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
