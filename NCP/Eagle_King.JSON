@@ -1,0 +1,103 @@
+{
+"name":"Eagle King",
+"version":1.8,
+"str":{"value":"55","shortname":"str","name":"Strength","roll":"20-","damage":"","value2":"55","roll2":"20","damage2":""},
+"dex":{"value":"10","shortname":"dex","name":"Dexterity","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":""},
+"con":{"value":"25","shortname":"con","name":"Constitution","roll":"14-","damage":"","value2":"25","roll2":"14","damage2":""},
+"int":{"value":"20","shortname":"int","name":"Intelligence","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":""},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":""},
+"pre":{"value":"25","shortname":"pre","name":"Presence","roll":"14-","damage":"","value2":"25","roll2":"14","damage2":""},
+"spd":{"value":"4","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"4","roll2":"","damage2":""},
+"ocv":{"value":"8","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"dcv":{"value":"6","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"6","roll2":"","damage2":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":""},
+"dmcv":{"value":"3","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":""},
+"pd":{"value":"17","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"27","roll2":"","damage2":""},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"10","roll2":"","damage2":""},
+"ed":{"value":"17","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"27","roll2":"","damage2":""},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"10","roll2":"","damage2":""},
+"per":{"value":"13-/27-","shortname":"per","name":"Perception Roll","roll":"13-/27-","damage":""},
+"rec":{"value":"20","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"20","roll2":"","damage2":""},
+"body":{"value":"16","shortname":"body","name":"Body","roll":"","damage":"","value2":"16","roll2":"","damage2":""},
+"end":{"value":"60","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"60","roll2":"","damage2":""},
+"stun":{"value":"44","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"44","roll2":"","damage2":""},
+"movement":{
+"run":{"combat":"14m","noncombat":"28m","icon":"ui_run"},
+"fly":{"combat":"30m","noncombat":"60m","icon":"ui_fly"},
+"swim":{"combat":"4m","noncombat":"8m","icon":"ui_swim"},
+"tunnel":{"combat":"6m","noncombat":"12m","icon":"ui_tunnel"},
+"leap":{"combat":"4m","noncombat":"8m","icon":"ui_leap"}},
+"skills":[
+	{"name":"Perception","roll":"13-/27-"},
+	{"name":"+2 with HTH Combat","roll":""},
+	{"name":"Deduction","roll":"13-"},
+	{"name":"KS: Museum","roll":"13-"},
+	{"name":"CK: Campaign starting city","roll":"13-"},
+	{"name":"Stealth","roll":"11-"},
+	{"name":"Shadowing","roll":"13-"},
+	{"name":"Streetwise","roll":"14-"},
+	{"name":"Survival (Urban)","roll":"13-"}],
+"attacks":[
+	{"name":"Giant's Strength","type":"STR","damage":"","range":"","input":"","level":"35","end":"3","active":"35","base":"35","XMLID":"STR","strMod":false},
+	{"name":"Talons","type":"Killing Attack - Hand-To-Hand","damage":"1d6 (4½d6 w/STR)","range":"","input":"PD","level":"1","end":"1","active":"15","base":"15","XMLID":"HKA","strMod":true},
+	{"name":"No Name Supplied","type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"[6]","active":"30","base":"30","XMLID":"RKA","strMod":false},
+	{"name":"No Name Supplied","type":"Telekinesis","damage":"(25 STR)","range":"","input":"","level":"25","end":"5","active":"49","base":"39","XMLID":"TELEKINESIS","strMod":true}],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	],
+"rolls":[
+	{"name":"Giant's Strength","gameEdition":6,"tool":"STR , 3 end.","diceMod":0,"dice":35,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Talons","gameEdition":6,"tool":"1d6 (4½d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"No Name Supplied","gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, [6] end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"No Name Supplied","gameEdition":6,"tool":"(25 STR), Telekinesis , 5 end.","diceMod":0,"dice":25,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
