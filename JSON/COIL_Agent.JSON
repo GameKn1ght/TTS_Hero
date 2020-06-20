@@ -1,0 +1,198 @@
+{
+"name":"COIL Agent",
+"version":2.3,
+"edition":6,
+"siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"str":{"value":"15","shortname":"str","name":"Strength","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":"16","shortname":"dex","name":"Dexterity","roll":"12-","damage":"","value2":"16","roll2":"12","damage2":"","notes":""},
+"con":{"value":"16","shortname":"con","name":"Constitution","roll":"12-","damage":"","value2":"16","roll2":"12","damage2":"","notes":""},
+"int":{"value":"13","shortname":"int","name":"Intelligence","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":"","notes":"PER Roll 12-"},
+"ego":{"value":"11","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"11","roll2":"11","damage2":"","notes":""},
+"com":{"value":"0","shortname":"com","name":"Comliness","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"pre":{"value":"15","shortname":"pre","name":"Presence","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":"PRE Attack: 3d6"},
+"spd":{"value":"4","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"4","roll2":"","damage2":"","notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":"5","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"5","roll2":"","damage2":"","notes":""},
+"dcv":{"value":"5","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"5","roll2":"","damage2":"","notes":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"dmcv":{"value":"4","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"4","roll2":"","damage2":"","notes":""},
+"pd":{"value":"6","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":"6/12 PD (6/12 rPD)"},
+"pdr":{"value":"6","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":"6/12 PD (6/12 rPD)"},
+"ed":{"value":"6","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":"6/12 ED (6/12 rED)"},
+"edr":{"value":"6","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":"6/12 ED (6/12 rED)"},
+"per":{"value":"12-","shortname":"per","name":"Perception Roll","roll":"12-","damage":"","notes":""},
+"rec":{"value":"8","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":""},
+"body":{"value":"12","shortname":"body","name":"Body","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":""},
+"end":{"value":"30","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"30","roll2":"","damage2":"","notes":""},
+"stun":{"value":"30","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"30","roll2":"","damage2":"","notes":""},
+"def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"movement":{
+"run":{"combat":"16m","noncombat":"32m","primary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"secondary":{"combat":{"description":"16m","value":16},"noncombat":{"description":"32m","value":32}},"icon":"ui_run","notes":""},
+"swim":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception","roll":"12-"},
+	{"name":"+2 with All Attacks","roll":"","uid":1592549966980,"type":"Combat Skill Levels","input":"with All Attacks","level":"2","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"Teamwork","roll":"12-","uid":1592549996757,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[]}],
+"talents":[],
+"perks":[],
+"disads":[],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1592549966980,"type":"Combat Skill Levels","input":"with All Attacks","level":"2","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"COIL Blaster Rifle","uid":1592548973772,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"52","base":"52","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1592549435162,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Standard COIL Blaster Rifle","uid":1592548944699,"type":"Blast","damage":"7d6","range":"350m","input":"ED","level":"7","end":"[32]","active":"52","base":"35","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1592549056612,"type":"Autofire","damage":"7d6","range":"350m","input":"3 Shots","level":"0"},{"value":"+¼","name":"","uid":1592549069022,"type":"Charges","damage":"7d6","range":"350m","input":"32","level":"0"}],"adders":[]},
+	{"name":"Enhanced COIL Blaster Rifle","uid":1592549041173,"type":"Killing Ranged","damage":"2d6+1","range":"350m","input":"PD","level":"2","end":"[32]","active":"52","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1592549134202,"type":"Autofire","damage":"2d6+1","range":"350m","input":"3 Shots","level":"0"},{"value":"+¼","name":"","uid":1592549145206,"type":"Charges","damage":"2d6+1","range":"350m","input":"32","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592549128405,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]},
+	{"name":"Augmented COIL Blaster Rifle","uid":1592549098451,"type":"Killing Ranged","damage":"2d6+1","range":"350m","input":"PD","level":"2","end":"[16]","active":"52","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592549190017,"type":"+2 Increased STUN Multiplier","damage":"2d6+1","range":"350m","input":"","level":"2"},{"value":"-0","name":"","uid":1592549201529,"type":"Charges","damage":"2d6+1","range":"350m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592549183597,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]},
+	{"name":"COIL Laser Rifle","uid":1592549148139,"type":"Killing Ranged","damage":"2d6+1","range":"350m","input":"ED","level":"2","end":"[16]","active":"52","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592549411504,"type":"Armor Piercing","damage":"2d6+1","range":"350m","input":"","level":"2"},{"value":"-0","name":"","uid":1592549411568,"type":"Charges","damage":"2d6+1","range":"350m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592549411503,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]},
+	{"name":"COIL Tangler Rifle","uid":1592549217629,"type":"Entangle","damage":"5d6, 5 PD/5 ED","range":"500m","input":"","level":"5","end":"[16]","active":"50","base":"50","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-0","name":"","uid":1592549316446,"type":"Charges","damage":"5d6, 5 PD/5 ED","range":"500m","input":"16","level":"0"}],"adders":[]},
+	{"name":"COIL Thunderclap Rifle","uid":1592549269414,"type":"Flash","damage":"9d6","range":"500m","input":"Sight Group","level":"9","end":"[16]","active":"50","base":"50","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-0","name":"","uid":1592549379103,"type":"Charges","damage":"9d6","range":"500m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592549367924,"type":"Hearing Group","damage":"9d6","range":"500m","input":"","level":"0"}]},
+	{"name":"COIL Machete","uid":1592549392450,"type":"Killing Attack - Hand-To-Hand","damage":"1d6 (2d6 w/STR)","range":"","input":"ED","level":"1","end":"1","active":"15","base":"15","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1592549502273,"type":"Focus","damage":"1d6 (2d6 w/STR)","range":"","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1592549515082,"type":"No Knockback","damage":"1d6 (2d6 w/STR)","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1592549720114,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"3","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592549724587,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1592549737952,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"3","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592549746631,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"COIL Combat Armor","uid":1592549695802,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"30","base":"30","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1592549881116,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592549868807,"type":"Flash Defense","damage":"","range":"","input":"Sight Group","level":"4"},{"name":"No Name Supplied","uid":1592549868816,"type":"Flash Defense","damage":"","range":"","input":"Hearing Group","level":"4"}]},
+	{"name":"COIL Helmet Communication System","uid":1592549845612,"type":"High Range Radio Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"HRRP","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1592549949824,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"},{"value":"-½","name":"","uid":1592549971728,"type":"Sense Affected As More Than One Sense","damage":"","range":"","input":"[very common Sense]","level":"0"}],"adders":[]},
+	{"name":"Swiftness Of The Serpent","uid":1592549925158,"type":"Running","damage":"","range":"","input":"","level":"4","end":"1","active":"4","base":"4","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Martial Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Martial Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Kick","gameEdition":6 ,"ocvMod":-2,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"7d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Kick:½ Phase, -2 OCV, +1 DCV, 7d6 Strike","rngMod":0, "abort":false
+	},{"name":"Martial Strike","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"5d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Strike:½ Phase, +0 OCV, +2 DCV, 5d6 Strike","rngMod":0, "abort":false
+	},{"name":"Martial Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"3d6 +v/10, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Throw:½ Phase, +0 OCV, +1 DCV, 3d6 +v/10, Target Falls","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Standard COIL Blaster Rifle","uid":1592548944699,"gameEdition":6,"tool":"7d6, Blast (vs. ED) 350m, [32] end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Enhanced COIL Blaster Rifle","uid":1592549041173,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. PD) 350m, [32] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Augmented COIL Blaster Rifle","uid":1592549098451,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. PD) 350m, [16] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":2},
+	{"name":"COIL Laser Rifle","uid":1592549148139,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. ED) 350m, [16] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"COIL Tangler Rifle","uid":1592549217629,"gameEdition":6,"tool":"5d6, 5 PD/5 ED, Entangle 500m, [16] end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"COIL Thunderclap Rifle","uid":1592549269414,"gameEdition":6,"tool":"9d6, Flash (vs. Sight Group) 500m, [16] end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"COIL Machete","uid":1592549392450,"gameEdition":6,"tool":"1d6 (2d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 1 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

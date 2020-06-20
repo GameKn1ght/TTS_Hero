@@ -1,0 +1,198 @@
+{
+"name":"Boomslang",
+"version":2.3,
+"edition":6,
+"siz":{"value":"0","shortname":"siz","name":"Size","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"str":{"value":"30","shortname":"str","name":"Strength","roll":"15-","damage":"","value2":"30","roll2":"15","damage2":"","notes":"HTH Damage 6d6  END [3]"},
+"dex":{"value":"24","shortname":"dex","name":"Dexterity","roll":"14-","damage":"","value2":"24","roll2":"14","damage2":"","notes":""},
+"con":{"value":"18","shortname":"con","name":"Constitution","roll":"13-","damage":"","value2":"18","roll2":"13","damage2":"","notes":""},
+"int":{"value":"10","shortname":"int","name":"Intelligence","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":"PER Roll 11-"},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":"","notes":""},
+"com":{"value":"0","shortname":"com","name":"Comliness","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"pre":{"value":"15","shortname":"pre","name":"Presence","roll":"12-","damage":"","value2":"15","roll2":"12","damage2":"","notes":"PRE Attack: 3d6"},
+"spd":{"value":"5","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"5","roll2":"","damage2":"","notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":"8","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":"","notes":""},
+"dcv":{"value":"10","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"10","roll2":"","damage2":"","notes":""},
+"omcv":{"value":"3","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"dmcv":{"value":"3","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"3","roll2":"","damage2":"","notes":""},
+"pd":{"value":"12","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"20","roll2":"","damage2":"","notes":"12/20 PD (12/20 rPD)"},
+"pdr":{"value":"12","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"20","roll2":"","damage2":"","notes":"12/20 PD (12/20 rPD)"},
+"ed":{"value":"10","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"18","roll2":"","damage2":"","notes":"10/18 ED (10/18 rED)"},
+"edr":{"value":"10","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"18","roll2":"","damage2":"","notes":"10/18 ED (10/18 rED)"},
+"per":{"value":"11-","shortname":"per","name":"Perception Roll","roll":"11-","damage":"","notes":""},
+"rec":{"value":"12","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"12","roll2":"","damage2":"","notes":""},
+"body":{"value":"18","shortname":"body","name":"Body","roll":"","damage":"","value2":"18","roll2":"","damage2":"","notes":""},
+"end":{"value":"40","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"40","roll2":"","damage2":"","notes":""},
+"stun":{"value":"46","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"46","roll2":"","damage2":"","notes":""},
+"def":{"value":"0","shortname":"def","name":"Defence","roll":"","damage":"","value2":"0","roll2":"","damage2":"","notes":"NO STAT FOUND"},
+"movement":{
+"run":{"combat":"20m","noncombat":"40m","primary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"secondary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"icon":"ui_run","notes":""},
+"swim":{"combat":"20m","noncombat":"40m","primary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"secondary":{"combat":{"description":"20m","value":20},"noncombat":{"description":"40m","value":40}},"icon":"ui_swim","notes":""},
+"leap":{"combat":"16m","noncombat":"32m","primary":{"combat":{"description":"16m/8m","value":16},"noncombat":{"description":"32m","value":32}},"secondary":{"combat":{"description":"16m/8m","value":16},"noncombat":{"description":"32m","value":32}},"icon":"ui_leap","notes":"16m forward, 8m upward"}},
+"skills":[
+	{"name":"Perception","roll":"11-"},
+	{"name":"+3 with Ranged Combat","roll":"","uid":1592547012956,"type":"Combat Skill Levels","input":"with Ranged Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+	{"name":"+4 with a small group of attacks","roll":"","uid":1592547108550,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"4","active":"12","base":"12","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"talents":[],
+"perks":[],
+"disads":[],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1592547012956,"type":"Combat Skill Levels","input":"with Ranged Combat","level":"3","active":"24","base":"24","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1592547108550,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"4","active":"12","base":"12","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"VRG-5X Mini-Railgun (Right Arm)","uid":1592544017576,"type":"Multipower","damage":"","range":"","input":"","level":"0","end":"","active":"87","base":"87","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1592544068364,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Armor Piercing Round","uid":1592544060456,"type":"Killing Ranged","damage":"2d6+1","range":"350m","input":"ED","level":"2","end":"[16]","active":"70","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1592544684407,"type":"Armor Piercing","damage":"2d6+1","range":"350m","input":"","level":"1"},{"value":"+¼","name":"","uid":1592544684415,"type":"Autofire","damage":"2d6+1","range":"350m","input":"3 Shots","level":"0"},{"value":"+½","name":"","uid":1592544684417,"type":"Penetrating","damage":"2d6+1","range":"350m","input":"","level":"1"},{"value":"-0","name":"","uid":1592544684481,"type":"Charges","damage":"2d6+1","range":"350m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592544686610,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]},
+	{"name":"Stun Round","uid":1592544164779,"type":"Killing Ranged","damage":"2d6+1","range":"350m","input":"ED","level":"2","end":"[16]","active":"79","base":"35","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592544232650,"type":"+2 Increased STUN Multiplier","damage":"2d6+1","range":"350m","input":"","level":"2"},{"value":"+¼","name":"","uid":1592544257293,"type":"Autofire","damage":"2d6+1","range":"350m","input":"3 Shots","level":"0"},{"value":"+½","name":"","uid":1592544268575,"type":"Penetrating","damage":"2d6+1","range":"350m","input":"","level":"1"},{"value":"-0","name":"","uid":1592544282773,"type":"Charges","damage":"2d6+1","range":"350m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592544210446,"type":"+1 pip","damage":"2d6+1","range":"350m","input":"","level":"0"}]},
+	{"name":"Bolo Round","uid":1592544277081,"type":"Entangle","damage":"4d6, 8 PD/8 ED","range":"400m","input":"","level":"4","end":"[16]","active":"75","base":"60","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1592544836642,"type":"Entangle And Character Both Take Damage","damage":"4d6, 8 PD/8 ED","range":"400m","input":"","level":"0"},{"value":"-½","name":"","uid":1592544836655,"type":"Limited Power","damage":"4d6, 8 PD/8 ED","range":"400m","input":"Power loses about a third of its effectiveness","level":"0"},{"value":"-0","name":"","uid":1592544836720,"type":"Charges","damage":"4d6, 8 PD/8 ED","range":"400m","input":"16","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1592544836640,"type":"+4 Additional PD","damage":"4d6, 8 PD/8 ED","range":"400m","input":"","level":"4"},{"name":"No Name Supplied","uid":1592544836641,"type":"+4 Additional ED","damage":"4d6, 8 PD/8 ED","range":"400m","input":"","level":"4"}]},
+	{"name":"Flash Round","uid":1592544540520,"type":"Flash","damage":"6d6","range":"300m","input":"Sight Group","level":"6","end":"[16]","active":"82","base":"30","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+1¼","name":"","uid":1592544881231,"type":"Autofire","damage":"6d6","range":"300m","input":"3 Shots","level":"0"},{"value":"+½","name":"","uid":1592544881252,"type":"Area Of Effect","damage":"6d6","range":"300m","input":"Radius","level":"1"},{"value":"-0","name":"","uid":1592544881318,"type":"Charges","damage":"6d6","range":"300m","input":"16","level":"0"}],"adders":[]},
+	{"name":"Serpent Fangs","uid":1592545042485,"type":"Hand-To-Hand Attack","damage":"1d6","range":"","input":"","level":"1","end":"1","active":"5","base":"5","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1592545085684,"type":"Hand-To-Hand Attack","damage":"1d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1592545142711,"type":"Limited Power","damage":"1d6","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1592545520951,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"6","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592545525846,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1592545538259,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"5","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1592545543736,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"COIL Combat Armor","uid":1592545157655,"type":"Resistant Protection","damage":"","range":"","input":"","level":"16","end":"0","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1592545702085,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1592545702121,"type":"Requires A Roll","damage":"","range":"","input":"14- roll","level":"0"}],"adders":[]},
+	{"name":"HRRP","uid":1592545967711,"type":"Radio Perception/Transmission","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1592546105539,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1592545847084,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1592545869619,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1592545985727,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Punch","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"8d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Punch:½ Phase, +0 OCV, +2 DCV, 8d6 Strike","rngMod":0, "abort":false
+	},{"name":"Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 +v/10, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Throw:½ Phase, +0 OCV, +1 DCV, 6d6 +v/10, Target Falls","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Armor Piercing Round","uid":1592544060456,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. ED) 350m, [16] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Stun Round","uid":1592544164779,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. ED) 350m, [16] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":2},
+	{"name":"Bolo Round","uid":1592544277081,"gameEdition":6,"tool":"4d6, 8 PD/8 ED, Entangle 400m, [16] end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Flash Round","uid":1592544540520,"gameEdition":6,"tool":"6d6, Flash (vs. Sight Group) 300m, [16] end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Serpent Fangs","uid":1592545042485,"gameEdition":6,"tool":"1d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
