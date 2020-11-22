@@ -1,0 +1,116 @@
+{
+"name":"Heavy Weapons Specialist",
+"version":1.9,
+"str":{"value":"18","shortname":"str","name":"Strength","roll":"13-","damage":"","value2":"18","roll2":"13","damage2":""},
+"dex":{"value":"14","shortname":"dex","name":"Dexterity","roll":"12-","damage":"","value2":"14","roll2":"12","damage2":""},
+"con":{"value":"13","shortname":"con","name":"Constitution","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":""},
+"int":{"value":"10","shortname":"int","name":"Intelligence","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":""},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":""},
+"pre":{"value":"13","shortname":"pre","name":"Presence","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":""},
+"spd":{"value":"3","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"3","roll2":"","damage2":""},
+"ocv":
+"dcv":
+"omcv":
+"dmcv":
+"pd":{"value":"5","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"17","roll2":"","damage2":""},
+"pdr":{"value":"0","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":""},
+"ed":{"value":"4","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"16","roll2":"","damage2":""},
+"edr":{"value":"0","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"12","roll2":"","damage2":""},
+"per":{"value":"11-","shortname":"per","name":"Perception Roll","roll":"11-","damage":""},
+"rec":{"value":"7","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"7","roll2":"","damage2":""},
+"body":{"value":"12","shortname":"body","name":"Body","roll":"","damage":"","value2":"12","roll2":"","damage2":""},
+"end":{"value":"26","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"26","roll2":"","damage2":""},
+"stun":{"value":"31","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"31","roll2":"","damage2":""},
+"movement":{
+"run":{"combat":"6＂","noncombat":"12＂","icon":"ui_run"},
+"swim":{"combat":"2＂","noncombat":"4＂","icon":"ui_swim"},
+"leap":{"combat":"3½＂","noncombat":"6＂","icon":"ui_leap"}},
+"skills":[
+	{"name":"Perception","roll":"11-"},
+	{"name":"+2 with VIPER Blasters","roll":""},
+	{"name":"Combat Driving","roll":"12-"},
+	{"name":"Concealment","roll":"11-"},
+	{"name":"Fast Draw (Small Arms)","roll":"12-"},
+	{"name":"Interrogation","roll":"12-"},
+	{"name":"KS: The Local Underworld","roll":"11-"},
+	{"name":"KS: Military Technology","roll":"11-"},
+	{"name":"KS: The Superhuman World","roll":"8-"},
+	{"name":"KS: VIPER","roll":"11-"},
+	{"name":"PS: VIPER Agent","roll":"11-"},
+	{"name":"Paramedics","roll":"11-"},
+	{"name":"Persuasion","roll":"12-"},
+	{"name":"Shadowing","roll":"11-"},
+	{"name":"Stealth","roll":"12-"},
+	{"name":"Streetwise","roll":"12-"},
+	{"name":"Tactics","roll":"11-"},
+	{"name":"Teamwork","roll":"12-"},
+	{"name":"WF: Emplaced Weapons, Small Arms, Blades, Flamethrowers, Grenade Launchers, Heavy Machine Guns, Shoulder-Fired Weapons","roll":""}],
+"attacks":[
+	{"name":"VB-A4 ＂Jackhammer＂ Blaster Rifle","type":"Energy Blast","damage":"12d6","range":"var.","input":"ED","level":"12","end":"[30]","active":"105","base":"60","XMLID":"ENERGYBLAST","strMod":false},
+	{"name":"Rifle-Butt Club","type":"Hand-To-Hand Attack","damage":"3d6","range":"","input":"","level":"3","end":"1","active":"15","base":"15","XMLID":"HANDTOHANDATTACK","strMod":false},
+	{"name":"VL-S1 ＂Redeye＂ Laser Pistol","type":"Compound Power","damage":"","range":"","input":"","level":"0","end":"[10]","active":"38","base":"38","XMLID":"COMPOUNDPOWER","strMod":false},
+	{"name":"VG-1 Frag Grenade","type":"Killing Ranged","damage":"2d6+1","range":"var.","input":"PD","level":"2","end":"[4]","active":"52","base":"35","XMLID":"RKA","strMod":false},
+	{"name":"VIPER Fang","type":"Compound Power","damage":"","range":"","input":"","level":"0","end":"[1 rc]","active":"29","base":"45","XMLID":"COMPOUNDPOWER","strMod":false}],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"effect":"Block, Abort","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Punch","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"effect":"5½d6 Strike","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Punch:½ Phase, +0 OCV, +2 DCV, 5½d6 Strike","rngMod":0, "abort":false
+	},{"name":"Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"effect":"3½d6 +v/5, Target Falls","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Throw:½ Phase, +0 OCV, +1 DCV, 3½d6 +v/5, Target Falls","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"VB-A4 ＂Jackhammer＂ Blaster Rifle","gameEdition":6,"tool":"12d6, Energy Blast (vs. ED) var., [30] end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Rifle-Butt Club","gameEdition":6,"tool":"3d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"VL-S1 ＂Redeye＂ Laser Pistol","gameEdition":6,"tool":"Compound Power , [10] end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"VG-1 Frag Grenade","gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. PD) var., [4] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"VIPER Fang","gameEdition":6,"tool":"Compound Power , [1 rc] end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
