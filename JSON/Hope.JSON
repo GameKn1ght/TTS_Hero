@@ -1,0 +1,97 @@
+{
+"name":"Hope",
+"version":1.9,
+"str":{"value":"55","shortname":"str","name":"Strength","roll":"20-","damage":"","value2":"55","roll2":"20","damage2":""},
+"dex":{"value":"13","shortname":"dex","name":"Dexterity","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":""},
+"con":{"value":"25","shortname":"con","name":"Constitution","roll":"14-","damage":"","value2":"25","roll2":"14","damage2":""},
+"int":{"value":"13","shortname":"int","name":"Intelligence","roll":"12-","damage":"","value2":"13","roll2":"12","damage2":""},
+"ego":{"value":"10","shortname":"ego","name":"Ego","roll":"11-","damage":"","value2":"10","roll2":"11","damage2":""},
+"pre":{"value":"20","shortname":"pre","name":"Presence","roll":"13-","damage":"","value2":"20","roll2":"13","damage2":""},
+"spd":{"value":"5","shortname":"spd","name":"Speed","roll":"","damage":"","value2":"5","roll2":"","damage2":""},
+"ocv":{"value":"8","shortname":"ocv","name":"Offensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"dcv":{"value":"8","shortname":"dcv","name":"Defensive Combat Value","roll":"","damage":"","value2":"8","roll2":"","damage2":""},
+"omcv":{"value":"1","shortname":"omcv","name":"Offensive Mental Combat Value","roll":"","damage":"","value2":"1","roll2":"","damage2":""},
+"dmcv":{"value":"5","shortname":"dmcv","name":"Defensive Mental Combat Value","roll":"","damage":"","value2":"5","roll2":"","damage2":""},
+"pd":{"value":"25","shortname":"pd","name":"Physical Defence","roll":"","damage":"","value2":"25","roll2":"","damage2":""},
+"pdr":{"value":"15","shortname":"pdr","name":"Physical Resistant Defence","roll":"","damage":"","value2":"15","roll2":"","damage2":""},
+"ed":{"value":"25","shortname":"ed","name":"Energy Defence","roll":"","damage":"","value2":"25","roll2":"","damage2":""},
+"edr":{"value":"15","shortname":"edr","name":"Energy Resistant Defence","roll":"","damage":"","value2":"15","roll2":"","damage2":""},
+"per":{"value":"12-","shortname":"per","name":"Perception Roll","roll":"12-","damage":""},
+"rec":{"value":"22","shortname":"rec","name":"Recovery","roll":"","damage":"","value2":"22","roll2":"","damage2":""},
+"body":{"value":"10","shortname":"body","name":"Body","roll":"","damage":"","value2":"10","roll2":"","damage2":""},
+"end":{"value":"60","shortname":"end","name":"Endurance","roll":"","damage":"","value2":"60","roll2":"","damage2":""},
+"stun":{"value":"60","shortname":"stun","name":"Stun","roll":"","damage":"","value2":"60","roll2":"","damage2":""},
+"movement":{
+"run":{"combat":"12m","noncombat":"24m","icon":"ui_run"},
+"fly":{"combat":"44m","noncombat":"88m","icon":"ui_fly"},
+"swim":{"combat":"63m","noncombat":"504m","icon":"ui_swim"},
+"leap":{"combat":"4m","noncombat":"8m","icon":"ui_leap"}},
+"skills":[
+	{"name":"Perception","roll":"12-"},
+	{"name":"+2 with Passing Strike","roll":""},
+	{"name":"+1 to offset negative OCV from Multi-Attack","roll":""},
+	{"name":"AK: Millennium City","roll":"11-"},
+	{"name":"PS: Geologist","roll":"8-"},
+	{"name":"KS: Geology","roll":"11-"},
+	{"name":"KS: Astronomy","roll":"11-"},
+	{"name":"Navigation","roll":"12-"},
+	{"name":"Stealth","roll":"12-"},
+	{"name":"Concealment","roll":"12-"},
+	{"name":"Disguise","roll":"12-"}],
+"attacks":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Passing Strike","gameEdition":6 ,"ocvMod":1,"dcvMod":0,"dice":3,"halfDice":false,"effect":"11d6 +v/10; FMove","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Passing Strike:½ Phase, +1 OCV, +0 DCV, 11d6 +v/10; FMove","rngMod":0, "abort":false
+	},{"name":"Flying Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":4,"dice":3,"halfDice":false,"effect":"Dodge All Attacks, Abort; FMove","time":"½","level":"0","killingAttack":false,"toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Flying Dodge:½ Phase, -- OCV, +4 DCV, Dodge All Attacks, Abort; FMove","rngMod":0, "abort":true
+	}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
