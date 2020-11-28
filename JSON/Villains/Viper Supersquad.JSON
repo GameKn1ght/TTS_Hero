@@ -88,11 +88,11 @@
 	},{"name":"Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"3½d6 +v/5, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Throw:½ Phase, +0 OCV, +1 DCV, 3½d6 +v/5, Target Falls","rngMod":0, "abort":false
 	}],
 "rolls":[
-	{"name":"VB-A5 ＂Sledgehammer＂ Blaster Rifle [40]","uid":1082477446688,"gameEdition":6,"tool":"14d6, Blast (vs. ED) var., [40] end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"VB-A5 Sledgehammer","uid":1082477446688,"gameEdition":6,"tool":"14d6, AF 5 Blast (vs. ED)","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Rifle-Butt Club","uid":1082473933883,"gameEdition":6,"tool":"3d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"VB-S1 ＂Shorty＂ Blaster Pistol","uid":1082477488396,"gameEdition":6,"tool":"7d6, Blast (vs. ED) 350m, [12] end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"VG-1 Frag Grenade","uid":1082475575623,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. PD) var., [4] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1081268156574,"gameEdition":6,"tool":"1d6 (2d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+	{"name":"VIPER Fang","uid":1081268156574,"gameEdition":6,"tool":"1d6 (2d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
 

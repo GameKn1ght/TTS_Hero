@@ -110,12 +110,9 @@
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
-	{"name":"NanoTech Activation","uid":1591397549354,"gameEdition":6,"tool":"2d6, Transform (vs. Nanos in blood into Power Armored suit, Power Armored suit into Nanos in blood. ,Cosmetic) 60m, 1 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1591398273908,"gameEdition":6,"tool":"STR , 5 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Stealth Field","uid":1591398591952,"gameEdition":6,"tool":"1m radius, Darkness (vs. Hearing Group) , 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1591401140761,"gameEdition":6,"tool":"Images (vs. Sight Group) 100m, 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Strike (STR 60)","uid":1591398273908,"gameEdition":6,"tool":"60 STR , 5 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"No Name Supplied","uid":1591401429331,"gameEdition":6,"tool":"Combat Skill Levels (vs. with HTH Combat) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1591415629436,"gameEdition":6,"tool":"4d6, 5 PD/5 ED, Entangle 400m, 6 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+	{"name":"Rubble Entangle","uid":1591415629436,"gameEdition":6,"tool":"4d6, 5 PD/5 ED, Entangle AoE 2m400m, 6 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
 
