@@ -1,6 +1,6 @@
 {
 "appversion":"20200630",
-"exportid":"20201125110806",
+"exportid":"20210103155936",
 "name":"Maximum Resistance",
 "playername":"Darosch",
 "version":3.0,
@@ -76,17 +76,149 @@
 	{"name":"Electromagnetic Shift","uid":1591065533632,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1591119044867,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"Combat Blink","uid":1591065595766,"type":"Teleportation","damage":"25m","range":"","input":"","level":"25","end":"2","active":"60","base":"40","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1591629451735,"type":"Reduced Endurance","damage":"25m","range":"","input":"Half END","level":"0"},{"value":"+¼","name":"","uid":1591629451737,"type":"Armor Piercing","damage":"25m","range":"","input":"","level":"1"}],"adders":[{"name":"No Name Supplied","uid":1591629451729,"type":"Position Shift","damage":"25m","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1591629451730,"type":"No Relative Velocity","damage":"25m","range":"","input":"","level":"0"}]},
 	{"name":"Charged Transport","uid":1591065880683,"type":"Teleportation","damage":"10m","range":"","input":"","level":"10","end":"6","active":"60","base":"60","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1591629509080,"type":"x8 Increased Mass","damage":"10m","range":"","input":"","level":"3"},{"name":"No Name Supplied","uid":1591629509081,"type":"x32 Noncombat","damage":"10m","range":"","input":"","level":"5"},{"name":"No Name Supplied","uid":1591629509082,"type":"No Relative Velocity","damage":"10m","range":"","input":"","level":"0"}]},
-	{"name":"Electromagnetic Sense","uid":1591067259158,"type":"Detect","damage":"12-","range":"","input":"A Large Class Of Things","level":"0","end":"0","active":"25","base":"25","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1606319828717,"type":"Discriminatory","damage":"12-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1606319828718,"type":"Targeting","damage":"12-","range":"","input":"","level":"0"}]},
+	{"name":"Electromagnetic Sense","uid":1591067259158,"type":"Detect","damage":"12-","range":"","input":"A Large Class Of Things","level":"0","end":"0","active":"27","base":"27","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1609707446219,"type":"Discriminatory","damage":"12-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1609707446220,"type":"Targeting","damage":"12-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1609707446221,"type":"Transmit","damage":"12-","range":"","input":"","level":"0"}]},
 	{"name":"Homestead Base","uid":1606319817382,"type":"Teleportation: Fixed Location","damage":"(1 Locations)","range":"","input":"","level":"1","end":"0","active":"1","base":"1","XMLID":"FIXEDLOCATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
-	{"name":"Gravity Shift","uid":1606319855139,"type":"Flight","damage":"1m","range":"","input":"","level":"1","end":"0","active":"2","base":"1","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1606320032399,"type":"Reduced Endurance","damage":"1m","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1606320032401,"type":"Persistent","damage":"1m","range":"","input":"","level":"0"},{"value":"+¾","name":"","uid":1606320032464,"type":"Usable On Others","damage":"1m","range":"","input":"Usable Simultaneously","level":"0"},{"value":"-1","name":"","uid":1606320056586,"type":"Limited Power","damage":"1m","range":"","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[]}],
+	{"name":"Gravity Shift","uid":1606319855139,"type":"Flight","damage":"1m","range":"","input":"","level":"1","end":"0","active":"2","base":"1","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1606429539891,"type":"Reduced Endurance","damage":"1m","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1606429539893,"type":"Persistent","damage":"1m","range":"","input":"","level":"0"},{"value":"+¾","name":"","uid":1606429539958,"type":"Usable On Others","damage":"1m","range":"","input":"Usable Simultaneously","level":"0"},{"value":"-1","name":"","uid":1606429539983,"type":"Limited Power","damage":"1m","range":"","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Instant Change","uid":1608254091529,"type":"Transform","damage":"1d6","range":"30m","input":"One set of clothes to costume and backCosmetic","level":"1","end":"1","active":"6","base":"3","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1608262295416,"type":"Trigger","damage":"1d6","range":"30m","input":"Set Trigger","level":"0"},{"value":"-½","name":"","uid":1608262295431,"type":"Limited Power","damage":"1d6","range":"30m","input":"Power loses about a third of its effectiveness","level":"0"},{"value":"+¼","name":"","uid":1608262408221,"type":"Improved Results Group","damage":"1d6","range":"30m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1608262295379,"type":"Healed back by","damage":"1d6","range":"30m","input":"","level":"0"}]}],
 "equipment":[],
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
 	{"name":"Electric Arc","uid":1591062120763,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Magnetic Force Blast","uid":1591062189669,"gameEdition":6,"tool":"9½d6, Blast (vs. PD) 480m, 2 end.","diceMod":0,"dice":9,"halfDice":true,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Knockback","uid":0000000000001,"gameEdition":6,"tool":"2d6 Knockback","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Shock to the System","uid":1591063016980,"gameEdition":6,"tool":"3d6, 3 PD/3 ED, Entangle 300m, 6 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Arc Flash","uid":1591064207868,"gameEdition":6,"tool":"6d6, Flash (vs. Sight Group) 400m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+	{"name":"Arc Flash","uid":1591064207868,"gameEdition":6,"tool":"6d6, Flash (vs. Sight Group) 400m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Instant Change","uid":1608254091529,"gameEdition":6,"tool":"1d6, Transform (vs. One set of clothes to costume and back,Cosmetic) 30m, 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
