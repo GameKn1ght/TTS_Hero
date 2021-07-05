@@ -1,0 +1,239 @@
+{
+"appversion":"20201025",
+"exportid":"20210704234914",
+"name":"Spektr",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":30,"roll":"15-","shortname":"str","name":"Strength","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"HTH Damage 6d6  END [3]"},
+"dex":{"value":24,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":24,"roll":"14-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":""},
+"con":{"value":33,"roll":"16-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":33,"roll":"16-","mod":0},"secondary":{"value":33,"roll":"16-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":23,"roll":"14-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"PRE Attack: 4½d6"},
+"spd":{"value":6,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":8,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":6,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":13,"roll":"12-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":"13/28 PD (10/25 rPD)"},
+"pdr":{"value":10,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":10,"roll":"12-","mod":0},"secondary":{"value":25,"roll":"15-","mod":0},"notes":"13/28 PD (10/25 rPD)"},
+"ed":{"value":20,"roll":"13-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":"20/45 ED (10/35 rED)"},
+"edr":{"value":20,"roll":"13-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":"20/45 ED (10/35 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":20,"roll":"13-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"body":{"value":18,"roll":"13-","shortname":"body","name":"Body","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"end":{"value":100,"roll":"29-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":100,"roll":"29-","mod":0},"secondary":{"value":100,"roll":"29-","mod":0},"notes":""},
+"stun":{"value":50,"roll":"19-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"60m","noncombat":"240m","primary":{"combat":{"description":"60m","value":60},"noncombat":{"description":"240m","value":240}},"secondary":{"combat":{"description":"60m","value":60},"noncombat":{"description":"240m","value":240}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1285636128395,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"4","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Mastery Of The Electromagnetic Spectrum Multipower","optionID":"BROAD","text":"+4 with Mastery Of The Electromagnetic Spectrum Multipower"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1285636159907,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 14-"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636164019,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 13-"},
+	{"name":"Demolitions ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636168787,"type":"Demolitions","input":"","level":"0","active":"3","base":"3","XMLID":"DEMOLITIONS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Demolitions 13-"},
+	{"name":"Disguise ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636174196,"type":"Disguise","input":"","level":"0","active":"3","base":"3","XMLID":"DISGUISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Disguise 13-"},
+	{"name":"Electronics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636175228,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 13-"},
+	{"name":"KS (Soviet-Era Superhumans) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1285636181468,"type":"KS","input":"Soviet-Era Superhumans","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Soviet-Era Superhumans 11-"},
+	{"name":"KS (The Soviet-Era Espionage World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1285636198492,"type":"KS","input":"The Soviet-Era Espionage World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Soviet-Era Espionage World 11-"},
+	{"name":"Language (Russian) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1285636222645,"type":"Language","input":"Russianidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Russian (idiomatic) (4 Active Points)"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1285636245045,"type":"Language","input":"Englishfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: English (fluent conversation)"},
+	{"name":"Navigation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636285958,"type":"Navigation","input":"","level":"0","active":"3","base":"3","XMLID":"NAVIGATION","modifiers":[],"adders":[{"XMLID":"AIR","name":"","uid":1285636326634,"cost":"2","type":"Air","input":"","level":"0"},{"XMLID":"SPACE","name":"","uid":1285636328451,"cost":"2","type":"Space","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Navigation (Air, Space) 13-"},
+	{"name":"Power (Electromagnetic Spectrum Manipulation) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"19-","uid":1285636307766,"type":"Power","input":"Electromagnetic Spectrum Manipulation","level":"6","active":"15","base":"15","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power: Electromagnetic Spectrum Manipulation 19-"},
+	{"name":"PS (Soviet Agent) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636350463,"type":"Professional Skill","input":"Soviet Agent","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Soviet Agent 13-"},
+	{"name":"Science Skill (Astrophysics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636438065,"type":"Science Skill","input":"Astrophysics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Astrophysics 13-"},
+	{"name":"Science Skill (High-Energy Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"18-","uid":1285636387608,"type":"Science Skill","input":"High-Energy Physics","level":"5","active":"8","base":"8","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: High-Energy Physics 18-"},
+	{"name":"Systems Operation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636460129,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation 13-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285636464465,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 13-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1285636698653,"type":"Hunted","input":"Justice Squadron","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285636739611,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1285636739617,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1285636739623,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1285636724279,"type":"Hunted","input":"Russia","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285636818849,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1285636818855,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1285636818861,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1285636818862,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1285636818863,"type":"Limited Geographical Area","input":"","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1285636841201,"type":"Physical Complication","input":"Man Out of Time (see text)","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285636884011,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1285636884018,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1285636887434,"type":"Psychological Complication","input":"Fervent Communist And Old-Soviet Patriot; Hates The Current Russian Regime","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285636930816,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1285636930822,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1285636909843,"type":"Psychological Complication","input":"Emotionally Lost, Looking For A Cause To Believe In","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285636953755,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1285636953761,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Unluck: 2d6","roll":"","uid":1285636953531,"type":"Unluck: 2d6","input":"","level":"2","active":"10","base":"10","XMLID":"UNLUCK","modifiers":[],"adders":[]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1285636128395,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"4","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Mastery of the Electromagnetic Spectrum","uid":1285633087826,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"90","base":"90","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Microwaves or UV Waves","uid":1285633156976,"type":"Killing Ranged","damage":"3d6","range":"450m","input":"ED","level":"3","end":"9","active":"90","base":"45","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285633477403,"type":"Invisible to Normal Sight","damage":"3d6","range":"450m","input":"","level":"0"},{"value":"+½","name":"","uid":1285633477404,"type":"Penetrating","damage":"3d6","range":"450m","input":"","level":"1"},{"value":"+¼","name":"","uid":1285633477409,"type":"Variable Special Effects","damage":"3d6","range":"450m","input":"Limited Group of SFX","level":"0"}],"adders":[]},
+	{"name":"Lasers","uid":1285633332619,"type":"Killing Ranged","damage":"3½d6","range":"550m","input":"ED","level":"3","end":"7","active":"69","base":"55","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285633494346,"type":"Armor Piercing","damage":"3½d6","range":"550m","input":"","level":"1"}],"adders":[{"name":"No Name Supplied","uid":1285633494345,"type":"+½ d6","damage":"3½d6","range":"550m","input":"","level":"0"}]},
+	{"name":"Visible Light Burst","uid":1285633364597,"type":"Flash","damage":"13d6","range":"650m","input":"Sight Group","level":"13","end":"3","active":"81","base":"65","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285633505470,"type":"Reduced Endurance","damage":"13d6","range":"650m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Large Visible Light Burst","uid":1285633418591,"type":"Flash","damage":"10d6","range":"500m","input":"Sight Group","level":"10","end":"9","active":"87","base":"50","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1285633464182,"type":"Area Of Effect","damage":"10d6","range":"500m","input":"Radius","level":"16"}],"adders":[]},
+	{"name":"Electrical Transmission","uid":1285633517775,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"8","active":"80","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"EM Power Manipulation","uid":1285633600336,"type":"Dispel","damage":"15d6","range":"450m","input":"EM Spectrum-Based Powers","level":"15","end":"9","active":"90","base":"45","XMLID":"DISPEL","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285633727588,"type":"Variable Effect","damage":"15d6","range":"450m","input":"Any EM Spectrum-based Power","level":"0"},{"value":"+½","name":"","uid":1285633727589,"type":"Expanded Effect (x2 Characteristics or Powers simultaneously)","damage":"15d6","range":"450m","input":"","level":"2"}],"adders":[]},
+	{"name":"Photon Absorbtion","uid":1285633754725,"type":"Darkness","damage":"16m radius","range":"800m","input":"Sight Group","level":"16","end":"8","active":"80","base":"80","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Radio Interference","uid":1285633805760,"type":"Darkness","damage":"30m radius","range":"900m","input":"Radio Group","level":"30","end":"9","active":"90","base":"90","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[]},
+	{"name":"EM Pulse","uid":1285634039417,"type":"Dispel","damage":"12d6","range":"","input":"Electricity Powers","level":"12","end":"21","active":"207","base":"36","XMLID":"DISPEL","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285634101265,"type":"Area Of Effect","damage":"12d6","range":"","input":"Radius","level":"30"},{"value":"+4","name":"","uid":1285634138415,"type":"Expanded Effect (x9 Characteristics or Powers simultaneously)","damage":"12d6","range":"","input":"","level":"9"},{"value":"+¼","name":"","uid":1285634169201,"type":"Personal Immunity","damage":"12d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1285634175709,"type":"No Range","damage":"12d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Electromagnetic Field","uid":1285634380464,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"0","active":"70","base":"70","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1285634527116,"type":"Costs Half Endurance","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285634501107,"type":"Protect Carried Items","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Light Flight","uid":1285634695310,"type":"Flight","damage":"60m","range":"","input":"","level":"60","end":"6","active":"65","base":"65","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285634733413,"type":"x2 Noncombat","damage":"60m","range":"","input":"","level":"1"}]},
+	{"name":"Lightbending","uid":1285634728800,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"52","base":"35","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285634773063,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285634760503,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285634764278,"type":"No Fringe","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"No Name Supplied","uid":1285634867426,"type":"PD","damage":"","range":"","input":"","level":"10","end":"","active":"15","base":"10","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285634880091,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1285634908036,"type":"ED","damage":"","range":"","input":"","level":"10","end":"","active":"15","base":"10","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285634917376,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Energy Mastery","uid":1285634943147,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 75%","level":"0","end":"0","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Energy Mastery","uid":1285634978845,"type":"Flash Defense","damage":"(20 points)","range":"","input":"Sight Group","level":"20","end":"0","active":"20","base":"20","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Energy Bending","uid":1285635023453,"type":"Deflection","damage":"","range":"200m","input":"","level":"0","end":"2","active":"20","base":"20","XMLID":"MISSILEDEFLECTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1285635124150,"type":"Only Works Against","damage":"","range":"200m","input":"Rare attack","level":"0"}],"adders":[]},
+	{"name":"Inhuman Form","uid":1285635208413,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"19","base":"19","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285635254208,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285635255098,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285635255899,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285635256780,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285635253671,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1285635252694,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Lightspeed","uid":1285635246145,"type":"Faster-Than-Light Travel","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"FTL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Electromagnetic Sense","uid":1285635783940,"type":"Detect","damage":"13-","range":"","input":"A Class Of Things","level":"0","end":"0","active":"19","base":"19","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625467360055,"type":"Range","damage":"13-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625467360056,"type":"Rapid","damage":"13-","range":"","input":"","level":"1"},{"name":"No Name Supplied","uid":1625467360057,"type":"Sense","damage":"13-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625467360058,"type":"Telescopic","damage":"13-","range":"","input":"","level":"8"}]},
+	{"name":"X-Ray Vision","uid":1285635940671,"type":"Penetrative","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"15","base":"15","XMLID":"PENETRATIVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"IR Vision","uid":1285636003520,"type":"Infrared Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"INFRAREDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"UV Vision","uid":1285636031937,"type":"Ultraviolet Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"ULTRAVIOLETPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Radar Sense","uid":1285636058961,"type":"Radar","damage":"","range":"","input":"","level":"0","end":"0","active":"15","base":"15","XMLID":"RADAR","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Radio Sensing","uid":1285636086522,"type":"High Range Radio Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"HRRP","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Microwaves or UV Waves","uid":1285633156976,"gameEdition":6,"tool":"3d6, Killing Ranged (vs. ED) 450m, 9 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Lasers","uid":1285633332619,"gameEdition":6,"tool":"3½d6, Killing Ranged (vs. ED) 550m, 7 end.","diceMod":0,"dice":3,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Visible Light Burst","uid":1285633364597,"gameEdition":6,"tool":"13d6, Flash (vs. Sight Group) 650m, 3 end.","diceMod":0,"dice":13,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Large Visible Light Burst","uid":1285633418591,"gameEdition":6,"tool":"10d6, Flash (vs. Sight Group) 500m, 9 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Electrical Transmission","uid":1285633517775,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 8 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"EM Power Manipulation","uid":1285633600336,"gameEdition":6,"tool":"15d6, Dispel (vs. EM Spectrum-Based Powers) 450m, 9 end.","diceMod":0,"dice":15,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Photon Absorbtion","uid":1285633754725,"gameEdition":6,"tool":"16m radius, Darkness (vs. Sight Group) 800m, 8 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Radio Interference","uid":1285633805760,"gameEdition":6,"tool":"30m radius, Darkness (vs. Radio Group) 900m, 9 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"EM Pulse","uid":1285634039417,"gameEdition":6,"tool":"12d6, Dispel (vs. Electricity Powers) , 21 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

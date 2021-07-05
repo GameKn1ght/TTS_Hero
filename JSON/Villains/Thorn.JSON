@@ -1,0 +1,238 @@
+{
+"appversion":"20201025",
+"exportid":"20210704234353",
+"name":"Thorn",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"HTH Damage 2d6/5d6  END [½]"},
+"dex":{"value":10,"roll":"11-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"con":{"value":10,"roll":"11-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":15,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 2d6 / 4d6"},
+"spd":{"value":2,"roll":"9-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 6, 12/3, 5, 8, 10, 12"},
+"ocv":{"value":3,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":3,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":2,"roll":"9-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":21,"roll":"13-","mod":0},"notes":"2/21 PD (0/6 rPD)"},
+"pdr":{"value":0,"roll":"9-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":6,"roll":"13-","mod":0},"notes":"2/21 PD (0/6 rPD)"},
+"ed":{"value":2,"roll":"9-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":"2/16 ED (0/6 rED)"},
+"edr":{"value":2,"roll":"9-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":"2/16 ED (0/6 rED)"},
+"per":{"value":15,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":4,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"end":{"value":20,"roll":"13-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"stun":{"value":20,"roll":"13-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":60,"roll":"21-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"tunnel":{"current":"primary","combat":"6m","noncombat":"12m","primary":{"combat":{"description":"6m","value":6},"noncombat":{"description":"12m","value":12}},"secondary":{"combat":{"description":"6m","value":6},"noncombat":{"description":"12m","value":12}},"icon":"ui_tunnel","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284577876311,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Plant Attacks Multipower","optionID":"BROAD","text":"+2 with Plant Attacks Multipower"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1284578636013,"type":"Computer Programming","input":"","level":"0","active":"1","base":"1","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 8-"},
+	{"name":"AK (Millennium City University) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284578641610,"type":"Knowledge Skill","input":"Millennium City University","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Millennium City University 11-"},
+	{"name":"KS (The Academic World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284578656011,"type":"KS","input":"The Academic World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Academic World 11-"},
+	{"name":"KS (Roses) ","stat":"GENERAL","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1284578668165,"type":"KS","input":"Roses","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Roses 8-"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1284578677560,"type":"KS","input":"The Superhuman World","level":"0","active":"1","base":"1","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 8-"},
+	{"name":"SS (Biology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1284578691593,"type":"Science Skill","input":"Biology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Biology 12-"},
+	{"name":"SS ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284578701316,"type":"Science Skill","input":"","level":"3","active":"6","base":"6","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS 15-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"11- (13-)","uid":1284578714374,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 11- (13-)"},
+	{"name":"Tracking ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1284578717300,"type":"Tracking","input":"","level":"0","active":"3","base":"3","XMLID":"TRACKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tracking 12-"}],
+"talents":[
+	{"name":"Environmental Movement ","roll":"","uid":1284577845682,"type":"Environmental Movement","input":"no penalties on undergrowth","level":"0","active":"4","base":"4","XMLID":"ENVIRONMENTAL_MOVEMENT","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Accidental Change","roll":"","uid":1284651602408,"type":"Accidental Change","input":"when he experiences significant stress or becomes Enraged","level":"0","active":"10","base":"10","XMLID":"ACCIDENTALCHANGE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284651608844,"type":"Chance To Change","input":"Frequently (11-)","level":"0"},{"name":"No Name Supplied","uid":1284651608850,"type":"Circumstances","input":"Uncommon","level":"0"}]},
+	{"name":"Enraged","roll":"","uid":1284651628715,"type":"Enraged","input":"when sees trees and plants being harmed or destroyed","level":"0","active":"20","base":"20","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284651635404,"type":"Circumstance is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1284651635410,"type":"Chance To Become Enraged","input":"go 14-","level":"0"},{"name":"No Name Supplied","uid":1284651635417,"type":"Chance To Recover","input":"recover 11-","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284651655422,"type":"Hunted","input":"PRIMUS","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284651662400,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284651662406,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284651662412,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284651671451,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"},{"name":"No Name Supplied","uid":1284651676033,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284651683565,"type":"Hunted","input":"Teleios","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284651685851,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284651685857,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284651685863,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284651685864,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"},{"name":"No Name Supplied","uid":1284651685865,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1284652878633,"type":"Physical Complication","input":"Desensitized Touch (-2 to all DEX Rolls when in Thorn form)","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284652886272,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284652886279,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284652923803,"type":"Psychological Complication","input":"Hatred Of Human And Animal Life","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284652931629,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284652931635,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284652946775,"type":"Psychological Complication","input":"Proud; Can't Stand To be Outdone Or Humiliated","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284652954750,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284652954756,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1284652996870,"type":"Social Complication","input":"Public Identity (Dr. Lawrence Lloyd)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284653005039,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284653005045,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1284653019595,"type":"Vulnerability","input":"from Herbicides","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1284653028017,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284653027985,"type":"The Attack Is","input":"Uncommon","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1284653054845,"type":"Vulnerability","input":"from Herbicides","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1284653055909,"type":"Vulnerability Multiplier","input":"2x BODY","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284653055900,"type":"The Attack Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284577876311,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"No Name Supplied","uid":1284576389399,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284576415477,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576384445,"type":"STR","damage":"","range":"","input":"","level":"15","end":"1","active":"15","base":"15","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576409320,"type":"DEX","damage":"","range":"","input":"","level":"10","end":"","active":"20","base":"20","XMLID":"DEX","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576420339,"type":"CON","damage":"","range":"","input":"","level":"13","end":"","active":"13","base":"13","XMLID":"CON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576431069,"type":"PRE","damage":"","range":"","input":"","level":"10","end":"","active":"10","base":"10","XMLID":"PRE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576446670,"type":"OCV","damage":"","range":"","input":"","level":"4","end":"","active":"20","base":"20","XMLID":"OCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576455233,"type":"DCV","damage":"","range":"","input":"","level":"4","end":"","active":"20","base":"20","XMLID":"DCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576465276,"type":"OMCV","damage":"","range":"","input":"","level":"3","end":"","active":"9","base":"9","XMLID":"OMCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576474808,"type":"DMCV","damage":"","range":"","input":"","level":"3","end":"","active":"9","base":"9","XMLID":"DMCV","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576490504,"type":"SPD","damage":"","range":"","input":"","level":"3","end":"","active":"30","base":"30","XMLID":"SPD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576511381,"type":"PD","damage":"","range":"","input":"","level":"13","end":"","active":"13","base":"13","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576525670,"type":"ED","damage":"","range":"","input":"","level":"8","end":"","active":"8","base":"8","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576541902,"type":"REC","damage":"","range":"","input":"","level":"16","end":"","active":"16","base":"16","XMLID":"REC","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576552441,"type":"END","damage":"","range":"","input":"","level":"25","end":"","active":"5","base":"5","XMLID":"END","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576569424,"type":"BODY","damage":"","range":"","input":"","level":"5","end":"","active":"5","base":"5","XMLID":"BODY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1284576579419,"type":"STUN","damage":"","range":"","input":"","level":"40","end":"","active":"20","base":"20","XMLID":"STUN","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Plant Attacks","uid":1284576707183,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"75","base":"75","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Thorn Spray","uid":1284576698408,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"PD","level":"2","end":"4","active":"45","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284576756215,"type":"+1 Increased STUN Multiplier","damage":"2d6","range":"300m","input":"","level":"1"},{"value":"+¼","name":"","uid":1284576759318,"type":"Armor Piercing","damage":"2d6","range":"300m","input":"","level":"1"}],"adders":[]},
+	{"name":"Choking Spores","uid":1284576999185,"type":"Blast","damage":"6d6","range":"var.","input":"PD","level":"6","end":"6","active":"60","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1284577060073,"type":"Attack Versus Alternate Defense","damage":"6d6","range":"var.","input":"defense is Life Support [Self-Contained Breathing]Very Common -> Rare","level":"0"},{"value":"-¼","name":"","uid":1284577070015,"type":"Limited Range","damage":"6d6","range":"var.","input":"","level":"0"}],"adders":[]},
+	{"name":"Controlling Spores","uid":1284577183205,"type":"Mind Control","damage":"12d6","range":"LOS","input":"Human","level":"12","end":"7","active":"75","base":"60","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284577242154,"type":"Alternate Combat Value","damage":"12d6","range":"LOS","input":"uses OCV against DMCV","level":"0"},{"value":"-¼","name":"","uid":1284577274665,"type":"Limited Power","damage":"12d6","range":"LOS","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-¼","name":"","uid":1284577312546,"type":"Limited Power","damage":"12d6","range":"LOS","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Tangling Growth","uid":1284577344989,"type":"Entangle","damage":"6d6, 6 PD/6 ED","range":"600m","input":"","level":"6","end":"6","active":"60","base":"60","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284577409673,"type":"Focus","damage":"6d6, 6 PD/6 ED","range":"600m","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Strength Of The Trees","uid":1284577389348,"type":"STR","damage":"","range":"","input":"","level":"35","end":"9","active":"35","base":"35","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284577452921,"type":"Increased Endurance Cost","damage":"","range":"","input":"x3 END","level":"0"}],"adders":[]},
+	{"name":"Control Plants","uid":1284577431481,"type":"Mind Control","damage":"12d6","range":"LOS","input":"Plant","level":"12","end":"6","active":"60","base":"60","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"12d6","range":"LOS","input":"","level":"0"}],"adders":[]},
+	{"name":"Quicken Plants","uid":1284577473764,"type":"Summon","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"monsterous plants (see HSB 186-192)","level":"300","end":"8","active":"175","base":"70","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284577569316,"type":"Expanded Class of Beings","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"Very Limited Group","level":"0"},{"value":"+1","name":"","uid":1284577577817,"type":"Amicable","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"Slavishly Devoted","level":"0"},{"value":"+¼","name":"","uid":1284577584997,"type":"Reduced Endurance","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1284577595801,"type":"Focus","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1284577610195,"type":"Extra Time","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"Full Phase","level":"0"},{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284577533713,"type":"x4 Number Of Beings","damage":"300-point monsterous plants (see HSB 186-192)","range":"","input":"","level":"2"}]},
+	{"name":"Bark-Like Skin","uid":1284577583837,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284577649164,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Burrowing","uid":1284577694070,"type":"Tunneling","damage":"6m through 3 PD material","range":"","input":"","level":"6","end":"2","active":"12","base":"12","XMLID":"TUNNELING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284577768666,"type":"Increased Endurance Cost","damage":"6m through 3 PD material","range":"","input":"x2 END","level":"0"},{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"6m through 3 PD material","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284577750939,"type":"+2 PD","damage":"6m through 3 PD material","range":"","input":"","level":"2"}]},
+	{"name":"Heightened Senses","uid":1284577748755,"type":"Infrared Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"INFRAREDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Tendrils And Vines","uid":1284577774470,"type":"Extra Limbs","damage":"","range":"","input":"","level":"12","end":"1","active":"5","base":"5","XMLID":"EXTRALIMBS","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284577846477,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"},{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Rapid Growth","uid":1284577824069,"type":"Stretching","damage":"6m","range":"","input":"","level":"6","end":"1","active":"6","base":"6","XMLID":"STRETCHING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284576722323,"type":"Only In Alternate Identity","damage":"6m","range":"","input":"","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"No Name Supplied","uid":1284576384445,"gameEdition":6,"tool":"STR , 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Thorn Spray","uid":1284576698408,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. PD) 300m, 4 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":1},
+	{"name":"Choking Spores","uid":1284576999185,"gameEdition":6,"tool":"6d6, Blast (vs. PD) var., 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Controlling Spores","uid":1284577183205,"gameEdition":6,"tool":"12d6, Mind Control (vs. Human) LOS, 7 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Tangling Growth","uid":1284577344989,"gameEdition":6,"tool":"6d6, 6 PD/6 ED, Entangle 600m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Strength Of The Trees","uid":1284577389348,"gameEdition":6,"tool":"STR , 9 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Control Plants","uid":1284577431481,"gameEdition":6,"tool":"12d6, Mind Control (vs. Plant) LOS, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

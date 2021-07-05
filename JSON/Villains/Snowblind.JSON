@@ -1,0 +1,212 @@
+{
+"appversion":"20201025",
+"exportid":"20210704234927",
+"name":"Snowblind",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":12,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"5/23 PD (0/18 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":18,"roll":"14-","mod":0},"notes":"5/23 PD (0/18 rPD)"},
+"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"6/18 ED (0/12 rED)"},
+"edr":{"value":6,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"6/18 ED (0/12 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"42m","noncombat":"84m","primary":{"combat":{"description":"42m","value":42},"noncombat":{"description":"84m","value":84}},"secondary":{"combat":{"description":"42m","value":42},"noncombat":{"description":"84m","value":84}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1285524681569,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Ice Powers multipower","optionID":"BROAD","text":"+2 with Ice Powers multipower"},
+	{"name":"CK (Millenium City) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1285524716249,"type":"Knowledge Skill","input":"Millenium City","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Millenium City 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1285524734418,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1285524735642,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 12-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1285524875285,"type":"Hunted","input":"PRIMUS","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285524921827,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1285524921833,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1285524921839,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1285524941746,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1285525461467,"type":"Hunted","input":"the Champions","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285525463162,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1285525463168,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1285525463175,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1285525463176,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1285526038339,"type":"Psychological Complication","input":"Pyrophobia","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285526087774,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1285526087781,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1285526055203,"type":"Psychological Complication","input":"Cold-Heartedly Greedy","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285526104824,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1285526104830,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1285526077851,"type":"Social Complication","input":"Secret ID (Kathryn Snowdon)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285526127705,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1285526127711,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1285526111044,"type":"Vulnerability","input":"Heat/Fire","level":"0","active":"20","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1285526167144,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285526161171,"type":"The Attack Is","input":"Common","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1285526184221,"type":"Vulnerability","input":"Heat/Fire","level":"0","active":"20","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1285526186430,"type":"Vulnerability Multiplier","input":"2x BODY","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285526186421,"type":"The Attack Is","input":"Common","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1285524681569,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Ice Powers","uid":1285523273325,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Ice Blast I","uid":1285523291582,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"6","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Ice Blast II","uid":1285523349447,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285523773566,"type":"Invisible Power Effects","damage":"8d6","range":"400m","input":"Obvious Power, Invisible to [one Sense Group]","level":"0"}],"adders":[]},
+	{"name":"Ice Blast III","uid":1285523426633,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285523767711,"type":"Area Of Effect","damage":"8d6","range":"400m","input":"Radius","level":"1"}],"adders":[]},
+	{"name":"Chilled to the Bone","uid":1285523515739,"type":"Blast","damage":"6d6","range":"300m","input":"ED","level":"6","end":"6","active":"60","base":"30","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1285523756561,"type":"Attack Versus Alternate Defense","damage":"6d6","range":"300m","input":"Life Support [Safe Environment: Intense Cold]Very Common -> Rare","level":"0"}],"adders":[]},
+	{"name":"Ice Bonds","uid":1285523658846,"type":"Entangle","damage":"6d6, 6 PD/6 ED","range":"600m","input":"","level":"6","end":"6","active":"60","base":"60","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1285523717671,"type":"Vulnerable","damage":"6d6, 6 PD/6 ED","range":"600m","input":"Very Common","level":"0"}],"adders":[]},
+	{"name":"Ice Sheet","uid":1285523760121,"type":"Change Environment","damage":"","range":"120m","input":"","level":"0","end":"3","active":"33","base":"12","XMLID":"CHANGEENVIRONMENT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1½","name":"","uid":1285523983688,"type":"Area Of Effect","damage":"","range":"120m","input":"Surface","level":"64"},{"value":"+¼","name":"","uid":1285523983690,"type":"Personal Immunity","damage":"","range":"120m","input":"","level":"0"},{"value":"-0","name":"","uid":1285523983703,"type":"Limited Power","damage":"","range":"120m","input":"Power loses less than a fourth of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285523983671,"type":"-4 to Characteristic Roll or Skill Roll","damage":"","range":"120m","input":"","level":"4"}]},
+	{"name":"Here's Ice In Your Eye","uid":1285523975453,"type":"Flash","damage":"12d6","range":"600m","input":"Sight Group","level":"12","end":"6","active":"60","base":"60","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285524073050,"type":"Victim Can Cancel Effect By Taking One Full Phase ","damage":"12d6","range":"600m","input":"","level":"0"},{"value":"-¼","name":"","uid":1285524083057,"type":"Does Not Work Against Desolidified Characters","damage":"12d6","range":"600m","input":"","level":"0"}],"adders":[]},
+	{"name":"Ice Armor","uid":1285524150199,"type":"Resistant Protection","damage":"","range":"","input":"","level":"30","end":"0","active":"45","base":"45","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Ice Wall","uid":1285524200745,"type":"Barrier","damage":"","range":"550m","input":"","level":"20","end":"5","active":"55","base":"55","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1285524344040,"type":"Vulnerable","damage":"","range":"550m","input":"","level":"0"}],"adders":[]},
+	{"name":"Ice Slides","uid":1285524432012,"type":"Running","damage":"","range":"","input":"","level":"30","end":"4","active":"37","base":"30","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285524639895,"type":"Usable [As Second Mode Of Movement]","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1285524639896,"type":"Physical Manifestation","damage":"","range":"","input":"","level":"0"},{"value":"-0","name":"","uid":1285524639911,"type":"Side Effects","damage":"","range":"","input":"Minor Side Effect","level":"0"}],"adders":[]},
+	{"name":"Doesn't Feel the Cold","uid":1285524567904,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"2","base":"2","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285524626688,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Radar Sense","uid":1285524619703,"type":"Radar","damage":"","range":"","input":"","level":"0","end":"0","active":"27","base":"27","XMLID":"RADAR","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625467358193,"type":"Discriminatory","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625467358194,"type":"Increased Arc Of Perception (360 Degrees)","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625467358195,"type":"Telescopic","damage":"","range":"","input":"","level":"4"}]},
+	{"name":"Blind","uid":1285525697500,"type":"Custom Power","damage":"","range":"","input":"","level":"-35","end":"0","active":"-35","base":"-70","XMLID":"CUSTOMPOWER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1285525778522,"type":"Sensory Power","damage":"","range":"","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Ice Blast I","uid":1285523291582,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ice Blast II","uid":1285523349447,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ice Blast III","uid":1285523426633,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Chilled to the Bone","uid":1285523515739,"gameEdition":6,"tool":"6d6, Blast (vs. ED) 300m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ice Bonds","uid":1285523658846,"gameEdition":6,"tool":"6d6, 6 PD/6 ED, Entangle 600m, 6 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ice Sheet","uid":1285523760121,"gameEdition":6,"tool":"Change Environment 120m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Here's Ice In Your Eye","uid":1285523975453,"gameEdition":6,"tool":"12d6, Flash (vs. Sight Group) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

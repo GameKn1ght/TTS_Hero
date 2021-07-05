@@ -1,0 +1,199 @@
+{
+"appversion":"20201025",
+"exportid":"20210704234313",
+"name":"Timelapse",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":20,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":8,"roll":"11-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"Phases: 2, 3, 5, 6, 8, 9, 11, 12"},
+"ocv":{"value":7,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":7,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":6,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":17,"roll":"12-","mod":0},"notes":"5/17 PD (0/12 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"12-","mod":0},"notes":"5/17 PD (0/12 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":17,"roll":"12-","mod":0},"notes":"5/17 ED (0/12 rED)"},
+"edr":{"value":5,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":17,"roll":"12-","mod":0},"notes":"5/17 ED (0/12 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":6,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284670390332,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"5","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with with Age Manipulation Multipower","optionID":"TIGHT","text":"+5 with with Age Manipulation Multipower"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284670411370,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 13-"},
+	{"name":"KS (History) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"18-","uid":1284670414808,"type":"KS","input":"History","level":"5","active":"8","base":"8","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: History 18-"},
+	{"name":"SS (Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284670428217,"type":"Science Skill","input":"Physics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Physics 13-"},
+	{"name":"SS (Temporal Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284670436413,"type":"Science Skill","input":"Temporal Physics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Temporal Physics 13-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284670448079,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"}],
+"talents":[
+	{"name":"Absolute Time Sense ","roll":"","uid":1284670378586,"type":"Absolute Time Sense","input":"","level":"0","active":"3","base":"3","XMLID":"ABSOLUTE_TIME_SENSE","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1284670476769,"type":"Distinctive Features","input":"discomfiting ＂aura＂","level":"0","active":"15","base":"15","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284670505652,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1284670505658,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1284670505664,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284670566964,"type":"Hunted","input":"the Time Elemental Entropus","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284670596091,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284670596097,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284670596103,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284670608108,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284670596758,"type":"Hunted","input":"Captain Chronos","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284670626080,"type":"Appearance","input":"Very Frequently","level":"0"},{"name":"No Name Supplied","uid":1284670626086,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1284670626092,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284670676744,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284670677725,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284670677731,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284670677737,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284670685831,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284670671872,"type":"Psychological Complication","input":"Greedy; Wants To Alter The Course Of History For His Own Gain","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284670701807,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284670701813,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284670390332,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"5","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Age Manipulation","uid":1284669989707,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"210","base":"210","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Restore Youth/Inflict Aging","uid":1284669992706,"type":"Transform","damage":"8d6","range":"var.","input":"person into younger or older version of himselfMajor","level":"8","end":"0","active":"140","base":"80","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284670135189,"type":"Improved Results Group","damage":"8d6","range":"var.","input":"","level":"0"},{"value":"+½","name":"","uid":1284670135194,"type":"Reduced Endurance","damage":"8d6","range":"var.","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1284670135196,"type":"All Or Nothing","damage":"8d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1284670135197,"type":"Limited Range","damage":"8d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1284670135203,"type":"Limited Target","damage":"8d6","range":"var.","input":"([Slightly Limited]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284670135188,"type":"Healed back by","damage":"8d6","range":"var.","input":"","level":"0"}]},
+	{"name":"Aging To Destruction","uid":1284670124783,"type":"Killing Ranged","damage":"4d6","range":"600m","input":"PD","level":"4","end":"0","active":"210","base":"60","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1284670169058,"type":"Attack Versus Alternate Defense","damage":"4d6","range":"600m","input":"defense is Life Support [Longevity]Very Common -> Rare","level":"0"},{"value":"+1","name":"","uid":1284670187332,"type":"Does BODY","damage":"4d6","range":"600m","input":"","level":"0"},{"value":"+½","name":"","uid":1284670192100,"type":"Reduced Endurance","damage":"4d6","range":"600m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1284670200579,"type":"No Knockback","damage":"4d6","range":"600m","input":"","level":"0"}],"adders":[]},
+	{"name":"Time Shift Field","uid":1284670314266,"type":"Resistant Protection","damage":"","range":"","input":"","level":"24","end":"0","active":"45","base":"36","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284670354289,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Time Travel","uid":1284670343276,"type":"Extra-Dimensional Movement","damage":"","range":"","input":"Any Point in Time within 50 Billion Years, future or past, Any Physical Location","level":"0","end":"8","active":"77","base":"77","XMLID":"EXTRADIMENSIONALMOVEMENT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Restore Youth/Inflict Aging","uid":1284669992706,"gameEdition":6,"tool":"8d6, Transform (vs. person into younger or older version of himself,Major) var., 0 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Aging To Destruction","uid":1284670124783,"gameEdition":6,"tool":"4d6, Killing Ranged (vs. PD) 600m, 0 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+{
+"appversion":"20201025",
+"exportid":"20210704234736",
+"name":"Sunspot",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":23,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"con":{"value":23,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":15,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":20,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 4d6"},
+"spd":{"value":6,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":8,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":8,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"8/20 PD (0/12 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"13-","mod":0},"notes":"8/20 PD (0/12 rPD)"},
+"ed":{"value":12,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"12/30 ED (0/18 rED)"},
+"edr":{"value":12,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"12/30 ED (0/18 rED)"},
+"per":{"value":15,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":16,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":16,"roll":"12-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":""},
+"end":{"value":45,"roll":"18-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":45,"roll":"18-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1286156509937,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Fires of the Sun Multipower","optionID":"BROAD","text":"+3 with Fires of the Sun Multipower"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156600985,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 12-"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156608265,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 12-"},
+	{"name":"Electronics ","stat":"INT","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1286156633145,"type":"Electronics","input":"","level":"0","active":"1","base":"1","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 8-"},
+	{"name":"KS (History of Manned Spaceflight) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1286156668706,"type":"KS","input":"History of Manned Spaceflight","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: History of Manned Spaceflight 11-"},
+	{"name":"KS (NASA) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1286156687322,"type":"KS","input":"NASA","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: NASA 11-"},
+	{"name":"Language (Arabic (Modern)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1286156725635,"type":"Language","input":"Arabic (Modern)fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Arabic (Modern) (fluent conversation)"},
+	{"name":"Systems Operation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156757316,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation 12-"},
+	{"name":"TF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1286156796078,"type":"Transport Familiarity","input":"","level":"0","active":"1","base":"1","XMLID":"TRANSPORT_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"SCIFI","name":"","uid":1286156822777,"cost":"1","type":"Science Fiction & Space Vehicles","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"TF: Space Shuttle"},
+	{"name":"Science Skill (Astronomy) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156836709,"type":"Science Skill","input":"Astronomy","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Astronomy 12- (3 Active Points)"},
+	{"name":"Science Skill (Astrophysics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156874862,"type":"Science Skill","input":"Astrophysics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Astrophysics 12- (3 Active Points)"},
+	{"name":"Science Skill (Heliology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156887118,"type":"Science Skill","input":"Heliology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Heliology 12- (3 Active Points)"},
+	{"name":"Science Skill (Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1286156918279,"type":"Science Skill","input":"Physics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Physics 12- (3 Active Points)"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1286157504875,"type":"Hunted","input":"NASA","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1286157519887,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1286157519893,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1286157519900,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1286157535631,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1286157536416,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1286157550815,"type":"Hunted","input":"UNTIL","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1286157552894,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1286157552900,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1286157552906,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1286157552907,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1286157552908,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1286157556740,"type":"Psychological Complication","input":"Considers Humans An �Infestation� Of Earth","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1286157572559,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1286157572565,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1286157571796,"type":"Social Complication","input":"Public Identity (Hamdah ＂Ham＂ Sabeti)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1286157587899,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1286157587905,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1286157616125,"type":"Vulnerability","input":"Darkness","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1286157632567,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1286157632538,"type":"The Attack Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1286156509937,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Solar-Powered","uid":1286155395434,"type":"Endurance Reserve","damage":"","range":"","input":"","level":"200","end":"0","active":"70","base":"50","XMLID":"ENDURANCERESERVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Fires of the Sun","uid":1286155603184,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"80","base":"80","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Standard Sunfire","uid":1286155617638,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"8","active":"80","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Easy Sunfire","uid":1286155646286,"type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"0","active":"75","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1286155682956,"type":"Reduced Endurance","damage":"10d6","range":"500m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Focused Sunfire","uid":1286155748072,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"7","active":"75","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1286155773635,"type":"Armor Piercing","damage":"12d6","range":"600m","input":"","level":"1"}],"adders":[]},
+	{"name":"Ball of Sunfire","uid":1286155788393,"type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"7","active":"75","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1286155881929,"type":"Area Of Effect","damage":"10d6","range":"500m","input":"Radius","level":"22"}],"adders":[]},
+	{"name":"Sunfire Storm","uid":1286155894091,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"7","active":"75","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1286155920566,"type":"Area Of Effect","damage":"12d6","range":"600m","input":"Radius","level":"1"}],"adders":[]},
+	{"name":"Sunfire Flarebolt","uid":1286155929972,"type":"Flash","damage":"16d6","range":"800m","input":"Sight Group","level":"16","end":"8","active":"80","base":"80","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sunfire Flare","uid":1286155974557,"type":"Flash","damage":"10d6","range":"500m","input":"Sight Group","level":"10","end":"7","active":"75","base":"50","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1286156003043,"type":"Area Of Effect","damage":"10d6","range":"500m","input":"Radius","level":"22"}],"adders":[]},
+	{"name":"Sunfire Shield","uid":1286156104680,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"0","active":"60","base":"60","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1286156154380,"type":"Costs Half Endurance","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Body Tempered In Sunfire","uid":1286156187051,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"35","base":"35","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1286156213018,"type":"Eating","damage":"","range":"","input":"Character does not eat","level":"0"},{"name":"No Name Supplied","uid":1286156234863,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1286156227885,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1286156222370,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156221457,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156223267,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156223812,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156220992,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156211945,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1286156216725,"type":"Sleeping","damage":"","range":"","input":"Character does not sleep","level":"0"}]},
+	{"name":"Eyes Tempered In Sunfire","uid":1286157132582,"type":"Flash Defense","damage":"(15 points)","range":"","input":"Sight Group","level":"15","end":"0","active":"15","base":"15","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Sunfire Flight","uid":1286156308423,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"40","base":"40","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Standard Sunfire Flight","uid":1286156318859,"type":"Flight","damage":"40m","range":"","input":"","level":"40","end":"4","active":"40","base":"40","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sunfire Spaceflight","uid":1286156364572,"type":"Faster-Than-Light Travel","damage":"","range":"","input":"","level":"0","end":"1","active":"10","base":"10","XMLID":"FTL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1286156406664,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"}],"adders":[]},
+	{"name":"Eyes Tempered In Sunfire","uid":1286156460934,"type":"Ultraviolet Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"ULTRAVIOLETPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Standard Sunfire","uid":1286155617638,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 8 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Easy Sunfire","uid":1286155646286,"gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 0 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Focused Sunfire","uid":1286155748072,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 7 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ball of Sunfire","uid":1286155788393,"gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 7 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sunfire Storm","uid":1286155894091,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 7 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sunfire Flarebolt","uid":1286155929972,"gameEdition":6,"tool":"16d6, Flash (vs. Sight Group) 800m, 8 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sunfire Flare","uid":1286155974557,"gameEdition":6,"tool":"10d6, Flash (vs. Sight Group) 500m, 7 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

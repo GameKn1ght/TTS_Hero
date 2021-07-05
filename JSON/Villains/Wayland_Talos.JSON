@@ -1,0 +1,223 @@
+{
+"appversion":"20201025",
+"exportid":"20210704235159",
+"name":"Wayland Talos",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":12,"roll":"11-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"con":{"value":15,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"int":{"value":25,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PER Roll 14-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":20,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 4d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":3,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":3,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":"4/7 PD (0/3 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"4/7 PD (0/3 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"5/8 ED (0/3 rED)"},
+"edr":{"value":5,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"5/8 ED (0/3 rED)"},
+"per":{"value":25,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":26,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"14-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 14-"},
+	{"name":"Bugging ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144609718,"type":"Bugging","input":"","level":"0","active":"3","base":"3","XMLID":"BUGGING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bugging 14-"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144612132,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 14-"},
+	{"name":"Cramming ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284144617146,"type":"Cramming","input":"","level":"0","active":"5","base":"5","XMLID":"CRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cramming "},
+	{"name":"Cryptography ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144620104,"type":"Cryptography","input":"","level":"0","active":"3","base":"3","XMLID":"CRYPTOGRAPHY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cryptography 14-"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144622567,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 14-"},
+	{"name":"Demolitions ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144625862,"type":"Demolitions","input":"","level":"0","active":"3","base":"3","XMLID":"DEMOLITIONS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Demolitions 14-"},
+	{"name":"Electronics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144628148,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 14-"},
+	{"name":"Forgery ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144631227,"type":"Forgery","input":"","level":"0","active":"6","base":"6","XMLID":"FORGERY","modifiers":[],"adders":[{"XMLID":"DOCUMENTS","name":"","uid":1284144772506,"cost":"2","type":"Documents","input":"","level":"0"},{"XMLID":"MONEY","name":"","uid":1284144773299,"cost":"2","type":"Money (Counterfeiting)","input":"","level":"0"},{"XMLID":"COMMERCIALGOODS","name":"","uid":1284144774483,"cost":"2","type":"Commercial Goods","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Forgery (Commercial Goods, Documents, Money (Counterfeiting)) 14-"},
+	{"name":"High Society ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284144642350,"type":"High Society","input":"","level":"0","active":"3","base":"3","XMLID":"HIGH_SOCIETY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"High Society 13-"},
+	{"name":"Inventor ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144644828,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Inventor 14-"},
+	{"name":"KS (The Superhuman World) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144647171,"type":"KS","input":"The Superhuman World","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 14-"},
+	{"name":"Lockpicking ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284144665210,"type":"Lockpicking","input":"","level":"0","active":"3","base":"3","XMLID":"LOCKPICKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Lockpicking 11-"},
+	{"name":"Mechanics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144671559,"type":"Mechanics","input":"","level":"0","active":"3","base":"3","XMLID":"MECHANICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Mechanics 14-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284144676652,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 13-"},
+	{"name":"Power: Gadgeteering ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"20-","uid":1284144678195,"type":"Power","input":"","level":"6","active":"15","base":"15","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power: Gadgeteering 20-"},
+	{"name":"Security Systems ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144696227,"type":"Security Systems","input":"","level":"0","active":"3","base":"3","XMLID":"SECURITY_SYSTEMS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Security Systems 14-"},
+	{"name":"Systems Operation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144700225,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation 14-"},
+	{"name":"Weaponsmith ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144706581,"type":"Weaponsmith","input":"","level":"0","active":"9","base":"9","XMLID":"WEAPONSMITH","modifiers":[],"adders":[{"XMLID":"MUSCLEPOWEREDHTH","name":"","uid":1284144862721,"cost":"2","type":"Muscle-Powered HTH","input":"","level":"0"},{"XMLID":"FIREARMS","name":"","uid":1284144863234,"cost":"2","type":"Firearms","input":"","level":"0"},{"XMLID":"MUSCLEPOWEREDRANGED","name":"","uid":1284144864474,"cost":"2","type":"Muscle-Powered Ranged","input":"","level":"0"},{"XMLID":"MISSILES","name":"","uid":1284144865299,"cost":"2","type":"Missiles & Rockets","input":"","level":"0"},{"XMLID":"CHEMICAL","name":"","uid":1284144865764,"cost":"2","type":"Chemical Weapons","input":"","level":"0"},{"XMLID":"BIOLOGICAL","name":"","uid":1284144866180,"cost":"2","type":"Biological Weapons","input":"","level":"0"},{"XMLID":"ENERGY","name":"","uid":1284144866653,"cost":"2","type":"Energy Weapons","input":"","level":"0"},{"XMLID":"INCENDIARY","name":"","uid":1284144868029,"cost":"2","type":"Incendiary Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Weaponsmith (Biological Weapons, Chemical Weapons, Energy Weapons, Firearms, Incendiary Weapons, Missiles & Rockets, Muscle-Powered HTH, Muscle-Powered Ranged) 14-"},
+	{"name":"SS (Biology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144756668,"type":"Science Skill","input":"Biology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Biology 14-"},
+	{"name":"SS (Chemistry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144769310,"type":"Science Skill","input":"Chemistry","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Chemistry 14-"},
+	{"name":"SS (Electronic Engineering) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144777250,"type":"Science Skill","input":"Electronic Engineering","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Electronic Engineering 14-"},
+	{"name":"SS (Mathematics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144787029,"type":"Science Skill","input":"Mathematics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Mathematics 14-"},
+	{"name":"SS (Metallurgy) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144802477,"type":"Science Skill","input":"Metallurgy","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Metallurgy 14-"},
+	{"name":"SS (Pharmacology/Toxicology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144814511,"type":"Science Skill","input":"Pharmacology/Toxicology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Pharmacology/Toxicology 14-"},
+	{"name":"SS (Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1284144830471,"type":"Science Skill","input":"Physics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Physics 14-"}],
+"talents":[
+	{"name":"Combat Luck ","roll":"","uid":1284144590615,"type":"Combat Luck","input":"","level":"1","active":"6","base":"6","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]},
+	{"name":"Lightning Calculator ","roll":"","uid":1284144595925,"type":"Lightning Calculator","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTNING_CALCULATOR","modifiers":[],"adders":[]},
+	{"name":"Lightsleep ","roll":"","uid":1284144598659,"type":"Lightsleep","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTSLEEP","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Custom Perk ","roll":"","uid":1284144704895,"type":"Custom Perk","input":"","level":"27","active":"27","base":"27","XMLID":"CUSTOMPERK","modifiers":[],"adders":[]},
+	{"name":"Money ","roll":"","uid":1284144711838,"type":"Money","input":"Wealthy","level":"0","active":"10","base":"10","XMLID":"MONEY","modifiers":[],"adders":[]}],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1284145445724,"type":"Hunted","input":"PRIMUS","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284145586876,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284145586882,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284145586888,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284145595799,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284145605996,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284145607215,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284145607221,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284145607227,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284145607228,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284145472878,"type":"Psychological Complication","input":"Bitter Hatred Of Superheroes","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284145614927,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284145614933,"type":"Intensity Is","input":"Total","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Gadget Pool","uid":1284144442172,"type":"Variable Power Pool","damage":"","range":"","input":"","level":"40","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284144457231,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284144442171,"type":"","damage":"","range":"","input":"","level":"40"}]},
+	{"name":"Class Ring Blaster","uid":1284145522022,"type":"Blast","damage":"8d6","range":"var.","input":"ED","level":"8","end":"[6]","active":"40","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284145683302,"type":"Limited Range","damage":"8d6","range":"var.","input":"","level":"0"},{"value":"-¾","name":"","uid":1284145691845,"type":"Charges","damage":"8d6","range":"var.","input":"6","level":"0"}],"adders":[]},
+	{"name":"Anaesthetic Gas Button","uid":1284567838692,"type":"Blast","damage":"4d6","range":"","input":"ED","level":"4","end":"[4]","active":"40","base":"20","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1284567950394,"type":"Attack Versus Alternate Defense","damage":"4d6","range":"","input":"defense is Life Support [Self-Contained Breathing]Very Common -> Rare","level":"0"},{"value":"-1","name":"","uid":1284567950460,"type":"Charges","damage":"4d6","range":"","input":"4","level":"0"},{"value":"-½","name":"","uid":1284567950462,"type":"No Range","damage":"4d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1284567950489,"type":"Focus","damage":"4d6","range":"","input":"IAF","level":"0"}],"adders":[]},
+	{"name":"Invisibility Field","uid":1284568139472,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"[12]","active":"20","base":"20","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284568170090,"type":"Charges","damage":"","range":"","input":"12","level":"0"}],"adders":[]},
+	{"name":"Protection Field","uid":1284568177205,"type":"Resistant Protection","damage":"","range":"","input":"","level":"24","end":"[12]","active":"36","base":"36","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284568208022,"type":"Charges","damage":"","range":"","input":"12","level":"0"}],"adders":[]},
+	{"name":"Bulletproof Clothing","uid":1284144358794,"type":"Resistant Protection","damage":"","range":"","input":"","level":"6","end":"0","active":"9","base":"9","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284144508157,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[]},
+	{"name":"Specs","uid":1284144397544,"type":"Nightvision","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"NIGHTVISION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284144540222,"type":"Focus","damage":"","range":"","input":"IAF","level":"0"}],"adders":[]},
+	{"name":"Specs","uid":1284144465014,"type":"Infrared Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"INFRAREDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284144600141,"type":"Focus","damage":"","range":"","input":"IAF","level":"0"}],"adders":[]},
+	{"name":"Wristwatch Comminicator","uid":1284144477879,"type":"High Range Radio Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"12","base":"12","XMLID":"HRRP","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284144666106,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-½","name":"","uid":1284144666112,"type":"Sense Affected As More Than One Sense","damage":"","range":"","input":"[very common Sense]","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Class Ring Blaster","uid":1284145522022,"gameEdition":6,"tool":"8d6, Blast (vs. ED) var., [6] end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Anaesthetic Gas Button","uid":1284567838692,"gameEdition":6,"tool":"4d6, Blast (vs. ED) , [4] end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
