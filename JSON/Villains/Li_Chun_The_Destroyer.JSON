@@ -1,0 +1,264 @@
+{
+"appversion":"20201025",
+"exportid":"20210704233603",
+"name":"Li Chun The Destroyer",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":50,"roll":"19-","shortname":"str","name":"Strength","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":"HTH Damage 10d6  END [5]"},
+"dex":{"value":30,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"con":{"value":35,"roll":"16-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":25,"roll":"14-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":40,"roll":"17-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":"PRE Attack: 8d6"},
+"spd":{"value":8,"roll":"11-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"Phases: 2, 3, 5, 6, 8, 9, 11, 12"},
+"ocv":{"value":10,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":10,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":10,"roll":"11-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"dmcv":{"value":10,"roll":"11-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"pd":{"value":30,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"30 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"15-","mod":0},"secondary":{"value":0,"roll":"15-","mod":0},"notes":"30 PD (0 rPD)"},
+"ed":{"value":30,"roll":"15-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"30 ED (0 rED)"},
+"edr":{"value":30,"roll":"15-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"30 ED (0 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":25,"roll":"14-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"body":{"value":25,"roll":"14-","shortname":"body","name":"Body","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"end":{"value":75,"roll":"24-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":75,"roll":"24-","mod":0},"secondary":{"value":75,"roll":"24-","mod":0},"notes":""},
+"stun":{"value":100,"roll":"29-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":100,"roll":"29-","mod":0},"secondary":{"value":100,"roll":"29-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"30m","noncombat":"960m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"960m","value":960}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"960m","value":960}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"teleport":{"current":"primary","combat":"50m","noncombat":"100m","primary":{"combat":{"description":"50m","value":50},"noncombat":{"description":"100m","value":100}},"secondary":{"combat":{"description":"50m","value":50},"noncombat":{"description":"100m","value":100}},"icon":"ui_teleport","notes":""},
+"leap":{"current":"primary","combat":"60m","noncombat":"120m","primary":{"combat":{"description":"60m/30m","value":60},"noncombat":{"description":"120m","value":120}},"secondary":{"combat":{"description":"60m/30m","value":60},"noncombat":{"description":"120m","value":120}},"icon":"ui_leap","notes":"60m forward, 30m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287856267993,"type":"Combat Skill Levels","input":"with All Attacks","level":"2","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with All Attacks","optionAlias":"with All Attacks","optionID":"ALL","text":"+2 with All Attacks"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287856275290,"type":"Combat Skill Levels","input":"with HTH Combat","level":"6","active":"48","base":"48","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with HTH Combat","optionAlias":"with HTH Combat","optionID":"HTH","text":"+6 with HTH Combat"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287856286853,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 15-"},
+	{"name":"Analyze (Style) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1287856290478,"type":"Analyze","input":"Style","level":"0","active":"3","base":"3","XMLID":"ANALYZE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Analyze: Style 13-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287856298650,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 15-"},
+	{"name":"High Society ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"17-","uid":1287856301947,"type":"High Society","input":"","level":"0","active":"3","base":"3","XMLID":"HIGH_SOCIETY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"High Society 17-"},
+	{"name":"Interrogation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"17-","uid":1287856304556,"type":"Interrogation","input":"","level":"0","active":"3","base":"3","XMLID":"INTERROGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Interrogation 17-"},
+	{"name":"PS (Chinese Healing) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1287856308947,"type":"Professional Skill","input":"Chinese Healing","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Chinese Healing 13-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287856321259,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 15-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287856326713,"type":"Weapon Familiarity","input":"","level":"0","active":"9","base":"9","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMELEE","name":"","uid":1287856438795,"cost":"2","type":"Common Melee Weapons","input":"","level":"0"},{"XMLID":"COMMONMARTIAL","name":"","uid":1287856443843,"cost":"2","type":"Common Martial Arts Melee Weapons","input":"","level":"0"},{"XMLID":"COMMONMISSILE","name":"","uid":1287856446875,"cost":"2","type":"Common Missile Weapons","input":"","level":"0"},{"XMLID":"UNCOMMONMARTIAL","name":"","uid":1287856453272,"cost":"3","type":"Uncommon Martial Arts Melee Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Common Martial Arts Melee Weapons, Common Melee Weapons, Common Missile Weapons, Hook Sword, Three-Section Staff, Wind and Fire Wheels"},
+	{"name":"KS (Chinese Philosphy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287856353556,"type":"KS","input":"Chinese Philosphy","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Chinese Philosphy (3 Active Points) 12-"},
+	{"name":"KS (Hsing-I) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287856368791,"type":"KS","input":"Hsing-I","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Hsing-I (3 Active Points) 12-"},
+	{"name":"KS (Kung Fu) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287856374916,"type":"KS","input":"Kung Fu","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Kung Fu (3 Active Points) 12-"},
+	{"name":"KS (Pakua) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287856381088,"type":"KS","input":"Pakua","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Pakua (3 Active Points) 12-"},
+	{"name":"KS (Tai Ch'i Ch'uan) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287856392760,"type":"KS","input":"Tai Ch'i Ch'uan","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Tai Ch'i Ch'uan (3 Active Points) 12-"}],
+"talents":[
+	{"name":"Danger Sense 18-","roll":"18-","uid":1287856222978,"type":"Danger Sense","input":"","level":"5","active":"27","base":"27","XMLID":"DANGER_SENSE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287856330578,"type":"Sensitivity","input":"out of combat","level":"0"},{"name":"No Name Supplied","uid":1287856336173,"type":"Function as a Sense","input":"","level":"0"}]},
+	{"name":"Off-Hand Defense ","roll":"","uid":1287856253946,"type":"Off-Hand Defense","input":"","level":"0","active":"2","base":"2","XMLID":"OFFHANDDEFENSE","modifiers":[],"adders":[]},
+	{"name":"Simulate Death 11-","roll":"11-","uid":1287856257743,"type":"Simulate Death","input":"","level":"0","active":"3","base":"3","XMLID":"SIMULATE_DEATH","modifiers":[],"adders":[]},
+	{"name":"Universal Translator 13-","roll":"13-","uid":1287856261118,"type":"Universal Translator","input":"","level":"0","active":"20","base":"20","XMLID":"UNIVERSAL_TRANSLATOR","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1287856601730,"type":"Distinctive Features","input":"Style","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287856732851,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1287856732857,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1287856732863,"type":"Sensing","input":"Detectable By Uncommonly-Used Senses","level":"0"}]},
+	{"name":"Distinctive Features","roll":"","uid":1287856953560,"type":"Distinctive Features","input":"radiates demonic magic","level":"0","active":"5","base":"5","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857085037,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1287857085043,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1287857085049,"type":"Sensing","input":"Detectable Only By Technology Or Major Effort","level":"0"}]},
+	{"name":"Enraged","roll":"","uid":1287856979498,"type":"Enraged","input":"if challeneged or attacked","level":"0","active":"20","base":"20","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857111391,"type":"Circumstance is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1287857111397,"type":"Chance To Become Enraged","input":"go 11-","level":"0"},{"name":"No Name Supplied","uid":1287857111403,"type":"Chance To Recover","input":"recover 11-","level":"0"}]},
+	{"name":"Enraged","roll":"","uid":1287857059202,"type":"Enraged","input":"if injured or harmed","level":"0","active":"35","base":"35","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857191451,"type":"Circumstance is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1287857191457,"type":"Chance To Become Enraged","input":"go 14-","level":"0"},{"name":"No Name Supplied","uid":1287857191463,"type":"Chance To Recover","input":"recover 8-","level":"0"},{"name":"No Name Supplied","uid":1287857192543,"type":"Berserk","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287857082436,"type":"Hunted","input":"Tiger Squad and the Chinese Government","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857215120,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1287857215126,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1287857215132,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1287857240293,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287857117733,"type":"Psychological Complication","input":"Demon-Possessed; Utterly Evil For Evil's Sake","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857250771,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1287857250777,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1287857144765,"type":"Susceptibility","input":"to human saliva","level":"0","active":"20","base":"20","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857278265,"type":"Number of Dice","input":"2d6 damage","level":"0"},{"name":"No Name Supplied","uid":1287857278278,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1287857278284,"type":"Condition Is","input":"Very Common","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1287857170593,"type":"Susceptibility","input":"to salt","level":"0","active":"30","base":"30","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287857304490,"type":"Number of Dice","input":"2d6 damage","level":"0"},{"name":"No Name Supplied","uid":1287857304503,"type":"Take Damage Every","input":"per Phase","level":"0"},{"name":"No Name Supplied","uid":1287857304509,"type":"Condition Is","input":"Very Common","level":"0"}]},
+	{"name":"Unluck: 1d6","roll":"","uid":1287857186374,"type":"Unluck: 1d6","input":"","level":"1","active":"5","base":"5","XMLID":"UNLUCK","modifiers":[],"adders":[]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1287856267993,"type":"Combat Skill Levels","input":"with All Attacks","level":"2","active":"20","base":"20","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1287856275290,"type":"Combat Skill Levels","input":"with HTH Combat","level":"6","active":"48","base":"48","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Demonic Powers","uid":1287852174342,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"75","base":"75","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Demonic Blast","uid":1287852207327,"type":"Blast","damage":"15d6","range":"750m","input":"ED","level":"15","end":"7","active":"75","base":"75","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Agony Inflict","uid":1287852261296,"type":"Mental Blast","damage":"5d6","range":"LOS","input":"","level":"5","end":"0","active":"75","base":"50","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287852313747,"type":"Reduced Endurance","damage":"5d6","range":"LOS","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Possession","uid":1287852293109,"type":"Mind Control","damage":"12d6","range":"LOS","input":"","level":"12","end":"3","active":"75","base":"60","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287852345895,"type":"Reduced Endurance","damage":"12d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Illusions","uid":1287852315343,"type":"Mental Illusions","damage":"12d6","range":"LOS","input":"","level":"12","end":"3","active":"75","base":"60","XMLID":"MENTALILLUSIONS","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287852376714,"type":"Reduced Endurance","damage":"12d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Phantasms","uid":1287852438813,"type":"Images","damage":"","range":"320m","input":"Sight Group","level":"0","end":"3","active":"72","base":"32","XMLID":"IMAGES","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+1","name":"","uid":1287852504914,"type":"Area Of Effect","damage":"","range":"320m","input":"Radius","level":"32"},{"value":"+¼","name":"","uid":1287852518660,"type":"Reduced Endurance","damage":"","range":"320m","input":"Half END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287852483901,"type":"","damage":"","range":"320m","input":"","level":"0"},{"name":"No Name Supplied","uid":1287852485046,"type":"","damage":"","range":"320m","input":"","level":"0"},{"name":"No Name Supplied","uid":1287852494111,"type":"+/-4 to PER Rolls","damage":"","range":"320m","input":"","level":"4"}]},
+	{"name":"The True Rendering","uid":1287852494876,"type":"Transform","damage":"5d6","range":"750m","input":"humans to insectsSevere","level":"5","end":"7","active":"75","base":"75","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1287852615707,"type":"Limited Target","damage":"5d6","range":"750m","input":"([Limited]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287852615701,"type":"Healed back by","damage":"5d6","range":"750m","input":"","level":"0"}]},
+	{"name":"Demon Hand","uid":1287852593048,"type":"Telekinesis","damage":"(40 STR)","range":"600m","input":"","level":"40","end":"3","active":"75","base":"60","XMLID":"TELEKINESIS","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287852658533,"type":"Reduced Endurance","damage":"(40 STR)","range":"600m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Create Storms","uid":1287853448194,"type":"Change Environment","damage":"","range":"30m","input":"","level":"0","end":"0","active":"9","base":"3","XMLID":"CHANGEENVIRONMENT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287853538946,"type":"Area Of Effect","damage":"","range":"30m","input":"Radius","level":"2"},{"value":"+1¼","name":"","uid":1287853549258,"type":"MegaScale","damage":"","range":"30m","input":"","level":"1"},{"value":"+½","name":"","uid":1287853562936,"type":"Reduced Endurance","damage":"","range":"30m","input":"0 END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287853535137,"type":"-1 PER Roll","damage":"","range":"30m","input":"Sight Group","level":"1"}]},
+	{"name":"Demonic Reselience","uid":1287853849697,"type":"PD","damage":"","range":"","input":"","level":"0","end":"","active":"15","base":"0","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287853927546,"type":"Impenetrable","damage":"","range":"","input":"","level":"1"},{"value":"+¼","name":"","uid":1287853937884,"type":"Hardened","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Demonic Resilience","uid":1287853894431,"type":"ED","damage":"","range":"","input":"","level":"0","end":"","active":"15","base":"0","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287853954819,"type":"Hardened","damage":"","range":"","input":"","level":"1"},{"value":"+¼","name":"","uid":1287853957684,"type":"Impenetrable","damage":"","range":"","input":"","level":"1"}],"adders":[]},
+	{"name":"Demonic Resilience","uid":1287854022698,"type":"Naked Advantage","damage":"","range":"","input":"30PD/3ED","level":"60","end":"0","active":"45","base":"60","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1287855640569,"type":"Resistant","damage":"","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1287855640570,"type":"Hardened","damage":"","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1287855640571,"type":"Impenetrable","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Demonic Resilience","uid":1287855611286,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 50%","level":"0","end":"0","active":"30","base":"30","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Demonic Resilience","uid":1287855624661,"type":"Damage Reduction","damage":"0d6","range":"","input":"PhysicalDamage Reduction, Resistant, 50%","level":"0","end":"0","active":"30","base":"30","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Iron Tower Of The Mind","uid":1287855647177,"type":"Mental Defense","damage":"20 points total","range":"","input":"","level":"20","end":"0","active":"20","base":"20","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Demonic Eyes","uid":1287855679521,"type":"Flash Defense","damage":"(15 points)","range":"","input":"Hearing Group","level":"15","end":"0","active":"15","base":"15","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Cloak Of The Immortals","uid":1287855700349,"type":"Power Defense","damage":"10 points","range":"","input":"","level":"10","end":"0","active":"10","base":"10","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Demonic Form","uid":1287855719537,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"40","base":"40","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287855777867,"type":"Eating","damage":"","range":"","input":"Character does not eat","level":"0"},{"name":"No Name Supplied","uid":1287855798928,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1287855792097,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1287855805649,"type":"Longevity","damage":"","range":"","input":"Immortal","level":"0"},{"name":"No Name Supplied","uid":1287855784265,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855785156,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855785548,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855786033,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855783217,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855777069,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287855780792,"type":"Sleeping","damage":"","range":"","input":"Character does not sleep","level":"0"}]},
+	{"name":"Demonic Travel","uid":1287855816877,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"50","base":"50","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Cloudriding","uid":1287855811194,"type":"Flight","damage":"30m","range":"","input":"","level":"30","end":"5","active":"50","base":"50","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287855885556,"type":"x16 Noncombat","damage":"30m","range":"","input":"","level":"4"}]},
+	{"name":"Pathway Of The Immortal","uid":1287855841413,"type":"Teleportation","damage":"50m","range":"","input":"","level":"50","end":"5","active":"50","base":"50","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Demonic Cricket Leap","uid":1287855863647,"type":"Leaping","damage":"","range":"","input":"","level":"56","end":"3","active":"28","base":"28","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Demonic Running","uid":1287855886272,"type":"Running","damage":"","range":"","input":"","level":"28","end":"3","active":"28","base":"28","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Eyes Of The Immortals","uid":1287855960398,"type":"Clairsentience","damage":"","range":"3,200m","input":"Sight Group","level":"0","end":"4","active":"40","base":"40","XMLID":"CLAIRSENTIENCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287856041100,"type":"x16 Range","damage":"","range":"3,200m","input":"","level":"4"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Defensive Block","gameEdition":6 ,"ocvMod":1,"dcvMod":3,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Defensive Block:½ Phase, +1 OCV, +3 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Martial Disarm","gameEdition":6 ,"ocvMod":-1,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Disarm; 70 STR to Disarm","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Disarm:½ Phase, -1 OCV, +1 DCV, Disarm; 70 STR to Disarm","rngMod":0, "abort":false
+	},{"name":"Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Dragon Claw","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"16d6 Crush, Must Follow Grab","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dragon Claw:½ Phase, +0 OCV, +0 DCV, 16d6 Crush, Must Follow Grab","rngMod":0, "abort":false
+	},{"name":"Escaping Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":" 75 STR  vs Grabs, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Escaping Throw:½ Phase, +0 OCV, +0 DCV,  75 STR  vs Grabs, Target Falls","rngMod":0, "abort":false
+	},{"name":"Flying Kick","gameEdition":6 ,"ocvMod":1,"dcvMod":-2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"16d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Flying Kick:½ Phase, +1 OCV, -2 DCV, 16d6 Strike","rngMod":0, "abort":false
+	},{"name":"Grab","gameEdition":6 ,"ocvMod":-1,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Grab Two Limbs, 70 STR for holding on","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Grab:½ Phase, -1 OCV, -1 DCV, Grab Two Limbs, 70 STR for holding on","rngMod":0, "abort":false
+	},{"name":"Joint Break","gameEdition":6 ,"ocvMod":-1,"dcvMod":-2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Grab One Limb; HKA 5d6 +1 , Disable","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Joint Break:½ Phase, -1 OCV, -2 DCV, Grab One Limb; HKA 5d6 +1 , Disable","rngMod":0, "abort":false
+	},{"name":"Knife Hand","gameEdition":6 ,"ocvMod":-2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"HKA 4½d6","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Knife Hand:½ Phase, -2 OCV, +0 DCV, HKA 4½d6","rngMod":0, "abort":false
+	},{"name":"Legsweep","gameEdition":6 ,"ocvMod":2,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"13d6 Strike, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Legsweep:½ Phase, +2 OCV, -1 DCV, 13d6 Strike, Target Falls","rngMod":0, "abort":false
+	},{"name":"Palm Strike/Kick","gameEdition":6 ,"ocvMod":-2,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"16d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Palm Strike/Kick:½ Phase, -2 OCV, +1 DCV, 16d6 Strike","rngMod":0, "abort":false
+	},{"name":"Punch","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"14d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Punch:½ Phase, +0 OCV, +2 DCV, 14d6 Strike","rngMod":0, "abort":false
+	},{"name":"Root","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"75 STR to resist Shove; Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Root:½ Phase, +0 OCV, +0 DCV, 75 STR to resist Shove; Block, Abort","rngMod":0, "abort":true
+	},{"name":"Shove/Uproot","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"75 STR to Shove","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Shove/Uproot:½ Phase, +0 OCV, +0 DCV, 75 STR to Shove","rngMod":0, "abort":false
+	},{"name":"Strike","gameEdition":6 ,"ocvMod":1,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":" 14d6 Strike, Must Follow Block","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Strike:½ Phase, +1 OCV, +2 DCV,  14d6 Strike, Must Follow Block","rngMod":0, "abort":false
+	},{"name":"Sword Finger","gameEdition":6 ,"ocvMod":-1,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"3d6 NND","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Sword Finger:½ Phase, -1 OCV, +1 DCV, 3d6 NND","rngMod":0, "abort":false
+	},{"name":"Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"12d6 +v/10, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Throw:½ Phase, +0 OCV, +1 DCV, 12d6 +v/10, Target Falls","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Demonic Blast","uid":1287852207327,"gameEdition":6,"tool":"15d6, Blast (vs. ED) 750m, 7 end.","diceMod":0,"dice":15,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Agony Inflict","uid":1287852261296,"gameEdition":6,"tool":"5d6, Mental Blast LOS, 0 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Possession","uid":1287852293109,"gameEdition":6,"tool":"12d6, Mind Control LOS, 3 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Illusions","uid":1287852315343,"gameEdition":6,"tool":"12d6, Mental Illusions LOS, 3 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Phantasms","uid":1287852438813,"gameEdition":6,"tool":"Images (vs. Sight Group) 320m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"The True Rendering","uid":1287852494876,"gameEdition":6,"tool":"5d6, Transform (vs. humans to insects,Severe) 750m, 7 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Demon Hand","uid":1287852593048,"gameEdition":6,"tool":"(40 STR), Telekinesis 600m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Create Storms","uid":1287853448194,"gameEdition":6,"tool":"Change Environment 30m, 0 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

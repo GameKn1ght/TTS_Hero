@@ -1,0 +1,222 @@
+{
+"appversion":"20201025",
+"exportid":"20210704232031",
+"name":"Howler",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":13,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"HTH Damage 2½d6  END [1]"},
+"dex":{"value":26,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"con":{"value":23,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-/15-"},
+"ego":{"value":13,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":20,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 4d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":7,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":27,"roll":"14-","mod":0},"notes":"7/27 PD (0/20 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":20,"roll":"14-","mod":0},"notes":"7/27 PD (0/20 rPD)"},
+"ed":{"value":7,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":27,"roll":"14-","mod":0},"notes":"7/27 ED (0/20 rED)"},
+"edr":{"value":7,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":27,"roll":"14-","mod":0},"notes":"7/27 ED (0/20 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":45,"roll":"18-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":45,"roll":"18-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-/15-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-/15-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1289758039761,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Sonic Powers Multipower","optionID":"BROAD","text":"+2 with Sonic Powers Multipower"},
+	{"name":"Mimicry ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1289758086518,"type":"Mimicry","input":"","level":"1","active":"5","base":"5","XMLID":"MIMICRY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Mimicry 13-"},
+	{"name":"AK (Africa) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758101573,"type":"Knowledge Skill","input":"Africa","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Africa 11-"},
+	{"name":"AK (The Middle East) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758209182,"type":"Knowledge Skill","input":"The Middle East","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: The Middle East 11-"},
+	{"name":"AK (Millenium City University) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758209578,"type":"Knowledge Skill","input":"Millenium City University","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Millenium City University 11-"},
+	{"name":"KS (Ancient History) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1289758169929,"type":"KS","input":"Ancient History","level":"2","active":"5","base":"5","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Ancient History 14-"},
+	{"name":"KS (The Archeological World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1289758330488,"type":"KS","input":"The Archeological World","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Archeological World 12-"},
+	{"name":"PS (Archeologist) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758250669,"type":"Professional Skill","input":"Archeologist","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Archeologist 11-"},
+	{"name":"PS (Professor) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758260716,"type":"Professional Skill","input":"Professor","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Professor 11-"},
+	{"name":"PS (Singing) ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1289758266716,"type":"Professional Skill","input":"Singing","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Singing 13-"},
+	{"name":"SS (Archeology) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758282155,"type":"Science Skill","input":"Archeology","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Archeology 11-"},
+	{"name":"SS (Sonics) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1289758291314,"type":"Science Skill","input":"Sonics","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Sonics 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1289758299146,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 14-"},
+	{"name":"Ventriloquism ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1289758302834,"type":"Ventriloquism","input":"","level":"1","active":"5","base":"5","XMLID":"VENTRILOQUISM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Ventriloquism 13-"}],
+"talents":[
+	{"name":"Perfect Pitch ","roll":"","uid":1289758011682,"type":"Perfect Pitch","input":"","level":"0","active":"3","base":"3","XMLID":"PERFECT_PITCH","modifiers":[],"adders":[]},
+	{"name":"Striking Appearance ","roll":"","uid":1289758015306,"type":"Striking Appearance","input":"vs. all characters","level":"2","active":"6","base":"6","XMLID":"STRIKING_APPEARANCE","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Dependence","roll":"","uid":1289758571883,"type":"Dependence","input":"Must Remain in Contact with Her Amulet","level":"0","active":"40","base":"40","XMLID":"DEPENDENCE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758669110,"type":"Effect","input":"Takes 2d6 Damage","level":"0"},{"name":"No Name Supplied","uid":1289758669118,"type":"Dependent Substance Is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1289758669134,"type":"Time Before Suffering Effects","input":"1 Turn","level":"0"}]},
+	{"name":"Distinctive Features","roll":"","uid":1289758594521,"type":"Distinctive Features","input":"Sultry Voice","level":"0","active":"5","base":"5","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758692078,"type":"Concealability","input":"Easily Concealed","level":"0"},{"name":"No Name Supplied","uid":1289758692084,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1289758692090,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1289758713082,"type":"Hunted","input":"Sentinels","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758717765,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1289758717771,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1289758717777,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1289758717778,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1289758715661,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758732209,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1289758732215,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1289758732221,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1289758732222,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1289758645374,"type":"Psychological Complication","input":"Code vs Killing","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758746231,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1289758746237,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1289758659206,"type":"Psychological Complication","input":"Superstitious","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758760258,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1289758760264,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1289758672797,"type":"Psychological Complication","input":"Xenophobia; Fears Aliens WIll Try to Take Amulet Away","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758774043,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1289758774049,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Rivalry","roll":"","uid":1289758692284,"type":"Rivalry","input":"","level":"0","active":"5","base":"5","XMLID":"RIVALRY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758793922,"type":"Rivalry Situation","input":"Professional","level":"0"},{"name":"No Name Supplied","uid":1289758793926,"type":"Rivalry Desc.","input":"(","level":"0"},{"name":"No Name Supplied","uid":1289758793933,"type":"Rival's Power","input":"Rival is As Powerful","level":"0"},{"name":"No Name Supplied","uid":1289758793938,"type":"Fierceness of Rivalry","input":"Seek to Outdo, Embarrass, or Humiliate Rival","level":"0"},{"name":"No Name Supplied","uid":1289758793943,"type":"Knowledge of Rivalry","input":"Rival Aware of Rivalry","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1289758709451,"type":"Social Complication","input":"Secret ID: Susan Sonderheim","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289758811347,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1289758811353,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1289758722162,"type":"Vulnerability","input":"Electricity","level":"0","active":"20","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1289758824354,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1289758824326,"type":"The Attack Is","input":"Common","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1289758039761,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Sonic Powers","uid":1289757342018,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"80","base":"80","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1289757354702,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Scream I","uid":1289757283468,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"6","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sonic Scream II","uid":1289757304659,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"8","active":"80","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1289757401676,"type":"Variable Advantage","damage":"8d6","range":"400m","input":"","level":"0"}],"adders":[]},
+	{"name":"Sonic Scream III","uid":1289757333329,"type":"Blast","damage":"5d6","range":"250m","input":"ED","level":"5","end":"7","active":"75","base":"25","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+2","name":"","uid":1289757429456,"type":"Variable Advantage","damage":"5d6","range":"250m","input":"","level":"0"}],"adders":[]},
+	{"name":"Deafening Scream","uid":1289757354800,"type":"Flash","damage":"14d6","range":"420m","input":"Hearing Group","level":"14","end":"0","active":"63","base":"42","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1289757451968,"type":"Reduced Endurance","damage":"14d6","range":"420m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Pump Up the Volume","uid":1289757377799,"type":"Absorption","damage":"15 BODY","range":"","input":"energy","level":"15","end":"0","active":"90","base":"15","XMLID":"ABSORPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1289757629209,"type":"Variable Effect","damage":"15 BODY","range":"","input":"All Sonic Powers","level":"0"},{"value":"+3½","name":"","uid":1289757629210,"type":"Expanded Effect (x8 Characteristics or Powers simultaneously)","damage":"15 BODY","range":"","input":"","level":"8"},{"value":"+1","name":"","uid":1289757629226,"type":"Delayed Return Rate","damage":"15 BODY","range":"","input":"5 Points per Minute","level":"0"},{"value":"-¼","name":"","uid":1289757629228,"type":"Limited Phenomena","damage":"15 BODY","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1289757634368,"type":"Focus","damage":"15 BODY","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Screen","uid":1289757611417,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"3","active":"75","base":"60","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289757870223,"type":"Hardened","damage":"","range":"","input":"","level":"1"},{"value":"-¼","name":"","uid":1289757870229,"type":"Costs Endurance","damage":"","range":"","input":"Costs Half Endurance","level":"0"},{"value":"-½","name":"","uid":1289757870257,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Immunity","uid":1289757855435,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 75%","level":"0","end":"0","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1289758012374,"type":"Focus","damage":"0d6","range":"","input":"OIF","level":"0"},{"value":"-¾","name":"","uid":1289758026022,"type":"Only vs Sonics","damage":"0d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Riding the Soundwaves","uid":1289757959414,"type":"Flight","damage":"40m","range":"","input":"","level":"40","end":"0","active":"60","base":"40","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1289758062952,"type":"Focus","damage":"40m","range":"","input":"OIF","level":"0"},{"value":"+½","name":"","uid":1289758066076,"type":"Reduced Endurance","damage":"40m","range":"","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Enhanced Hearing","uid":1289757983324,"type":"Ultrasonic Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"3","base":"3","XMLID":"ULTRASONICPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Enhanced Hearing","uid":1289757996275,"type":"Enhanced Perception","damage":"","range":"","input":"Hearing Group","level":"3","end":"0","active":"6","base":"6","XMLID":"ENHANCEDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Sonic Scream I","uid":1289757283468,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 6 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sonic Scream II","uid":1289757304659,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 8 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sonic Scream III","uid":1289757333329,"gameEdition":6,"tool":"5d6, Blast (vs. ED) 250m, 7 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Deafening Scream","uid":1289757354800,"gameEdition":6,"tool":"14d6, Flash (vs. Hearing Group) 420m, 0 end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

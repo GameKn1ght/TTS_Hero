@@ -1,0 +1,250 @@
+{
+"appversion":"20201025",
+"exportid":"20210704230629",
+"name":"Invictus",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":65,"roll":"22-","shortname":"str","name":"Strength","current":"primary","primary":{"value":65,"roll":"22-","mod":0},"secondary":{"value":65,"roll":"22-","mod":0},"notes":"HTH Damage 13d6  END [6]"},
+"dex":{"value":29,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":29,"roll":"15-","mod":0},"secondary":{"value":29,"roll":"15-","mod":0},"notes":""},
+"con":{"value":35,"roll":"16-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"int":{"value":25,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PER Roll 17-"},
+"ego":{"value":20,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":30,"roll":"15-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"PRE Attack: 6d6"},
+"spd":{"value":6,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 8, 10, 12"},
+"ocv":{"value":10,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":10,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":6,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":8,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":"8/28 PD (0/20 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":20,"roll":"15-","mod":0},"notes":"8/28 PD (0/20 rPD)"},
+"ed":{"value":3,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":33,"roll":"16-","mod":0},"notes":"3/33 ED (0/30 rED)"},
+"edr":{"value":3,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":33,"roll":"16-","mod":0},"notes":"3/33 ED (0/30 rED)"},
+"per":{"value":25,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":20,"roll":"13-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"body":{"value":25,"roll":"14-","shortname":"body","name":"Body","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"end":{"value":70,"roll":"23-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":70,"roll":"23-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":""},
+"stun":{"value":76,"roll":"24-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":76,"roll":"24-","mod":0},"secondary":{"value":76,"roll":"24-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"22m","noncombat":"44m","primary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"secondary":{"combat":{"description":"22m","value":22},"noncombat":{"description":"44m","value":44}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"17-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 17-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735388354,"type":"Combat Skill Levels","input":"with All Attacks","level":"1","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with All Attacks","optionAlias":"with All Attacks","optionID":"ALL","text":"+1 with All Attacks"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735397369,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Solar Blast Multipower","optionID":"BROAD","text":"+2 with Solar Blast Multipower"},
+	{"name":"Penalty Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735428648,"type":"Penalty Skill Levels","input":"to offset a specific negative OCV modifier with all attacks","level":"4","active":"12","base":"12","XMLID":"PENALTY_SKILL_LEVELS","modifiers":[],"adders":[],"option":"to offset a specific negative OCV modifier with all attacks","optionAlias":"vs Range Mods with All Attacks","optionID":"ALL","text":"+4 vs Range Mods with All Attacks"},
+	{"name":"Autofire Skills ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735461086,"type":"Autofire Skills","input":"Accurate Sprayfire","level":"0","active":"5","base":"5","XMLID":"AUTOFIRE_SKILLS","modifiers":[],"adders":[],"option":"Accurate Sprayfire","optionAlias":"Accurate Sprayfire","optionID":"ACCURATE","text":"Accurate Sprayfire"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735466101,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 15-"},
+	{"name":"Acting ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735471877,"type":"Acting","input":"","level":"0","active":"3","base":"3","XMLID":"ACTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acting 15-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735473189,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 15-"},
+	{"name":"Bribery ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735473845,"type":"Bribery","input":"","level":"0","active":"3","base":"3","XMLID":"BRIBERY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bribery 15-"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735474661,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 15-"},
+	{"name":"Climbing ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735479605,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 15-"},
+	{"name":"Autofire Skills ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735480989,"type":"Autofire Skills","input":"Concentrated Sprayfire","level":"0","active":"5","base":"5","XMLID":"AUTOFIRE_SKILLS","modifiers":[],"adders":[],"option":"Concentrated Sprayfire","optionAlias":"Concentrated Sprayfire","optionID":"CONCENTRATED","text":"Concentrated Sprayfire"},
+	{"name":"Defense Maneuver ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735488548,"type":"Defense Maneuver","input":"I-IV","level":"0","active":"10","base":"10","XMLID":"DEFENSE_MANEUVER","modifiers":[],"adders":[],"option":"I-IV","optionAlias":"I-IV","optionID":"FOUR","text":"Defense Maneuver I-IV "},
+	{"name":"Oratory ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735497180,"type":"Oratory","input":"","level":"0","active":"3","base":"3","XMLID":"ORATORY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Oratory 15-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735498220,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 15-"},
+	{"name":"PS (Play Football) ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735499460,"type":"Professional Skill","input":"Play Football","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Play Football 15-"},
+	{"name":"PS (Politician) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735519714,"type":"Professional Skill","input":"Politician","level":"1","active":"4","base":"4","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Politician 15-"},
+	{"name":"Power (Solar Fire Power Tricks) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281735542513,"type":"Power","input":"Solar Fire Power Tricks","level":"0","active":"3","base":"3","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power: Solar Fire Power Tricks 14-"},
+	{"name":"Autofire Skills ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735598086,"type":"Autofire Skills","input":"Rapid Autofire","level":"0","active":"5","base":"5","XMLID":"AUTOFIRE_SKILLS","modifiers":[],"adders":[],"option":"Rapid Autofire","optionAlias":"Rapid Autofire","optionID":"RAPID","text":"Rapid Autofire"},
+	{"name":"Autofire Skills ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735604686,"type":"Autofire Skills","input":"Skipover Sprayfire","level":"0","active":"5","base":"5","XMLID":"AUTOFIRE_SKILLS","modifiers":[],"adders":[],"option":"Skipover Sprayfire","optionAlias":"Skipover Sprayfire","optionID":"SKIPOVER","text":"Skipover Sprayfire"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735613917,"type":"Language","input":"Englishimitate dialects","level":"0","active":"5","base":"5","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"imitate dialects","optionAlias":"imitate dialects","optionID":"DIALECTS","text":"Language: English (imitate dialects) (5 Active Points)"},
+	{"name":"Language (Greek (Modern)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735775212,"type":"Language","input":"Greek (Modern)idiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Greek (Modern) (idiomatic) (4 Active Points)"},
+	{"name":"Language (Latin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735774802,"type":"Language","input":"Latinidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Latin (idiomatic) (4 Active Points)"},
+	{"name":"Language (Russian) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735774331,"type":"Language","input":"Russianidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Russian (idiomatic) (4 Active Points)"},
+	{"name":"Language (Spanish) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1281735640268,"type":"Language","input":"Spanishidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Spanish (idiomatic) (4 Active Points)"},
+	{"name":"KS (Classical Poetry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735723351,"type":"KS","input":"Classical Poetry","level":"1","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Classical Poetry (4 Active Points) 15-"},
+	{"name":"KS (Football) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281735737974,"type":"KS","input":"Football","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Football (3 Active Points) 14-"},
+	{"name":"KS (Political Science) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735747045,"type":"KS","input":"Political Science","level":"1","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Political Science (4 Active Points) 15-"},
+	{"name":"KS (Roman History) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735755917,"type":"KS","input":"Roman History","level":"1","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Roman History (4 Active Points) 15-"},
+	{"name":"KS (Roman Literature) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1281735768820,"type":"KS","input":"Roman Literature","level":"1","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Roman Literature (4 Active Points) 15-"},
+	{"name":"KS (The Political World) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281735785531,"type":"KS","input":"The Political World","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Political World (3 Active Points) 14-"},
+	{"name":"KS (The Superhuman World) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1281735794979,"type":"KS","input":"The Superhuman World","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World (3 Active Points) 14-"}],
+"talents":[
+	{"name":"Combat Sense 14-","roll":"14-","uid":1281735949578,"type":"Combat Sense","input":"","level":"0","active":"15","base":"15","XMLID":"COMBAT_SENSE","modifiers":[],"adders":[]},
+	{"name":"Simulate Death 11-","roll":"11-","uid":1281735956361,"type":"Simulate Death","input":"","level":"0","active":"3","base":"3","XMLID":"SIMULATE_DEATH","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1281735810940,"type":"Fringe Benefit","input":"","level":"0","active":"8","base":"8","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281735991345,"type":"Government Rank","input":"National government departmental employee of major power","level":"0"}]},
+	{"name":"Custom Perk ","roll":"","uid":1281735899765,"type":"Custom Perk","input":"","level":"60","active":"60","base":"60","XMLID":"CUSTOMPERK","modifiers":[],"adders":[]},
+	{"name":"Money ","roll":"","uid":1281735938874,"type":"Money","input":"Wealthy","level":"0","active":"10","base":"10","XMLID":"MONEY","modifiers":[],"adders":[]}],
+"disads":[
+	{"name":"Enraged","roll":"","uid":1281736770627,"type":"Enraged","input":"when he sees his own blood","level":"0","active":"5","base":"5","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281736894084,"type":"Circumstance is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1281736894090,"type":"Chance To Become Enraged","input":"go 8-","level":"0"},{"name":"No Name Supplied","uid":1281736894096,"type":"Chance To Recover","input":"recover 14-","level":"0"}]},
+	{"name":"Enraged","roll":"","uid":1281736784146,"type":"Enraged","input":"when accused of criminal behaviour","level":"0","active":"5","base":"5","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281736907805,"type":"Circumstance is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1281736907811,"type":"Chance To Become Enraged","input":"go 8-","level":"0"},{"name":"No Name Supplied","uid":1281736907817,"type":"Chance To Recover","input":"recover 14-","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281736797650,"type":"Hunted","input":"DEMON","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281736978303,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281736978309,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281736978315,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1281736817568,"type":"Hunted","input":"VIPER","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281736941730,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1281736941736,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1281736941742,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1281736956376,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281737053147,"type":"Psychological Complication","input":"Ambitious","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281737177599,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1281737177605,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281737064570,"type":"Psychological Complication","input":"Hates Christianity","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281737189171,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1281737189177,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1281737075362,"type":"Psychological Complication","input":"Ruthless, Fanatical Protector of His Secrets","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281737200110,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1281737200116,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1281737100478,"type":"Susceptibility","input":"from exorcisms performed within 20m of him","level":"0","active":"15","base":"15","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281737225545,"type":"Number of Dice","input":"3d6 damage","level":"0"},{"name":"No Name Supplied","uid":1281737225558,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1281737225564,"type":"Condition Is","input":"Uncommon","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1281737124079,"type":"Social Complication","input":"Public Identify (David Sutherland)","level":"0","active":"20","base":"20","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281737249355,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1281737249361,"type":"Effects of Restrictions","input":"Severe","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1281735388354,"type":"Combat Skill Levels","input":"with All Attacks","level":"1","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1281735397369,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Solar Blast","uid":1281736086492,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"140","base":"140","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1281736156579,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"4","active":"100","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281736160686,"type":"Reduced Endurance","damage":"16d6","range":"800m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1281736166477,"type":"Flash","damage":"6d6","range":"300m","input":"Sight Group","level":"6","end":"1","active":"37","base":"30","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281736179792,"type":"Reduced Endurance","damage":"6d6","range":"300m","input":"Half END","level":"0"},{"value":"-½","name":"","uid":1281736182962,"type":"Linked","damage":"6d6","range":"300m","input":"","level":"0"}],"adders":[]},
+	{"name":"Precision Heat Blast","uid":1281736077698,"type":"Blast","damage":"14d6","range":"700m","input":"ED","level":"14","end":"5","active":"140","base":"70","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281736207605,"type":"Reduced Endurance","damage":"14d6","range":"700m","input":"Half END","level":"0"},{"value":"+½","name":"","uid":1281736213153,"type":"Autofire","damage":"14d6","range":"700m","input":"5 Shots","level":"0"}],"adders":[]},
+	{"name":"White Flame","uid":1281736107841,"type":"Blast","damage":"14d6","range":"700m","input":"ED","level":"14","end":"0","active":"122","base":"70","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1281736249337,"type":"Armor Piercing","damage":"14d6","range":"700m","input":"","level":"1"},{"value":"+½","name":"","uid":1281736249342,"type":"Reduced Endurance","damage":"14d6","range":"700m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Ignite the Air","uid":1281736172381,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"0","active":"120","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281736319798,"type":"Affects Desolidified","damage":"12d6","range":"600m","input":"Any form of Desolidification","level":"0"},{"value":"+½","name":"","uid":1281736319804,"type":"Reduced Endurance","damage":"12d6","range":"600m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Prostration","uid":1281736213491,"type":"Drain","damage":"3d6","range":"300m","input":"STR and END","level":"3","end":"0","active":"127","base":"30","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1281736382177,"type":"Expanded Effect (x2 Characteristics or Powers simultaneously)","damage":"3d6","range":"300m","input":"","level":"2"},{"value":"+1","name":"","uid":1281736382193,"type":"Delayed Return Rate","damage":"3d6","range":"300m","input":"5 Points per Minute","level":"0"},{"value":"+1¼","name":"","uid":1281736382214,"type":"Area Of Effect","damage":"3d6","range":"300m","input":"Radius","level":"20"},{"value":"+½","name":"","uid":1281736382221,"type":"Reduced Endurance","damage":"3d6","range":"300m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Solar Toughness","uid":1281736288175,"type":"Resistant Protection","damage":"","range":"","input":"","level":"50","end":"0","active":"75","base":"75","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Solar Eyes","uid":1281736330269,"type":"Flash Defense","damage":"(10 points)","range":"","input":"Sight Group","level":"10","end":"0","active":"10","base":"10","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Tough Ears","uid":1281736467851,"type":"Flash Defense","damage":"(10 points)","range":"","input":"Hearing Group","level":"10","end":"0","active":"10","base":"10","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Will of Iron","uid":1281736391592,"type":"Mental Defense","damage":"11 points total","range":"","input":"","level":"11","end":"0","active":"11","base":"11","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Solar Form","uid":1281736500450,"type":"Power Defense","damage":"15 points","range":"","input":"","level":"15","end":"0","active":"15","base":"15","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Solar Form","uid":1281736511242,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"20","base":"20","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1281736679583,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1281736640239,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1281736661466,"type":"Longevity","damage":"","range":"","input":"200 Years","level":"0"},{"name":"No Name Supplied","uid":1281736668075,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281736670276,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281736673052,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281736673629,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1281736674470,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Swift Runner","uid":1281736578294,"type":"Running","damage":"","range":"","input":"","level":"10","end":"1","active":"10","base":"10","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Swift Swimmer","uid":1281736591429,"type":"Swimming","damage":"","range":"","input":"","level":"8","end":"1","active":"4","base":"4","XMLID":"SWIMMING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sharp Perception","uid":1281736622363,"type":"Enhanced Perception","damage":"","range":"","input":"all Sense Groups","level":"3","end":"0","active":"9","base":"9","XMLID":"ENHANCEDPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"No Name Supplied","uid":1281736156579,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 4 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"No Name Supplied","uid":1281736166477,"gameEdition":6,"tool":"6d6, Flash (vs. Sight Group) 300m, 1 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Precision Heat Blast","uid":1281736077698,"gameEdition":6,"tool":"14d6, Blast (vs. ED) 700m, 5 end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"White Flame","uid":1281736107841,"gameEdition":6,"tool":"14d6, Blast (vs. ED) 700m, 0 end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ignite the Air","uid":1281736172381,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 0 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Prostration","uid":1281736213491,"gameEdition":6,"tool":"3d6, Drain (vs. STR and END) 300m, 0 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

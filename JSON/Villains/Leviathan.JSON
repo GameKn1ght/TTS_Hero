@@ -1,0 +1,210 @@
+{
+"appversion":"20201025",
+"exportid":"20210704233615",
+"name":"Leviathan",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":65,"roll":"22-","shortname":"str","name":"Strength","current":"primary","primary":{"value":65,"roll":"22-","mod":0},"secondary":{"value":65,"roll":"22-","mod":0},"notes":"HTH Damage 13d6  END [6]"},
+"dex":{"value":17,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":17,"roll":"12-","mod":0},"secondary":{"value":17,"roll":"12-","mod":0},"notes":""},
+"con":{"value":35,"roll":"16-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"int":{"value":11,"roll":"11-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":"PER Roll 11-"},
+"ego":{"value":13,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":25,"roll":"14-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"PRE Attack: 5d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":28,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":"28 PD (20 rPD)"},
+"pdr":{"value":20,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":20,"roll":"15-","mod":0},"secondary":{"value":20,"roll":"15-","mod":0},"notes":"28 PD (20 rPD)"},
+"ed":{"value":25,"roll":"14-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"25 ED (20 rED)"},
+"edr":{"value":25,"roll":"14-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"25 ED (20 rED)"},
+"per":{"value":11,"roll":"11-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":""},
+"rec":{"value":20,"roll":"13-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"body":{"value":23,"roll":"14-","shortname":"body","name":"Body","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"end":{"value":70,"roll":"23-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":70,"roll":"23-","mod":0},"secondary":{"value":70,"roll":"23-","mod":0},"notes":""},
+"stun":{"value":74,"roll":"24-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":74,"roll":"24-","mod":0},"secondary":{"value":74,"roll":"24-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"44m","noncombat":"88m","primary":{"combat":{"description":"44m","value":44},"noncombat":{"description":"88m","value":88}},"secondary":{"combat":{"description":"44m","value":44},"noncombat":{"description":"88m","value":88}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"11-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 11-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287850060982,"type":"Combat Skill Levels","input":"with HTH Combat","level":"4","active":"32","base":"32","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with HTH Combat","optionAlias":"with HTH Combat","optionID":"HTH","text":"+4 with HTH Combat"},
+	{"name":"AK (Earth's Oceans) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287849654389,"type":"Knowledge Skill","input":"Earth's Oceans","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Earth's Oceans 11-"},
+	{"name":"AK (Lemuria) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287849665327,"type":"Knowledge Skill","input":"Lemuria","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Lemuria 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287849681687,"type":"Language","input":"Englishcompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent, Lemurian is Native","optionID":"ACCENT","text":"Language: English (completely fluent, Lemurian is Native)"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287849717330,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"Survival ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287849719658,"type":"Survival","input":"","level":"0","active":"2","base":"2","XMLID":"SURVIVAL","modifiers":[],"adders":[{"XMLID":"MARINE","name":"","uid":1287849753542,"cost":"2","type":"Marine","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Survival (Marine) 11-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287849727752,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 11-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287849731580,"type":"Weapon Familiarity","input":"","level":"0","active":"2","base":"2","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMELEE","name":"","uid":1287849765895,"cost":"2","type":"Common Melee Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Common Melee Weapons"}],
+"talents":[
+	{"name":"Environmental Movement ","roll":"","uid":1287849470216,"type":"Environmental Movement","input":"no penalties in the water","level":"0","active":"4","base":"4","XMLID":"ENVIRONMENTAL_MOVEMENT","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Contact 8-","roll":"8-","uid":1287849445025,"type":"Contact","input":"King Arvad of Lemuria","level":"1","active":"3","base":"3","XMLID":"CONTACT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849488829,"type":"Contact has","input":"very useful Skills or resources","level":"0"}]}],
+"disads":[
+	{"name":"Enraged","roll":"","uid":1287849798600,"type":"Enraged","input":"when cheated or betrayed","level":"0","active":"20","base":"20","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849831944,"type":"Circumstance is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1287849831950,"type":"Chance To Become Enraged","input":"go 14-","level":"0"},{"name":"No Name Supplied","uid":1287849831956,"type":"Chance To Recover","input":"recover 11-","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287849822069,"type":"Hunted","input":"Archon","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849855732,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287849855738,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1287849855744,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287849907510,"type":"Hunted","input":"Prince Marus","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849941428,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287849941434,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1287849941440,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287849920635,"type":"Hunted","input":"UNTIL","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849954808,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287849954814,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1287849954820,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1287849964270,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1287849938198,"type":"Physical Complication","input":"Clumsy, Clawed Hands (-2 to DEX Rolls involving fine manipulation)","level":"0","active":"10","base":"10","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849972589,"type":"Limitation Occurs","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287849972596,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287849970574,"type":"Psychological Complication","input":"Bully","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287850005147,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1287850005153,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287849981543,"type":"Psychological Complication","input":"Overconfindence","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287850016296,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1287850016302,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1287849993262,"type":"Vulnerability","input":"from Fire/Heat Attacks","level":"0","active":"10","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1287850056339,"type":"Vulnerability Multiplier","input":"1½x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287850056330,"type":"The Attack Is","input":"Common","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1287850006199,"type":"Vulnerability","input":"from Fire/Heat Attacks","level":"0","active":"10","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1287850061552,"type":"Vulnerability Multiplier","input":"1½x BODY","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287850061543,"type":"The Attack Is","input":"Common","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1287850060982,"type":"Combat Skill Levels","input":"with HTH Combat","level":"4","active":"32","base":"32","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Call The Terrors Of the Deep","uid":1287690646035,"type":"Summon","damage":"250-point sea creatures","range":"","input":"sea creatures","level":"250","end":"13","active":"130","base":"65","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287690838399,"type":"Expanded Class of Beings","damage":"250-point sea creatures","range":"","input":"Limited Group","level":"0"},{"value":"+½","name":"","uid":1287690872163,"type":"Amicable","damage":"250-point sea creatures","range":"","input":"Loyal","level":"0"},{"value":"-½","name":"","uid":1287690880674,"type":"Arrives Under Own Power","damage":"250-point sea creatures","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1287690886216,"type":"Summoned Being Must Inhabit Locale","damage":"250-point sea creatures","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287690699954,"type":"x8 Number Of Beings","damage":"250-point sea creatures","range":"","input":"","level":"3"}]},
+	{"name":"Thick Blubbery Skin","uid":1287848655737,"type":"PD","damage":"","range":"","input":"","level":"20","end":"","active":"30","base":"20","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287848695571,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Thick, Blubbery Skin","uid":1287848672659,"type":"ED","damage":"","range":"","input":"","level":"20","end":"","active":"30","base":"20","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287848712605,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Thick, Blibbery Skin","uid":1287848699174,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 25%","level":"0","end":"0","active":"15","base":"15","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Thick, Blubbery Skin","uid":1287848724862,"type":"Damage Reduction","damage":"0d6","range":"","input":"PhysicalDamage Reduction, Resistant, 25%","level":"0","end":"0","active":"15","base":"15","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Gills And Underwater Adaptations","uid":1287848948440,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"8","base":"8","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849065922,"type":"Expanded Breathing","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287849065923,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1287849065924,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Fast Healer","uid":1287849050534,"type":"Regeneration","damage":"2 BODY per Turn","range":"","input":"Turn","level":"2","end":"0","active":"32","base":"32","XMLID":"REGENERATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Super-Swimming","uid":1287849272800,"type":"Swimming","damage":"","range":"","input":"","level":"40","end":"2","active":"20","base":"20","XMLID":"SWIMMING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Sonar Sense","uid":1287849311758,"type":"Active Sonar","damage":"","range":"","input":"","level":"0","end":"0","active":"20","base":"20","XMLID":"ACTIVESONAR","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625466622173,"type":"Increased Arc Of Perception (360 Degrees)","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Speak With Sea Creatures","uid":1287849363234,"type":"Mind Link","damage":"","range":"LOS","input":"Any Willing Target","level":"0","end":"0","active":"30","base":"30","XMLID":"MINDLINK","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1287849425968,"type":"Limited Power","damage":"","range":"LOS","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287849403091,"type":"Number of Minds (x8)","damage":"","range":"LOS","input":"","level":"3"}]},
+	{"name":"Lemurian Lifespan","uid":1287849422710,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"4","base":"4","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287849461982,"type":"Longevity","damage":"","range":"","input":"1600 Years","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

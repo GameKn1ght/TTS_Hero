@@ -1,0 +1,220 @@
+{
+"appversion":"20201025",
+"exportid":"20210704232332",
+"name":"Geothermal",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":30,"roll":"15-","shortname":"str","name":"Strength","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"HTH Damage 6d6  END [3]"},
+"dex":{"value":28,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":28,"roll":"15-","mod":0},"secondary":{"value":28,"roll":"15-","mod":0},"notes":""},
+"con":{"value":40,"roll":"17-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":20,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":30,"roll":"15-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"PRE Attack: 6d6"},
+"spd":{"value":7,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 7, 9, 11, 12"},
+"ocv":{"value":9,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":9,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":9,"roll":"11-","mod":0},"secondary":{"value":9,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":7,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":0,"roll":"9-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"0/30 PD (0/30 rPD)"},
+"pdr":{"value":0,"roll":"9-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"0/30 PD (0/30 rPD)"},
+"ed":{"value":0,"roll":"9-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"0/30 ED (0/30 rED)"},
+"edr":{"value":0,"roll":"9-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"9-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"0/30 ED (0/30 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":30,"roll":"15-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"body":{"value":20,"roll":"13-","shortname":"body","name":"Body","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"end":{"value":120,"roll":"33-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":120,"roll":"33-","mod":0},"secondary":{"value":120,"roll":"33-","mod":0},"notes":""},
+"stun":{"value":80,"roll":"25-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":80,"roll":"25-","mod":0},"secondary":{"value":80,"roll":"25-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"24m","noncombat":"48m","primary":{"combat":{"description":"24m","value":24},"noncombat":{"description":"48m","value":48}},"secondary":{"combat":{"description":"24m","value":24},"noncombat":{"description":"48m","value":48}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"tunnel":{"current":"primary","combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_tunnel","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1289696043619,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"6","active":"30","base":"30","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Geocontrol Multipower","optionID":"BROAD","text":"+6 with Geocontrol Multipower"},
+	{"name":"SS (Geology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1289696066098,"type":"Science Skill","input":"Geology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Geology 13-"},
+	{"name":"SS (Physics) ","stat":"GENERAL","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1289696215630,"type":"Science Skill","input":"Physics","level":"0","active":"1","base":"1","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Physics 8-"},
+	{"name":"SS (Vulcanology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1289696216041,"type":"Science Skill","input":"Vulcanology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Vulcanology 13-"}],
+"talents":[
+	{"name":"Bump Of Direction ","roll":"","uid":1289696039171,"type":"Bump Of Direction","input":"","level":"0","active":"3","base":"3","XMLID":"BUMP_OF_DIRECTION","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Money ","roll":"","uid":1289696027860,"type":"Money","input":"Filthy Rich","level":"0","active":"15","base":"15","XMLID":"MONEY","modifiers":[],"adders":[]}],
+"disads":[
+	{"name":"Enraged","roll":"","uid":1289696114807,"type":"Enraged","input":"If Insulted, Mocked or a Soliloquy Interupted","level":"0","active":"25","base":"25","XMLID":"ENRAGED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289696253031,"type":"Circumstance is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1289696253037,"type":"Chance To Become Enraged","input":"go 14-","level":"0"},{"name":"No Name Supplied","uid":1289696253043,"type":"Chance To Recover","input":"recover 11-","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1289696290126,"type":"Hunted","input":"ARGENT","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289696294590,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1289696294596,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1289696294602,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1289696294603,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1289696168532,"type":"Psychological Complication","input":"Determined to Rule Earth and Cleanse Most of Humanity From It","level":"0","active":"25","base":"25","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289696309083,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1289696309089,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1289696188715,"type":"Social Complication","input":"Secret ID: Jason Dixon","level":"0","active":"5","base":"5","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289696329456,"type":"Circumstances Occur","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1289696329462,"type":"Effects of Restrictions","input":"Minor","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1289696198114,"type":"Vulnerability","input":"Magnetic or Gravitic Attacks","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1289696339091,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1289696339064,"type":"The Attack Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1289696043619,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"6","active":"30","base":"30","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Geocontrol","uid":1289695221807,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"114","base":"114","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Lava Blast","uid":1289695114816,"type":"Blast","damage":"16d6","range":"800m","input":"ED","level":"16","end":"4","active":"100","base":"80","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289695245496,"type":"Reduced Endurance","damage":"16d6","range":"800m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Wide Lava Blast","uid":1289695178004,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"3","active":"90","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289695310965,"type":"Reduced Endurance","damage":"12d6","range":"600m","input":"Half END","level":"0"},{"value":"+¼","name":"","uid":1289695314381,"type":"Area Of Effect","damage":"12d6","range":"600m","input":"Radius","level":"1"}],"adders":[]},
+	{"name":"Lava Eruption","uid":1289695205219,"type":"Blast","damage":"18d6","range":"900m","input":"ED","level":"18","end":"11","active":"112","base":"90","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289695336598,"type":"Indirect","damage":"18d6","range":"900m","input":"Source Point is the same for every use, path is from Source Point to target","level":"0"},{"value":"-¼","name":"","uid":1289695369994,"type":"Limited Power","damage":"18d6","range":"900m","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-0","name":"","uid":1289695392922,"type":"Side Effects","damage":"18d6","range":"900m","input":"Minor Side Effect","level":"0"}],"adders":[]},
+	{"name":"Wide Lava Eruption","uid":1289695429044,"type":"Blast","damage":"13d6","range":"650m","input":"ED","level":"13","end":"11","active":"114","base":"65","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289695469567,"type":"Indirect","damage":"13d6","range":"650m","input":"Source Point is the same for every use, path is from Source Point to target","level":"0"},{"value":"-¼","name":"","uid":1289695469581,"type":"Limited Power","damage":"13d6","range":"650m","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-0","name":"","uid":1289695469597,"type":"Side Effects","damage":"13d6","range":"650m","input":"Minor Side Effect","level":"0"},{"value":"+½","name":"","uid":1289695469618,"type":"Area Of Effect","damage":"13d6","range":"650m","input":"Radius","level":"28"}],"adders":[]},
+	{"name":"Igneous Lance","uid":1289695371873,"type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"10","active":"100","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1289695513189,"type":"Indirect","damage":"10d6","range":"500m","input":"Source Point can vary from use to use, path can change with every use","level":"0"},{"value":"-¼","name":"","uid":1289695546041,"type":"Limited Power","damage":"10d6","range":"500m","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Igneous Spear","uid":1289695433854,"type":"Killing Ranged","damage":"3½d6","range":"550m","input":"ED","level":"3","end":"11","active":"110","base":"55","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1289695582555,"type":"Indirect","damage":"3½d6","range":"550m","input":"Source Point can vary from use to use, path can change with every use","level":"0"},{"value":"-¼","name":"","uid":1289695588484,"type":"Limited Power","damage":"3½d6","range":"550m","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1289695569213,"type":"+½ d6","damage":"3½d6","range":"550m","input":"","level":"0"}]},
+	{"name":"Igneous Incarceration","uid":1289695474252,"type":"Entangle","damage":"8d6, 8 PD/8 ED","range":"800m","input":"","level":"8","end":"10","active":"100","base":"100","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289695612349,"type":"Stops A Given Sense Group","damage":"8d6, 8 PD/8 ED","range":"800m","input":"Sight Group","level":"0"},{"name":"No Name Supplied","uid":1289695616027,"type":"Stops A Given Sense Group","damage":"8d6, 8 PD/8 ED","range":"800m","input":"Hearing Group","level":"0"}]},
+	{"name":"Heatwave","uid":1289695499690,"type":"Blast","damage":"9d6","range":"","input":"ED","level":"9","end":"11","active":"112","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1289695631434,"type":"Attack Versus Alternate Defense","damage":"9d6","range":"","input":"Life Support (Safe Environment: Intense Heat)Very Common -> Rare","level":"0"},{"value":"+½","name":"","uid":1289695656811,"type":"Area Of Effect","damage":"9d6","range":"","input":"Radius","level":"20"},{"value":"-½","name":"","uid":1289695667167,"type":"No Range","damage":"9d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Geokinesis","uid":1289695556247,"type":"Telekinesis","damage":"(60 STR)","range":"900m","input":"","level":"60","end":"10","active":"100","base":"100","XMLID":"TELEKINESIS","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1289695698397,"type":"Limited Power","damage":"(60 STR)","range":"900m","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1289695692599,"type":"Affects Porous","damage":"(60 STR)","range":"900m","input":"","level":"0"}]},
+	{"name":"Resilience of the Earth","uid":1289695602852,"type":"Resistant Protection","damage":"","range":"","input":"","level":"60","end":"0","active":"90","base":"90","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1289674620219,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 75%","level":"0","end":"0","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1289674635737,"type":"Damage Reduction","damage":"0d6","range":"","input":"PhysicalDamage Reduction, Resistant, 75%","level":"0","end":"0","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":true,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Eyes of Lava","uid":1289695699423,"type":"Flash Defense","damage":"(15 points)","range":"","input":"Sight Group","level":"15","end":"0","active":"15","base":"15","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Resilience of the Earth","uid":1289695718013,"type":"Power Defense","damage":"15 points","range":"","input":"","level":"15","end":"0","active":"15","base":"15","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Resilience of the Earth","uid":1289695817521,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"35","base":"35","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1289695955017,"type":"Eating","damage":"","range":"","input":"Character does not eat","level":"0"},{"name":"No Name Supplied","uid":1289695964325,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1289695963597,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1289695960175,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695961650,"type":"Safe in High Radiation","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695963068,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695962787,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695959886,"type":"Safe in Low Pressure/Vacuum","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695954104,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1289695959453,"type":"Sleeping","damage":"","range":"","input":"Character does not sleep","level":"0"}]},
+	{"name":"Lava's Passage","uid":1289695854046,"type":"Tunneling","damage":"40m through 20 PD material","range":"","input":"","level":"40","end":"4","active":"100","base":"80","XMLID":"TUNNELING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1289696009695,"type":"Reduced Endurance","damage":"40m through 20 PD material","range":"","input":"Half END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1289696000120,"type":"+19 PD","damage":"40m through 20 PD material","range":"","input":"","level":"19"}]},
+	{"name":"Geo-Riding","uid":1289695886380,"type":"Running","damage":"","range":"","input":"","level":"12","end":"1","active":"12","base":"12","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1289696058623,"type":"Side Effects","damage":"","range":"","input":"Major Side Effect","level":"0"}],"adders":[]},
+	{"name":"Sense Vibrations","uid":1289695952472,"type":"Detect","damage":"13-","range":"","input":"A Large Class Of Things","level":"0","end":"0","active":"30","base":"30","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1289696136185,"type":"Limited Power","damage":"13-","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1625466103436,"type":"Discriminatory","damage":"13-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625466103437,"type":"Range","damage":"13-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625466103438,"type":"Targeting","damage":"13-","range":"","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Lava Blast","uid":1289695114816,"gameEdition":6,"tool":"16d6, Blast (vs. ED) 800m, 4 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Wide Lava Blast","uid":1289695178004,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, 3 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Lava Eruption","uid":1289695205219,"gameEdition":6,"tool":"18d6, Blast (vs. ED) 900m, 11 end.","diceMod":0,"dice":18,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Wide Lava Eruption","uid":1289695429044,"gameEdition":6,"tool":"13d6, Blast (vs. ED) 650m, 11 end.","diceMod":0,"dice":13,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Igneous Lance","uid":1289695371873,"gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 10 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Igneous Spear","uid":1289695433854,"gameEdition":6,"tool":"3½d6, Killing Ranged (vs. ED) 550m, 11 end.","diceMod":0,"dice":3,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Igneous Incarceration","uid":1289695474252,"gameEdition":6,"tool":"8d6, 8 PD/8 ED, Entangle 800m, 10 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Heatwave","uid":1289695499690,"gameEdition":6,"tool":"9d6, Blast (vs. ED) , 11 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Geokinesis","uid":1289695556247,"gameEdition":6,"tool":"(60 STR), Telekinesis 900m, 10 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

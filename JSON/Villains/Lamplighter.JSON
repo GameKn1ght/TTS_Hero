@@ -1,0 +1,229 @@
+{
+"appversion":"20201025",
+"exportid":"20210704233702",
+"name":"Lamplighter",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":25,"roll":"14-","shortname":"str","name":"Strength","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"HTH Damage 5d6  END [2]"},
+"dex":{"value":24,"roll":"14-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":24,"roll":"14-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":""},
+"con":{"value":25,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"int":{"value":23,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"PER Roll 14-"},
+"ego":{"value":23,"roll":"14-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":30,"roll":"15-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"PRE Attack: 6d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":8,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":8,"roll":"11-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dmcv":{"value":8,"roll":"11-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"pd":{"value":25,"roll":"14-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"25 PD (10 rPD)"},
+"pdr":{"value":10,"roll":"14-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":10,"roll":"14-","mod":0},"secondary":{"value":10,"roll":"14-","mod":0},"notes":"25 PD (10 rPD)"},
+"ed":{"value":25,"roll":"14-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"25 ED (10 rED)"},
+"edr":{"value":25,"roll":"14-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":"25 ED (10 rED)"},
+"per":{"value":23,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":10,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"body":{"value":14,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"end":{"value":50,"roll":"19-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"14-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 14-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287502248269,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Soul Powers Multipower","optionID":"BROAD","text":"+2 with Soul Powers Multipower"},
+	{"name":"Bribery ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287502332285,"type":"Bribery","input":"","level":"0","active":"3","base":"3","XMLID":"BRIBERY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bribery 15-"},
+	{"name":"Bureaucratics ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287502334707,"type":"Bureaucratics","input":"","level":"0","active":"3","base":"3","XMLID":"BUREAUCRATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Bureaucratics 15-"},
+	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1287502338770,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 14-"},
+	{"name":"Conversation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287502341270,"type":"Conversation","input":"","level":"0","active":"3","base":"3","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 15-"},
+	{"name":"Interrogation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287502345567,"type":"Interrogation","input":"","level":"0","active":"3","base":"3","XMLID":"INTERROGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Interrogation 15-"},
+	{"name":"KS (Dictator Psychology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1287502395333,"type":"KS","input":"Dictator Psychology","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Dictator Psychology 14-"},
+	{"name":"KS (Global Politics) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287514559379,"type":"KS","input":"Global Politics","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Global Politics 11-"},
+	{"name":"KS (The Mercenary/Paramilitary/Terrorist World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287514580067,"type":"KS","input":"The Mercenary/Paramilitary/Terrorist World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Mercenary/Paramilitary/Terrorist World 11-"},
+	{"name":"KS (The Soul) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1287514645598,"type":"KS","input":"The Soul","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Soul 14-"},
+	{"name":"KS (World Organized Crime) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287514657974,"type":"KS","input":"World Organized Crime","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: World Organized Crime 11-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287514673302,"type":"Persuasion","input":"","level":"0","active":"3","base":"3","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 15-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1287514677677,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 14-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1287514681724,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 15-"}],
+"talents":[
+	{"name":"Universal Translator 14-","roll":"14-","uid":1287499751238,"type":"Universal Translator","input":"","level":"0","active":"20","base":"20","XMLID":"UNIVERSAL_TRANSLATOR","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Anonymity ","roll":"","uid":1287499682534,"type":"Anonymity","input":"","level":"0","active":"3","base":"3","XMLID":"ANONYMITY","modifiers":[],"adders":[]},
+	{"name":"Fringe Benefit ","roll":"","uid":1287499686112,"type":"Fringe Benefit","input":"","level":"0","active":"5","base":"5","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287499748546,"type":"","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1287514699974,"type":"Distinctive Features","input":"Indefinably repulsive old man","level":"0","active":"15","base":"15","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287514722250,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1287514722256,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1287514722262,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287543552067,"type":"Hunted","input":"Trismegistus Council","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543559914,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287543559920,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1287543559926,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1287543565243,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287543577384,"type":"Hunted","input":"enemies of current ＂master＂","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543585609,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287543585615,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1287543585621,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287543599199,"type":"Hunted","input":"mystic hero","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543607725,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287543607731,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1287543607738,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287543612053,"type":"Psychological Complication","input":"Sadistic","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543620874,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1287543620880,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287543630169,"type":"Psychological Complication","input":"Hates Mentalists","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543639217,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1287543639223,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1287543644891,"type":"Susceptibility","input":"to light-based Flash Attacks","level":"0","active":"15","base":"15","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287543654361,"type":"Number of Dice","input":"2d6 damage","level":"0"},{"name":"No Name Supplied","uid":1287543654374,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1287543654380,"type":"Condition Is","input":"Common","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1287543666689,"type":"Vulnerability","input":"from Soul Magic","level":"0","active":"5","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1287543676533,"type":"Vulnerability Multiplier","input":"1½x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287543676487,"type":"The Attack Is","input":"Uncommon","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1287543680929,"type":"Vulnerability","input":"from Soul Magic","level":"0","active":"5","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1287543691012,"type":"Vulnerability Multiplier","input":"1½x BODY","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287543690974,"type":"The Attack Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1287502248269,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Soul Powers","uid":1285169643635,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"90","base":"90","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Soul-Orb Possession","uid":1285169659822,"type":"Mind Control","damage":"12d6","range":"LOS","input":"","level":"12","end":"3","active":"90","base":"60","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285169700874,"type":"Telepathic","damage":"12d6","range":"LOS","input":"","level":"0"},{"value":"+¼","name":"","uid":1285169704983,"type":"Reduced Endurance","damage":"12d6","range":"LOS","input":"Half END","level":"0"},{"value":"-¼","name":"","uid":1285169714057,"type":"Perceivable","damage":"12d6","range":"LOS","input":"Invisible Power becomes Inobvious","level":"0"}],"adders":[]},
+	{"name":"Soul-Orb Barrage","uid":1285169726340,"type":"Mental Blast","damage":"7d6","range":"LOS","input":"","level":"7","end":"3","active":"87","base":"70","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1285169762415,"type":"Perceivable","damage":"7d6","range":"LOS","input":"Invisible Power becomes Inobvious","level":"0"},{"value":"+¼","name":"","uid":1285169773506,"type":"Reduced Endurance","damage":"7d6","range":"LOS","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Soull-Orb Swarm","uid":1285169770794,"type":"Mental Blast","damage":"3d6","range":"LOS","input":"","level":"3","end":"3","active":"75","base":"30","XMLID":"EGOATTACK","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1285169805843,"type":"Reduced Endurance","damage":"3d6","range":"LOS","input":"Half END","level":"0"},{"value":"-¼","name":"","uid":1285169819790,"type":"Perceivable","damage":"3d6","range":"LOS","input":"Invisible Power becomes Inobvious","level":"0"},{"value":"+1¼","name":"","uid":1285169830671,"type":"Area Of Effect","damage":"3d6","range":"LOS","input":"Radius","level":"32"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1285169986315,"type":"Desolidification","damage":"","range":"","input":"magic","level":"0","end":"0","active":"60","base":"40","XMLID":"DESOLIDIFICATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285170037571,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1285170103982,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"30","base":"20","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1285170186584,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1285170186611,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1285170202102,"type":"Linked","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Soul-Orb Searchers","uid":1287496972845,"type":"Mind Scan","damage":"12d6","range":"","input":"","level":"12","end":"7","active":"70","base":"70","XMLID":"MINDSCAN","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287502332629,"type":"+5 OMCV","damage":"12d6","range":"","input":"","level":"5"}]},
+	{"name":"Take Soul","uid":1287497313675,"type":"Transform","damage":"2d6","range":"","input":"normal person to person with the Psychological Complication Utterly Obedient To Lamplighter [Very Common, Total]Severe","level":"2","end":"0","active":"60","base":"30","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1287497778565,"type":"Alternate Combat Value","damage":"2d6","range":"","input":"uses OMCV against DMCV","level":"0"},{"value":"+0","name":"","uid":1287497792214,"type":"Attack Versus Alternate Defense","damage":"2d6","range":"","input":"Mental DefenseUncommon -> Uncommon","level":"0"},{"value":"+¼","name":"","uid":1287497841648,"type":"Works Against EGO, Not BODY","damage":"2d6","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1287498004761,"type":"Reduced Endurance","damage":"2d6","range":"","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1287498029234,"type":"Concentration","damage":"2d6","range":"","input":"½ DCV","level":"0"},{"value":"-½","name":"","uid":1287498034392,"type":"Extra Time","damage":"2d6","range":"","input":"Full Phase","level":"0"},{"value":"-½","name":"","uid":1287498046659,"type":"Limited Target","damage":"2d6","range":"","input":"([Limited]","level":"0"},{"value":"-½","name":"","uid":1287498076060,"type":"No Range","damage":"2d6","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287497320384,"type":"Healed back by","damage":"2d6","range":"","input":"","level":"0"}]},
+	{"name":"Soul Light","uid":1287498736544,"type":"Images","damage":"","range":"160m","input":"Sight Group","level":"0","end":"0","active":"32","base":"16","XMLID":"IMAGES","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287498782729,"type":"Area Of Effect","damage":"","range":"160m","input":"Radius","level":"8"},{"value":"+½","name":"","uid":1287498794837,"type":"Reduced Endurance","damage":"","range":"160m","input":"0 END","level":"0"},{"value":"-1","name":"","uid":1287498944821,"type":"Only To Create Light","damage":"","range":"160m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287498771066,"type":"+/-2 to PER Rolls","damage":"","range":"160m","input":"","level":"2"}]},
+	{"name":"Spiritual Shield","uid":1287499027608,"type":"PD","damage":"","range":"","input":"","level":"10","end":"","active":"15","base":"10","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287499059817,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Spiritual Shield","uid":1287499173843,"type":"ED","damage":"","range":"","input":"","level":"10","end":"","active":"15","base":"10","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287499197334,"type":"Resistant","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Impenetrable Evil","uid":1287499218734,"type":"Mental Defense","damage":"20 points total","range":"","input":"","level":"20","end":"0","active":"20","base":"20","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Spiritual Immunities","uid":1287499415501,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"20","base":"20","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287499458550,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1287499453844,"type":"Longevity","damage":"","range":"","input":"Immortal","level":"0"},{"name":"No Name Supplied","uid":1287499447077,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Astral Awareness","uid":1287499481158,"type":"Perceive into a single other dimension","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"10","base":"10","XMLID":"DIMENSIONALSINGLE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Astral Awareness","uid":1287499504580,"type":"Perceive into a single other dimension","damage":"","range":"","input":"Hearing Group","level":"0","end":"0","active":"10","base":"10","XMLID":"DIMENSIONALSINGLE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Monitor Minions","uid":1287499545283,"type":"Mind Link","damage":"","range":"LOS","input":"Specific Group of Minds","level":"0","end":"0","active":"20","base":"20","XMLID":"MINDLINK","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287499575329,"type":"Number of Minds (x4)","damage":"","range":"LOS","input":"","level":"2"}]},
+	{"name":"Spiritual Sight","uid":1287499617471,"type":"Detect","damage":"14-","range":"","input":"A Large Class Of Things","level":"0","end":"0","active":"27","base":"27","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1625466615856,"type":"Discriminatory","damage":"14-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625466615857,"type":"Sense","damage":"14-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1625466615858,"type":"Targeting","damage":"14-","range":"","input":"","level":"0"}]},
+	{"name":"Sliding Up Walls","uid":1287499665846,"type":"Clinging","damage":"+0 STR","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"CLINGING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Soul-Orb Possession","uid":1285169659822,"gameEdition":6,"tool":"12d6, Mind Control LOS, 3 end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Soul-Orb Barrage","uid":1285169726340,"gameEdition":6,"tool":"7d6, Mental Blast LOS, 3 end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Soull-Orb Swarm","uid":1285169770794,"gameEdition":6,"tool":"3d6, Mental Blast LOS, 3 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Take Soul","uid":1287497313675,"gameEdition":6,"tool":"2d6, Transform (vs. normal person to person with the Psychological Complication Utterly Obedient To Lamplighter [Very Common, Total],Severe) , 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Soul Light","uid":1287498736544,"gameEdition":6,"tool":"Images (vs. Sight Group) 160m, 0 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

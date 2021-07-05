@@ -1,0 +1,209 @@
+{
+"appversion":"20201025",
+"exportid":"20210704230437",
+"name":"Alchemica",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":16,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":16,"roll":"12-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":""},
+"con":{"value":14,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":13,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PRE Attack: 2½d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"4/12 PD (0/8 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"4/12 PD (0/8 rPD)"},
+"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"4/12 ED (0/8 rED)"},
+"edr":{"value":4,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"4/12 ED (0/8 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287026930161,"type":"Combat Skill Levels","input":"with any single attack","level":"2","active":"4","base":"4","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with any single attack","optionAlias":"with Transmutation","optionID":"SINGLE","text":"+2 with Transmutation"},
+	{"name":"Combat Skill Levels: Chunk Of Philosopher�s Stone ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1287026968038,"type":"Combat Skill Levels","input":"with any single attack","level":"4","active":"8","base":"8","XMLID":"COMBAT_LEVELS","modifiers":[{"XMLID":"FOCUS","value":"-1","name":"","uid":1287026999113,"cost":"-1","type":"Focus","input":"OAF","level":"0"}],"adders":[],"option":"with any single attack","optionAlias":"with any single attack","optionID":"SINGLE","text":"+4 with any single attack (8 Active Points); OAF (-1)"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287027013870,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 12-"},
+	{"name":"KS (Alchemy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287027018972,"type":"KS","input":"Alchemy","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Alchemy 11-"},
+	{"name":"Science Skill (Geology) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1287027043682,"type":"Science Skill","input":"Geology","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Geology 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1287027064196,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1287027066084,"type":"Streetwise","input":"","level":"0","active":"1","base":"1","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 8-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1287027109436,"type":"Distinctive Features","input":"Mutant","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287027125264,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1287027125270,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1287027125276,"type":"Sensing","input":"Detectable By Uncommonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1287027148093,"type":"Hunted","input":"PRIMUS","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287449925375,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1287449925381,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1287449925387,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1287449925388,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287027201788,"type":"Psychological Complication","input":"Code Versus Killing","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287027218018,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1287027218024,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1287027230414,"type":"Psychological Complication","input":"Wants Money, Power, And Respect","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287027246750,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1287027246756,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1287027267885,"type":"Social Complication","input":"Public Identity (Nikki Wilcox)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1287027284375,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1287027284381,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1287026930161,"type":"Combat Skill Levels","input":"with any single attack","level":"2","active":"4","base":"4","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1287026968038,"type":"Combat Skill Levels","input":"with any single attack","level":"4","active":"8","base":"8","XMLID":"COMBAT_LEVELS","modifiers":[{"value":"-1","name":"","uid":1287026999113,"type":"Focus","input":"OAF","level":"0"}],"adders":[]}],
+"powers":[
+	{"name":"Transmutation","uid":1287024927303,"type":"Transform","damage":"1d6","range":"150m","input":"anything into anythingSevere","level":"1","end":"0","active":"37","base":"15","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1287025016593,"type":"Improved Results Group","damage":"1d6","range":"150m","input":"","level":"0"},{"value":"+½","name":"","uid":1287025042114,"type":"Reduced Endurance","damage":"1d6","range":"150m","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1287025053682,"type":"Extra Time","damage":"1d6","range":"150m","input":"Full Phase","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287024933634,"type":"Healed back by","damage":"1d6","range":"150m","input":"","level":"0"}]},
+	{"name":"Chunk Of Philosopher�s Stone","uid":1287025704729,"type":"Transform","damage":"3d6","range":"450m","input":"anything into anythingSevere","level":"3","end":"0","active":"112","base":"45","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1287025989077,"type":"Improved Results Group","damage":"3d6","range":"450m","input":"","level":"0"},{"value":"+½","name":"","uid":1287025989082,"type":"Reduced Endurance","damage":"3d6","range":"450m","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1287025989124,"type":"Extra Time","damage":"3d6","range":"450m","input":"Full Phase","level":"0"},{"value":"-1","name":"","uid":1287025989153,"type":"Focus","damage":"3d6","range":"450m","input":"OAF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1287025989076,"type":"Healed back by","damage":"3d6","range":"450m","input":"","level":"0"}]},
+	{"name":"Combat Transmutations","uid":1287025930171,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"60","base":"60","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1287025952913,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Air Into Knockout Gas","uid":1287026027170,"type":"Blast","damage":"4d6","range":"200m","input":"ED","level":"4","end":"0","active":"60","base":"20","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1287026291640,"type":"Attack Versus Alternate Defense","damage":"4d6","range":"200m","input":"Life Support [Self-Contained Breathing]; target holds his breathVery Common -> Rare","level":"0"},{"value":"+½","name":"","uid":1287026291660,"type":"Area Of Effect","damage":"4d6","range":"200m","input":"Radius","level":"8"},{"value":"+½","name":"","uid":1287026291667,"type":"Reduced Endurance","damage":"4d6","range":"200m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1287026291689,"type":"Conditional Power","damage":"4d6","range":"200m","input":"Power does not work in Uncommon Circumstances","level":"0"}],"adders":[]},
+	{"name":"Air Into Poisonous Gas","uid":1287026322744,"type":"Killing Ranged","damage":"1d6","range":"150m","input":"ED","level":"1","end":"0","active":"45","base":"15","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1287026368896,"type":"Attack Versus Alternate Defense","damage":"1d6","range":"150m","input":"Life Support [Self-Contained Breathing]; target holds his breathVery Common -> Rare","level":"0"},{"value":"+½","name":"","uid":1287026368916,"type":"Area Of Effect","damage":"1d6","range":"150m","input":"Radius","level":"8"},{"value":"+½","name":"","uid":1287026368923,"type":"Reduced Endurance","damage":"1d6","range":"150m","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1287026368945,"type":"Conditional Power","damage":"1d6","range":"150m","input":"Power does not work in Uncommon Circumstances","level":"0"},{"value":"-1","name":"","uid":1287026368973,"type":"Focus","damage":"1d6","range":"150m","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Acid Rain","uid":1287026396001,"type":"Killing Ranged","damage":"1d6","range":"var.","input":"ED","level":"1","end":"4","active":"41","base":"15","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1287026423434,"type":"Constant","damage":"1d6","range":"var.","input":"","level":"0"},{"value":"+½","name":"","uid":1287026428320,"type":"Penetrating","damage":"1d6","range":"var.","input":"","level":"1"},{"value":"+¼","name":"","uid":1287026440097,"type":"Indirect","damage":"1d6","range":"var.","input":"Source Point is the same for every use, path is from Source Point to target","level":"0"},{"value":"+½","name":"","uid":1287026480927,"type":"Uncontrolled","damage":"1d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1287026493352,"type":"Limited Range","damage":"1d6","range":"var.","input":"","level":"0"}],"adders":[]},
+	{"name":"Mind Control Drug","uid":1287026524249,"type":"Mind Control","damage":"8d6","range":"var.","input":"","level":"8","end":"4","active":"40","base":"40","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1287026728607,"type":"Based on CON","damage":"8d6","range":"var.","input":"Defense: PD","level":"0"},{"value":"-¼","name":"","uid":1287026728609,"type":"Limited Range","damage":"8d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1287026728630,"type":"Conditional Power","damage":"8d6","range":"var.","input":"Power does not work in Uncommon Circumstances","level":"0"},{"value":"-1","name":"","uid":1287026728658,"type":"Focus","damage":"8d6","range":"var.","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1287026745733,"type":"Limited Power","damage":"8d6","range":"var.","input":"Power loses about a fourth of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Armored Costume","uid":1287026851880,"type":"Resistant Protection","damage":"","range":"","input":"","level":"16","end":"0","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1287026896723,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Transmutation","uid":1287024927303,"gameEdition":6,"tool":"1d6, Transform (vs. anything into anything,Severe) 150m, 0 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Chunk Of Philosopher�s Stone","uid":1287025704729,"gameEdition":6,"tool":"3d6, Transform (vs. anything into anything,Severe) 450m, 0 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Air Into Knockout Gas","uid":1287026027170,"gameEdition":6,"tool":"4d6, Blast (vs. ED) 200m, 0 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Air Into Poisonous Gas","uid":1287026322744,"gameEdition":6,"tool":"1d6, Killing Ranged (vs. ED) 150m, 0 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Acid Rain","uid":1287026396001,"gameEdition":6,"tool":"1d6, Killing Ranged (vs. ED) var., 4 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Mind Control Drug","uid":1287026524249,"gameEdition":6,"tool":"8d6, Mind Control var., 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
