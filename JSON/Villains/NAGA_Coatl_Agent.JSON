@@ -100,9 +100,7 @@
 	{"name":"Single-Shot Setting","uid":1082475406903,"gameEdition":6,"tool":"3d6, Killing Ranged (vs. ED) 450m, 0 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Autofire Setting","uid":1082475406951,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. ED) var., 0 end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Rifle-Butt Club","uid":1082473933883,"gameEdition":6,"tool":"3d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1080960333860,"gameEdition":6,"tool":"Combat Skill Levels (vs. with any single attack) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1080787758381,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, [10] end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"No Name Supplied","uid":1080787802469,"gameEdition":6,"tool":"Combat Skill Levels (vs. with any single attack) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Laser Pistol","uid":1080787758381,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, [10] end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"VG-1 Frag Grenade","uid":1082475575623,"gameEdition":6,"tool":"2d6+1, Killing Ranged (vs. PD) var., [4] end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
