@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"uri": "tabletop-simulator:/",
+			"name": "Tabletop Simulator",
 		}
 	],
 	"settings": {}
