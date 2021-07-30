@@ -1,0 +1,233 @@
+{
+"appversion":"20201025",
+"exportid":"20210728212257",
+"name":"Tiger Lily",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":20,"roll":"13-","shortname":"str","name":"Strength","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"HTH Damage 4d6  END [2]"},
+"dex":{"value":30,"roll":"15-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"con":{"value":23,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":12,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":18,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PRE Attack: 3½d6"},
+"spd":{"value":6,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"Phases: 2, 4, 6, 8, 10, 12/2, 3, 5, 6, 8, 9, 11, 12"},
+"ocv":{"value":10,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":10,"roll":"11-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":10,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"10/20 PD (0/10 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"13-","mod":0},"notes":"10/20 PD (0/10 rPD)"},
+"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":"6/16 ED (0/10 rED)"},
+"edr":{"value":6,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":"6/16 ED (0/10 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":30,"roll":"15-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"body":{"value":14,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"end":{"value":45,"roll":"18-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":45,"roll":"18-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"32m","noncombat":"64m","primary":{"combat":{"description":"32m","value":32},"noncombat":{"description":"64m","value":64}},"secondary":{"combat":{"description":"32m","value":32},"noncombat":{"description":"64m","value":64}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"16m","noncombat":"32m","primary":{"combat":{"description":"16m/8m","value":16},"noncombat":{"description":"32m","value":32}},"secondary":{"combat":{"description":"16m/8m","value":16},"noncombat":{"description":"32m","value":32}},"icon":"ui_leap","notes":"16m forward, 8m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284082948093,"type":"Combat Skill Levels","input":"with HTH Combat","level":"4","active":"32","base":"32","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with HTH Combat","optionAlias":"with HTH Combat","optionID":"HTH","text":"+4 with HTH Combat"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284082960205,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 15-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284082963410,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 15-"},
+	{"name":"Charm ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284082965805,"type":"Charm","input":"","level":"0","active":"3","base":"3","XMLID":"CHARM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Charm 13-"},
+	{"name":"Climbing ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284082966764,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 15-"},
+	{"name":"Contortionist ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284082970532,"type":"Contortionist","input":"","level":"0","active":"3","base":"3","XMLID":"CONTORTIONIST","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Contortionist 15-"},
+	{"name":"Gambling ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1284082977918,"type":"Gambling","input":"","level":"0","active":"2","base":"2","XMLID":"GAMBLING","modifiers":[],"adders":[{"XMLID":"CARDGAMES","name":"","uid":1284082994763,"cost":"2","type":"Card Games","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Gambling (Card Games) 12-"},
+	{"name":"High Society ","stat":"PRE","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1284083018012,"type":"High Society","input":"","level":"0","active":"1","base":"1","XMLID":"HIGH_SOCIETY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"High Society 8-"},
+	{"name":"KS (Muay Thai) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284083027162,"type":"KS","input":"Muay Thai","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Muay Thai 11-"},
+	{"name":"Language (English (thai is Native) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284083042824,"type":"Language","input":"English (thai is Nativecompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent","optionID":"ACCENT","text":"Language: English (thai is Native (completely fluent)"},
+	{"name":"Language (Crimelords Battle Codes) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284083075428,"type":"Language","input":"Crimelords Battle Codesbasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Crimelords Battle Codes (basic conversation)"},
+	{"name":"Lockpicking ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284083088735,"type":"Lockpicking","input":"","level":"0","active":"3","base":"3","XMLID":"LOCKPICKING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Lockpicking 15-"},
+	{"name":"Rapid Attack ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284083094117,"type":"Rapid Attack","input":"","level":"0","active":"10","base":"10","XMLID":"RAPID_ATTACK_HTH","modifiers":[{"XMLID":"HTHONLY","value":"-1","name":"","uid":1284083238693,"cost":"-1","type":"HTH Multiple Attacks Only","input":"","level":"0"}],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Rapid Attack  (10 Active Points); HTH Multiple Attacks Only (-1)"},
+	{"name":"Security Systems ","stat":"INT","everyman":false,"familiarity":true,"proficiency":false,"roll":"8-","uid":1284083231366,"type":"Security Systems","input":"","level":"0","active":"1","base":"1","XMLID":"SECURITY_SYSTEMS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Security Systems 8-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1284083241170,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 12-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284083244509,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 15-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284083249314,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 13-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1284083252605,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 15-"},
+	{"name":"Two-Weapon Fighting ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284083258502,"type":"Two-Weapon Fighting","input":"","level":"0","active":"10","base":"10","XMLID":"TWO_WEAPON_FIGHTING_HTH","modifiers":[{"XMLID":"MODIFIER","value":"-1","name":"","uid":1284083333642,"cost":"-1","type":"HTH Multiple Attacks Only","input":"","level":"0"}],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Two-Weapon Fighting  (10 Active Points); HTH Multiple Attacks Only (-1)"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284083346587,"type":"Weapon Familiarity","input":"","level":"0","active":"10","base":"10","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMELEE","name":"","uid":1284083366096,"cost":"2","type":"Common Melee Weapons","input":"","level":"0"},{"XMLID":"COMMONMARTIAL","name":"","uid":1284083373398,"cost":"2","type":"Common Martial Arts Melee Weapons","input":"","level":"0"},{"XMLID":"COMMONMISSILE","name":"","uid":1284083378625,"cost":"2","type":"Common Missile Weapons","input":"","level":"0"},{"XMLID":"UNCOMMONMISSILEWEAPONS","name":"","uid":1284083388034,"cost":"1","type":"Uncommon Missile Weapons","input":"","level":"0"},{"XMLID":"SMALLARMS","name":"","uid":1284083394540,"cost":"2","type":"Small Arms","input":"","level":"0"},{"XMLID":"UNCOMMONMELEE","name":"","uid":1284083399441,"cost":"1","type":"Uncommon Melee Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Common Martial Arts Melee Weapons, Common Melee Weapons, Common Missile Weapons, Small Arms, Thrown Sword, Whips"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1284083406507,"type":"Distinctive Features","input":"","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083423803,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1284083423809,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1284083423815,"type":"Sensing","input":"Detectable By Uncommonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284083437801,"type":"Hunted","input":"PRIMUS","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083455340,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284083455346,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284083455352,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284083469513,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284083459235,"type":"Hunted","input":"The Champions","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083476970,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284083476976,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284083476982,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284083486479,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284083478361,"type":"Psychological Complication","input":"Fiercely Independent; Has to be in Charge","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083496255,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284083496261,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284083511635,"type":"Psychological Complication","input":"in love with Dreadnaught","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083529635,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284083529641,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1284083546111,"type":"Social Complication","input":"Secret Identity","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284083564265,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284083564271,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284082948093,"type":"Combat Skill Levels","input":"with HTH Combat","level":"4","active":"32","base":"32","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Hyperacceleration","uid":1284081570470,"type":"SPD","damage":"","range":"","input":"","level":"2","end":"2","active":"20","base":"20","XMLID":"SPD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284081591877,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"}],"adders":[]},
+	{"name":"Boot Flares","uid":1284081807863,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"5","base":"5","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284081821134,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Knee Strike Enhancement","uid":1284081856894,"type":"Hand-To-Hand Attack","damage":"1d6","range":"","input":"","level":"1","end":"1","active":"5","base":"5","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284081948629,"type":"Hand-To-Hand Attack","damage":"1d6","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1284081951835,"type":"Only works with Knee Strike","damage":"1d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Knee Killing Strike Enhancement","uid":1284081884630,"type":"Killing Attack - Hand-To-Hand","damage":"1 point (1½d6 w/STR)","range":"","input":"PD","level":"0","end":"1","active":"5","base":"5","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284081916655,"type":"Only works with Knee Killing Strike","damage":"1 point (1½d6 w/STR)","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284081944633,"type":"+1 pip","damage":"1 point (1½d6 w/STR)","range":"","input":"","level":"0"}]},
+	{"name":"Fighting Batons","uid":1284081968769,"type":"Hand-To-Hand Attack","damage":"2d6","range":"","input":"","level":"2","end":"1","active":"10","base":"10","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284081976346,"type":"Hand-To-Hand Attack","damage":"2d6","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1284081992612,"type":"Focus","damage":"2d6","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Fighting Batons","uid":1284082006963,"type":"Hand-To-Hand Attack","damage":"2d6","range":"","input":"","level":"2","end":"1","active":"10","base":"10","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284082012230,"type":"Hand-To-Hand Attack","damage":"2d6","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1284082012257,"type":"Focus","damage":"2d6","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Hyperaccelerated Normal Strikes","uid":1284082066658,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"20","base":"20","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1284082175626,"type":"Increased Endurance Cost","damage":"","range":"","input":"x5 END","level":"0"}],"adders":[]},
+	{"name":"Hyperaccelerated Normal Strikes","uid":1284082080144,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"4","end":"10","active":"20","base":"20","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284082165679,"type":"Hand-To-Hand Attack","damage":"4d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1284082129089,"type":"Killing Attack - Hand-To-Hand","damage":"1d6 (2d6+1 w/STR)","range":"","input":"PD (adds to Elbow/Knee Killing Strike","level":"1","end":"5","active":"15","base":"15","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Altered Form","uid":1284082750679,"type":"Resistant Protection","damage":"","range":"","input":"","level":"4","end":"0","active":"6","base":"6","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Armored Costume","uid":1284082774988,"type":"Resistant Protection","damage":"","range":"","input":"","level":"16","end":"0","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284082819739,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Fast","uid":1284082857208,"type":"Running","damage":"","range":"","input":"","level":"6","end":"1","active":"6","base":"6","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Hyperaccelerated Running","uid":1284082868642,"type":"Running","damage":"","range":"","input":"","level":"14","end":"5","active":"14","base":"14","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1284082890345,"type":"Increased Endurance Cost","damage":"","range":"","input":"x5 END","level":"0"}],"adders":[]},
+	{"name":"Strong Leaper","uid":1284082904795,"type":"Leaping","damage":"","range":"","input":"","level":"12","end":"1","active":"6","base":"6","XMLID":"LEAPING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Elbow/Knee Killing Strike","gameEdition":6 ,"ocvMod":-2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"HKA 2½d6","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Elbow/Knee Killing Strike:½ Phase, -2 OCV, +0 DCV, HKA 2½d6","rngMod":0, "abort":false
+	},{"name":"Foot Push","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"45 STR to Shove","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Foot Push:½ Phase, +0 OCV, +0 DCV, 45 STR to Shove","rngMod":0, "abort":false
+	},{"name":"Low Kick","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"8d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Low Kick:½ Phase, +0 OCV, +2 DCV, 8d6 Strike","rngMod":0, "abort":false
+	},{"name":"Punch/Elbow Strike","gameEdition":6 ,"ocvMod":2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"8d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Punch/Elbow Strike:½ Phase, +2 OCV, +0 DCV, 8d6 Strike","rngMod":0, "abort":false
+	},{"name":"Roundhouse Kick/Knee Strike","gameEdition":6 ,"ocvMod":-2,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"10d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Roundhouse Kick/Knee Strike:½ Phase, -2 OCV, +1 DCV, 10d6 Strike","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Knee Strike Enhancement","uid":1284081856894,"gameEdition":6,"tool":"1d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Knee Killing Strike Enhancement","uid":1284081884630,"gameEdition":6,"tool":"1 point (1½d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 1 end.","diceMod":0,"dice":1,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Fighting Batons","uid":1284081968769,"gameEdition":6,"tool":"2d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fighting Batons","uid":1284082006963,"gameEdition":6,"tool":"2d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Hyperaccelerated Normal Strikes","uid":1284082080144,"gameEdition":6,"tool":"4d6, Hand-To-Hand Attack , 10 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"No Name Supplied","uid":1284082129089,"gameEdition":6,"tool":"1d6 (2d6+1 w/STR), Killing Attack - Hand-To-Hand (vs. PD (adds to Elbow/Knee Killing Strike) , 5 end.","diceMod":1,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

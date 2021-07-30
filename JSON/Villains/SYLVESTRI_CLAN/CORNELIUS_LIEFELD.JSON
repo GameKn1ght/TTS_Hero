@@ -1,0 +1,219 @@
+{
+"appversion":"20201025",
+"exportid":"20210728211420",
+"name":"CORNELIUS LIEFELD",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":8,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"HTH Damage 1½d6  END [1]"},
+"dex":{"value":14,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":23,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"PER Roll 14-"},
+"ego":{"value":13,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":12,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"12/18 PD (0/6 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":6,"roll":"13-","mod":0},"notes":"12/18 PD (0/6 rPD)"},
+"ed":{"value":12,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"12/18 ED (0/6 rED)"},
+"edr":{"value":12,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"12/18 ED (0/6 rED)"},
+"per":{"value":23,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":6,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":26,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"14-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 14-"},
+	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283966842723,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 14-"},
+	{"name":"Cryptography ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283966846113,"type":"Cryptography","input":"","level":"0","active":"3","base":"3","XMLID":"CRYPTOGRAPHY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Cryptography 14-"},
+	{"name":"Paramedics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283966852176,"type":"Paramedics","input":"","level":"0","active":"3","base":"3","XMLID":"PARAMEDICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Paramedics 14-"},
+	{"name":"PS (Apothecary) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283966864363,"type":"Professional Skill","input":"Apothecary","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Apothecary 11-"},
+	{"name":"PS (Glassblower) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283966883378,"type":"Professional Skill","input":"Glassblower","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Glassblower 11-"},
+	{"name":"Sleight Of Hand ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283966896628,"type":"Sleight Of Hand","input":"","level":"0","active":"3","base":"3","XMLID":"SLEIGHT_OF_HAND","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Sleight Of Hand 12-"},
+	{"name":"Language (Arabic ) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283966916643,"type":"Language","input":"Arabic fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Arabic  (fluent conversation) (2 Active Points)"},
+	{"name":"Language (German) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283966954643,"type":"Language","input":"Germancompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent (English is Native)","optionID":"ACCENT","text":"Language: German (completely fluent (English is Native)) (3 Active Points)"},
+	{"name":"Language (Greek) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283967015298,"type":"Language","input":"Greekcompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent","optionID":"ACCENT","text":"Language: Greek (completely fluent) (3 Active Points)"},
+	{"name":"Language (Latin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283967031907,"type":"Language","input":"Latincompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent","optionID":"ACCENT","text":"Language: Latin (completely fluent) (3 Active Points)"},
+	{"name":"KS (Alchemy) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967525520,"type":"KS","input":"Alchemy","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Alchemy (3 Active Points) 14-"},
+	{"name":"KS (Arcane And Occult Lore) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967526914,"type":"KS","input":"Arcane And Occult Lore","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Arcane And Occult Lore (3 Active Points) 14-"},
+	{"name":"KS (Astrology) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967519489,"type":"KS","input":"Astrology","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Astrology (2 Active Points) 11-"},
+	{"name":"KS (Occult Natural History) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967523782,"type":"KS","input":"Occult Natural History","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Occult Natural History (3 Active Points) 14-"},
+	{"name":"KS (The Mystic World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967080078,"type":"KS","input":"The Mystic World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Mystic World (2 Active Points) 11-"},
+	{"name":"KS (Western Occultism) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967517267,"type":"KS","input":"Western Occultism","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Western Occultism (3 Active Points) 14-"},
+	{"name":"SS (Anatomy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967384416,"type":"Science Skill","input":"Anatomy","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Anatomy 11- (2 Active Points)"},
+	{"name":"SS (Biology) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967406321,"type":"Science Skill","input":"Biology","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Biology 11- (2 Active Points)"},
+	{"name":"SS (Chemistry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967412493,"type":"Science Skill","input":"Chemistry","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Chemistry 14- (3 Active Points)"},
+	{"name":"SS (Metallurgy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967422712,"type":"Science Skill","input":"Metallurgy","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Metallurgy 11- (2 Active Points)"},
+	{"name":"SS (Mineralogy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283967437665,"type":"Science Skill","input":"Mineralogy","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Mineralogy 11- (2 Active Points)"},
+	{"name":"SS (Pharmacology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1283967450149,"type":"Science Skill","input":"Pharmacology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"SS: Pharmacology 14- (3 Active Points)"}],
+"talents":[
+	{"name":"Simulate Death 11-","roll":"11-","uid":1283966835473,"type":"Simulate Death","input":"","level":"0","active":"3","base":"3","XMLID":"SIMULATE_DEATH","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Vehicles & Bases ","roll":"","uid":1283966809427,"type":"Vehicles & Bases","input":"","level":"0","active":"15","base":"15","XMLID":"VEHICLE_BASE","modifiers":[],"adders":[]}],
+"disads":[
+	{"name":"Dependence","roll":"","uid":1284148716447,"type":"Dependence","input":"must consume heavy metal toxins every 6 hours or suffer","level":"0","active":"10","base":"10","XMLID":"DEPENDENCE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284149182182,"type":"Effect","input":"Incompetence: -1 to Skill Rolls and related rolls per time increment","level":"0"},{"name":"No Name Supplied","uid":1284149182190,"type":"Dependent Substance Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284149182206,"type":"Time Before Suffering Effects","input":"6 Hours","level":"0"},{"name":"No Name Supplied","uid":1284149204611,"type":"Addiction","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283967562850,"type":"Hunted","input":"Doctor Teneber or selected mystic hero","level":"0","active":"15","base":"15","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283967939647,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283967939653,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283967939659,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283967606646,"type":"Hunted","input":"Senior Sylvestris","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283967983702,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283967983708,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283967983714,"type":"Motivation","input":"Watching","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283967641208,"type":"Psychological Complication","input":"Fear Of Combat","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283968018494,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1283968018500,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283967665176,"type":"Psychological Complication","input":"Mercenary","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283968042661,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283968042667,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283967701488,"type":"Psychological Complication","input":"Proud Of His Alchemical Skill","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283968079157,"type":"Situation Is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1283968079163,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"Alchemy","uid":1283966588560,"type":"Variable Power Pool","damage":"","range":"","input":"Magic Pool","level":"96","end":"","active":"120","base":"120","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284148245826,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"},{"value":"-½","name":"","uid":1284148245840,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1284148245862,"type":"Conditional Power","damage":"","range":"","input":"Power does not work in Common Circumstances","level":"0"},{"value":"-½","name":"","uid":1284148245876,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284148245799,"type":"","damage":"","range":"","input":"","level":"48"}]},
+	{"name":"Alchemical Rod","uid":1283966775376,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"15","base":"15","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1283966796612,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"Transmutation","uid":1283966464996,"type":"Transform","damage":"1d6","range":"50m","input":"change one physical propertyMinor","level":"1","end":"1","active":"7","base":"5","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1283966862106,"type":"Improved Results Group","damage":"1d6","range":"50m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1283966830742,"type":"Healed back by","damage":"1d6","range":"50m","input":"","level":"0"}]},
+	{"name":"Alchemical Indicator","uid":1283966552416,"type":"Detect","damage":"9-","range":"","input":"A Class Of Things","level":"0","end":"0","active":"15","base":"15","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1627532205236,"type":"Discriminatory","damage":"9-","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1627532205237,"type":"Analyze","damage":"9-","range":"","input":"","level":"0"}]},
+	{"name":"Alchemically-Treated Suit","uid":1283966616852,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283967003590,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[]},
+	{"name":"Alchemically-Treated Suit","uid":1283966665273,"type":"PD","damage":"","range":"","input":"","level":"6","end":"","active":"6","base":"6","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283967042881,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[]},
+	{"name":"Alchemically-Treated Suit: +6 PD (6 Active Points); IIF (-¼)","uid":1283966704101,"type":"ED","damage":"","range":"","input":"","level":"6","end":"","active":"6","base":"6","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283967083353,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[]},
+	{"name":"Alchemically-Treated Suit","uid":1283966724975,"type":"Power Defense","damage":"8 points","range":"","input":"","level":"8","end":"0","active":"8","base":"8","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1283967116826,"type":"Focus","damage":"8 points","range":"","input":"IIF","level":"0"}],"adders":[]},
+	{"name":"Alchemist�s Tolerance","uid":1283966761162,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"3","base":"3","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284148946372,"type":"Immunity","damage":"","range":"","input":"Alcohol","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Transmutation","uid":1283966464996,"gameEdition":6,"tool":"1d6, Transform (vs. change one physical property,Minor) 50m, 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

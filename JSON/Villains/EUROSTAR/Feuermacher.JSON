@@ -1,0 +1,220 @@
+{
+"appversion":"20201025",
+"exportid":"20210728202752",
+"name":"Feuermacher",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":21,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":21,"roll":"13-","mod":0},"secondary":{"value":21,"roll":"13-","mod":0},"notes":""},
+"con":{"value":25,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":18,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PRE Attack: 3½d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":8,"roll":"11-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"dcv":{"value":7,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":6,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":22,"roll":"13-","mod":0},"notes":"6/22 PD (0/16 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":16,"roll":"13-","mod":0},"notes":"6/22 PD (0/16 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":34,"roll":"16-","mod":0},"notes":"10/34 ED (0/24 rED)"},
+"edr":{"value":10,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":34,"roll":"16-","mod":0},"notes":"10/34 ED (0/24 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":7,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":50,"roll":"19-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"stun":{"value":36,"roll":"16-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":36,"roll":"16-","mod":0},"secondary":{"value":36,"roll":"16-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"40m","noncombat":"80m","primary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"secondary":{"combat":{"description":"40m","value":40},"noncombat":{"description":"80m","value":80}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284611595585,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Fiery Attacks Multipower","optionID":"BROAD","text":"+3 with Fiery Attacks Multipower"},
+	{"name":"Climbing ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284611624968,"type":"Climbing","input":"","level":"0","active":"3","base":"3","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 13-"},
+	{"name":"AK (Africa) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284611630392,"type":"Knowledge Skill","input":"Africa","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Africa 11-"},
+	{"name":"AK (Europe) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284611690077,"type":"Knowledge Skill","input":"Europe","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Europe 11-"},
+	{"name":"AK (South America) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284611691119,"type":"Knowledge Skill","input":"South America","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: South America 11-"},
+	{"name":"KS (The Military/Mercenary/Terrorist World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284611666712,"type":"KS","input":"The Military/Mercenary/Terrorist World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Military/Mercenary/Terrorist World 11-"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284611675408,"type":"KS","input":"The Superhuman World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284611683913,"type":"Language","input":"Englishfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: English (fluent conversation)"},
+	{"name":"Language (Esperanto) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284611763968,"type":"Language","input":"Esperantobasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Esperanto (basic conversation)"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284611728496,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 13-"},
+	{"name":"Survival ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284611732777,"type":"Survival","input":"","level":"0","active":"4","base":"4","XMLID":"SURVIVAL","modifiers":[],"adders":[{"XMLID":"TEMPERATE","name":"","uid":1284611783771,"cost":"2","type":"Temperate/Subtropical","input":"","level":"0"},{"XMLID":"TROPICAL","name":"","uid":1284611784444,"cost":"2","type":"Tropical","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Survival (Temperate/Subtropical, Tropical) 13-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284611741456,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 13-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284611745416,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 13-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284611749771,"type":"Weapon Familiarity","input":"","level":"0","active":"3","base":"3","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"SMALLARMS","name":"","uid":1284611805084,"cost":"2","type":"Small Arms","input":"","level":"0"},{"XMLID":"COMMONMELEE","name":"","uid":1284611811734,"cost":"1","type":"Common Melee Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Small Arms, Blades"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1284612796630,"type":"Hunted","input":"New Knights Of The Round Table","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612796594,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284612796600,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284612796606,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284612796607,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1284612796608,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284612799006,"type":"Hunted","input":"UNTIL","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612798970,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284612798976,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284612798982,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284612798983,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1284612798984,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1284612757305,"type":"Physical Complication","input":"Sight PER Roll 10-, All Other PER Rolls 8-","level":"0","active":"30","base":"30","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612810376,"type":"Limitation Occurs","input":"All the Time","level":"0"},{"name":"No Name Supplied","uid":1284612810383,"type":"Limitation Impairs","input":"Greatly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284612907409,"type":"Psychological Complication","input":"Spendthrift","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612908794,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284612908800,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284612918620,"type":"Psychological Complication","input":"Contempt For Normal Humans","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612920134,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284612920140,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1284612934491,"type":"Social Complication","input":"Public Identity (Hans Zeldte)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284612936548,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284612936554,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1284612892753,"type":"Vulnerability","input":"from Water attacks","level":"0","active":"10","base":"5","XMLID":"VULNERABILITY","modifiers":[{"value":"x2","name":"","uid":1284612958478,"type":"Vulnerability Multiplier","input":"2x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284612958469,"type":"The Attack Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284611595585,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Fiery Attacks","uid":1284611059792,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"67","base":"67","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Fiery Blast","uid":1284611031064,"type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"2","active":"62","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284611079966,"type":"Reduced Endurance","damage":"10d6","range":"500m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Melting Blast","uid":1284611049304,"type":"Killing Ranged","damage":"3d6","range":"450m","input":"ED","level":"3","end":"2","active":"56","base":"45","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284611101634,"type":"Reduced Endurance","damage":"3d6","range":"450m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Fireball","uid":1284611073184,"type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"6","active":"60","base":"40","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284611122881,"type":"Area Of Effect","damage":"8d6","range":"400m","input":"Radius","level":"18"}],"adders":[]},
+	{"name":"Fiery Shapes","uid":1284611116400,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"2","active":"60","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284611197023,"type":"Indirect","damage":"2d6","range":"300m","input":"Source Point is the Character, path can change with every use","level":"0"},{"value":"+¼","name":"","uid":1284611222987,"type":"+1 Increased STUN Multiplier","damage":"2d6","range":"300m","input":"","level":"1"},{"value":"+¼","name":"","uid":1284611234672,"type":"Reduced Endurance","damage":"2d6","range":"300m","input":"Half END","level":"0"}],"adders":[]},
+	{"name":"Fiery Prison","uid":1284611208480,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"0","active":"67","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284611268073,"type":"Area Of Effect","damage":"2d6","range":"300m","input":"Radius","level":"1"},{"value":"+½","name":"","uid":1284611275820,"type":"Constant","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"+½","name":"","uid":1284611282300,"type":"Reduced Endurance","damage":"2d6","range":"300m","input":"0 END","level":"0"},{"value":"-½","name":"","uid":1284611298795,"type":"Targets Only Take Damage If They Touch Cage Or Move Into/Out Of The Affected Area","damage":"2d6","range":"300m","input":"","level":"0"}],"adders":[]},
+	{"name":"Fiery Wall","uid":1284611280656,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"ED","level":"2","end":"3","active":"75","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1284611333235,"type":"Area Of Effect","damage":"2d6","range":"300m","input":"Line","level":"25"},{"value":"+½","name":"","uid":1284611362944,"type":"Constant","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"+¼","name":"","uid":1284611369243,"type":"Reduced Endurance","damage":"2d6","range":"300m","input":"Half END","level":"0"},{"value":"-¼","name":"","uid":1284611375600,"type":"No Knockback","damage":"2d6","range":"300m","input":"","level":"0"}],"adders":[]},
+	{"name":"Fiery Form","uid":1284611376440,"type":"Killing Ranged","damage":"2d6","range":"","input":"ED","level":"2","end":"0","active":"75","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284611428908,"type":"Constant","damage":"2d6","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1284611431616,"type":"Area Of Effect","damage":"2d6","range":"","input":"Surface","level":"1"},{"value":"+½","name":"","uid":1284611452264,"type":"Reduced Endurance","damage":"2d6","range":"","input":"0 END","level":"0"},{"value":"+¼","name":"","uid":1284611459504,"type":"Persistent","damage":"2d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1284611464510,"type":"Always On","damage":"2d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1284611468524,"type":"No Range","damage":"2d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1284611472130,"type":"Unified Power","damage":"2d6","range":"","input":"with other Fiery Form powers","level":"0"}],"adders":[]},
+	{"name":"Fiery Form Flight","uid":1284611480129,"type":"Flight","damage":"40m","range":"","input":"","level":"40","end":"0","active":"60","base":"40","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284611545167,"type":"Unified Power","damage":"40m","range":"","input":"with other Fiery Form powers","level":"0"},{"value":"+½","name":"","uid":1284611549360,"type":"Reduced Endurance","damage":"40m","range":"","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Fiery Form Protection","uid":1284611521145,"type":"Resistant Protection","damage":"","range":"","input":"","level":"40","end":"0","active":"60","base":"60","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284611599139,"type":"Unified Power","damage":"","range":"","input":"with other Fiery Form powers","level":"0"}],"adders":[]},
+	{"name":"Fiery Body","uid":1284611579706,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"4","base":"4","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284611633788,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1284611634317,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Fiery Blast","uid":1284611031064,"gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 2 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Melting Blast","uid":1284611049304,"gameEdition":6,"tool":"3d6, Killing Ranged (vs. ED) 450m, 2 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fireball","uid":1284611073184,"gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 6 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fiery Shapes","uid":1284611116400,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, 2 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":1},
+	{"name":"Fiery Prison","uid":1284611208480,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fiery Wall","uid":1284611280656,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) 300m, 3 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Fiery Form","uid":1284611376440,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) , 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

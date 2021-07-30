@@ -1,0 +1,211 @@
+{
+"appversion":"20201025",
+"exportid":"20210728202004",
+"name":"Cauldron",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":30,"roll":"15-","shortname":"str","name":"Strength","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":"HTH Damage 6d6/10d6  END [3/5]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":25,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":25,"roll":"14-","mod":0},"notes":""},
+"int":{"value":11,"roll":"11-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":"PER Roll 11-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":12,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":22,"roll":"13-","mod":0},"notes":"12/22 PD (0/10 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"13-","mod":0},"notes":"12/22 PD (0/10 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":22,"roll":"13-","mod":0},"notes":"10/22 ED (0/12 rED)"},
+"edr":{"value":10,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":22,"roll":"13-","mod":0},"notes":"10/22 ED (0/12 rED)"},
+"per":{"value":11,"roll":"11-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":""},
+"rec":{"value":11,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"body":{"value":15,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"end":{"value":50,"roll":"19-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":50,"roll":"19-","mod":0},"secondary":{"value":50,"roll":"19-","mod":0},"notes":""},
+"stun":{"value":42,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":42,"roll":"17-","mod":0},"secondary":{"value":42,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"11-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 11-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283273169369,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with Spit Fire and Smoke Breath I/II","optionID":"TIGHT","text":"+2 with Spit Fire and Smoke Breath I/II"},
+	{"name":"AK (Italy) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283273219321,"type":"Knowledge Skill","input":"Italy","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Italy 11-"},
+	{"name":"CuK (Vibora Bay) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283273237978,"type":"Knowledge Skill","input":"Vibora Bay","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CuK: Vibora Bay 11-"},
+	{"name":"KS (Plumbing) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283273254296,"type":"KS","input":"Plumbing","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Plumbing 11-"},
+	{"name":"PS (Plumbing) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283273272439,"type":"Professional Skill","input":"Plumbing","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Plumbing 11-"},
+	{"name":"Language (English (Italian is Native)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283273302157,"type":"Language","input":"English (Italian is Native)fluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: English (Italian is Native) (fluent conversation)"},
+	{"name":"Gambling ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283273336656,"type":"Gambling","input":"","level":"0","active":"4","base":"4","XMLID":"GAMBLING","modifiers":[],"adders":[{"XMLID":"CARDGAMES","name":"","uid":1283273354105,"cost":"2","type":"Card Games","input":"","level":"0"},{"XMLID":"SPORTSBETTING","name":"","uid":1283273358116,"cost":"2","type":"Sports Betting","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"Gambling (Card Games, Sports Betting) 11-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283273353910,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283273356718,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 12-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1283273422378,"type":"Hunted","input":"Guy Sweetland","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273434170,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283273434176,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283273434182,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1283273443070,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283273447931,"type":"Hunted","input":"Black Mask","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273459904,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283273459910,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1283273459916,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1283273558316,"type":"Physical Complication","input":"Power is Difficult to Control -Accidentally Destroys Things","level":"0","active":"20","base":"20","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273570508,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283273570515,"type":"Limitation Impairs","input":"Greatly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283273691072,"type":"Psychological Complication","input":"Anti-Authoritarian, Breaks Laws For Fun","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273703413,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283273703419,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283273724269,"type":"Psychological Complication","input":"Overconfident","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273736717,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1283273736723,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283273797480,"type":"Psychological Complication","input":"Vengeful, Holds Grudges","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273810049,"type":"Situation Is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1283273810055,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1283273823750,"type":"Social Complication","input":"Secret Identity","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273836456,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283273836462,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1283273842564,"type":"Susceptibility","input":"ingests fire suppressants","level":"0","active":"15","base":"15","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283273855551,"type":"Number of Dice","input":"3d6 damage","level":"0"},{"name":"No Name Supplied","uid":1283273855564,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1283273855570,"type":"Condition Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1283273169369,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Internal Combustion","uid":1283271846049,"type":"Killing Attack - Hand-To-Hand","damage":"2d6","range":"","input":"ED","level":"2","end":"2","active":"60","base":"30","XMLID":"HKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1283271866553,"type":"Armor Piercing","damage":"2d6","range":"","input":"","level":"1"},{"value":"+½","name":"","uid":1283271871501,"type":"Penetrating","damage":"2d6","range":"","input":"","level":"1"},{"value":"+¼","name":"","uid":1283271876726,"type":"Reduced Endurance","damage":"2d6","range":"","input":"Half END","level":"0"},{"value":"-2","name":"","uid":1283271891577,"type":"Only works Against Swallowed Items (items must be less than 1m in any dimension)","damage":"2d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1283272107968,"type":"No STR Bonus","damage":"2d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272116572,"type":"Gestures","damage":"2d6","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272137422,"type":"No Knockback","damage":"2d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Spit Fire","uid":1283272187689,"type":"Killing Ranged","damage":"2d6","range":"var.","input":"ED","level":"2","end":"4","active":"45","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1283272270518,"type":"Area Of Effect","damage":"2d6","range":"var.","input":"Radius","level":"14"},{"value":"+¼","name":"","uid":1283272270521,"type":"Personal Immunity","damage":"2d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272270522,"type":"Limited Range","damage":"2d6","range":"var.","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272270523,"type":"Unified Power","damage":"2d6","range":"var.","input":"","level":"0"}],"adders":[]},
+	{"name":"Smoke Breath I","uid":1283272440531,"type":"Blast","damage":"3d6","range":"150m","input":"ED","level":"3","end":"4","active":"37","base":"15","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1283272510317,"type":"Attack Versus Alternate Defense","damage":"3d6","range":"150m","input":"Life Support (Self-Contained Breathing)Very Common -> Rare","level":"0"},{"value":"+½","name":"","uid":1283272549485,"type":"Area Of Effect","damage":"3d6","range":"150m","input":"Radius","level":"8"},{"value":"-¼","name":"","uid":1283272564742,"type":"Does not work in High Winds or Rain","damage":"3d6","range":"150m","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272585307,"type":"Unified Power","damage":"3d6","range":"150m","input":"","level":"0"}],"adders":[]},
+	{"name":"Smoke Breath II","uid":1283272595462,"type":"Change Environment","damage":"","range":"80m","input":"","level":"0","end":"2","active":"18","base":"8","XMLID":"CHANGEENVIRONMENT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1¼","name":"","uid":1283272642199,"type":"Area Of Effect","damage":"","range":"80m","input":"Radius","level":"64"},{"value":"-¼","name":"","uid":1283272672563,"type":"Does not work in High Winds or Rain","damage":"","range":"80m","input":"","level":"0"},{"value":"-¼","name":"","uid":1283272679836,"type":"Unified Power","damage":"","range":"80m","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1283272620083,"type":"-4 PER Roll","damage":"","range":"80m","input":"Normal Sight","level":"4"}]},
+	{"name":"Jaw Strength","uid":1283272701690,"type":"STR","damage":"","range":"","input":"","level":"20","end":"2","active":"20","base":"20","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1283272721118,"type":"Only for keepimg his jaws clamped on something","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Tough Form","uid":1283272779909,"type":"Resistant Protection","damage":"","range":"","input":"","level":"22","end":"0","active":"33","base":"33","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Fire Immunity","uid":1283272805493,"type":"Damage Reduction","damage":"0d6","range":"","input":"EnergyDamage Reduction, Resistant, 75%","level":"0","end":"0","active":"60","base":"60","XMLID":"DAMAGEREDUCTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1283272845130,"type":"Only Works Against Fire/Heat","damage":"0d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Strange Physiology","uid":1283272860007,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"15","base":"15","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283272909291,"type":"Eating","damage":"","range":"","input":"Character only has to eat once per week","level":"0"},{"name":"No Name Supplied","uid":1283272969546,"type":"Immunity","damage":"","range":"","input":"All terrestrial diseases","level":"0"},{"name":"No Name Supplied","uid":1283272916811,"type":"Immunity","damage":"","range":"","input":"All terrestrial poisons","level":"0"},{"name":"No Name Supplied","uid":1283272957345,"type":"Safe in Intense Cold","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1283272964631,"type":"Safe in Intense Heat","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Fiery Eyes","uid":1283273010998,"type":"Flash Defense","damage":"(12 points)","range":"","input":"Sight Group","level":"12","end":"0","active":"12","base":"12","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Internal Combustion","uid":1283271846049,"gameEdition":6,"tool":"2d6, Killing Attack - Hand-To-Hand (vs. ED) , 2 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Spit Fire","uid":1283272187689,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) var., 4 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Smoke Breath I","uid":1283272440531,"gameEdition":6,"tool":"3d6, Blast (vs. ED) 150m, 4 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Smoke Breath II","uid":1283272595462,"gameEdition":6,"tool":"Change Environment 80m, 2 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Jaw Strength","uid":1283272701690,"gameEdition":6,"tool":"STR , 2 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

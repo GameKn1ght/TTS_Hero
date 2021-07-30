@@ -1,0 +1,205 @@
+{
+"appversion":"20201025",
+"exportid":"20210729072549",
+"name":"Golem",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":8,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":"HTH Damage 1½d6  END [1]"},
+"dex":{"value":15,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"con":{"value":15,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":14,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":13,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PRE Attack: 2½d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":3,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"3 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":0,"roll":"10-","mod":0},"notes":"3 PD (0 rPD)"},
+"ed":{"value":3,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"3 ED (0 rED)"},
+"edr":{"value":3,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"3 ED (0 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":26,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283399531191,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"3","active":"9","base":"9","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with <i>Object Animation</i> Multipower","optionID":"TIGHT","text":"+3 with <i>Object Animation</i> Multipower"},
+	{"name":"Disguise ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283399534239,"type":"Disguise","input":"","level":"0","active":"3","base":"3","XMLID":"DISGUISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Disguise 12-"},
+	{"name":"KS (Animation Magic) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283399538337,"type":"KS","input":"Animation Magic","level":"2","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Animation Magic 13-"},
+	{"name":"KS (Kabbalism) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283399544937,"type":"KS","input":"Kabbalism","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Kabbalism 12-"},
+	{"name":"KS (Western Occultism) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283399547858,"type":"KS","input":"Western Occultism","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Western Occultism 11-"},
+	{"name":"Language (Hebrew (Classical)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283399562600,"type":"Language","input":"Hebrew (Classical)fluent conversation","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[{"XMLID":"GENERIC_OBJECT","name":"","uid":1283399582307,"cost":"1","type":"","input":"","level":"0"}],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Hebrew (Classical) (fluent conversation)"},
+	{"name":"PS (Kosher Cooking) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283399612857,"type":"Professional Skill","input":"Kosher Cooking","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Kosher Cooking 11-"},
+	{"name":"PS (Wax Modeling) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283399615522,"type":"Professional Skill","input":"Wax Modeling","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Wax Modeling 11-"},
+	{"name":"Sleight Of Hand ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283399617724,"type":"Sleight Of Hand","input":"","level":"0","active":"3","base":"3","XMLID":"SLEIGHT_OF_HAND","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Sleight Of Hand 12-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283399620228,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1283399636837,"type":"Hunted","input":"assorted governments","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399636802,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283399636808,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283399636814,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1283399636815,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283399642005,"type":"Hunted","input":"Witchfinder","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399641970,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283399641976,"type":"Capabilities","input":"As Powerful","level":"0"},{"name":"No Name Supplied","uid":1283399641982,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283399646181,"type":"Hunted","input":"Abrahamic Churches","level":"0","active":"5","base":"5","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399646146,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283399646152,"type":"Capabilities","input":"Less Powerful","level":"0"},{"name":"No Name Supplied","uid":1283399646159,"type":"Motivation","input":"Harshly Punish","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283399652741,"type":"Psychological Complication","input":"Fear Of Personal Combat","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399652722,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283399652728,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283399654390,"type":"Psychological Complication","input":"Greedy","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399654371,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283399654377,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283399657343,"type":"Psychological Complication","input":"Hungers For Greater Magic Power","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399657324,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283399657330,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1283399661809,"type":"Social Complication","input":"Secret Identity (Upton Frogge)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283399664117,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283399664123,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1283399531191,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"3","active":"9","base":"9","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Possess Statue","uid":1283397961642,"type":"Summon","damage":"530-point statue","range":"1,060m","input":"statue","level":"530","end":"26","active":"265","base":"106","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1283397961565,"type":"Amicable","damage":"530-point statue","range":"1,060m","input":"Slavishly Devoted","level":"0"},{"value":"+½","name":"","uid":1283397961572,"type":"Ranged","damage":"530-point statue","range":"1,060m","input":"Ranged","level":"0"},{"value":"-¼","name":"","uid":1283397961600,"type":"Focus","damage":"530-point statue","range":"1,060m","input":"IIF","level":"0"},{"value":"-1","name":"","uid":1283397961602,"type":"Frogge Is Incapacitated And Helpless While Statue Is Animate","damage":"530-point statue","range":"1,060m","input":"","level":"0"}],"adders":[]},
+	{"name":"Possess Statue","uid":1283397965733,"type":"Naked Advantage","damage":"","range":"","input":"Possess Statue","level":"106","end":"0","active":"53","base":"106","XMLID":"NAKEDMODIFIER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"+½","name":"","uid":1283397965702,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"},{"value":"-¼","name":"","uid":1283397965730,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"},{"value":"-½","name":"","uid":1283397965732,"type":"Only Applies If Golem Can Place A Matching Talisman On Statue","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Object Animation","uid":1283397978301,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"75","base":"75","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283397978294,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"},{"value":"-¼","name":"","uid":1283397978298,"type":"Gestures","damage":"","range":"","input":"","level":"0"},{"value":"-¼","name":"","uid":1283397978300,"type":"Incantations","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Standard Animation","uid":1283397978359,"type":"Summon","damage":"150-point animated object","range":"","input":"animated object","level":"150","end":"7","active":"75","base":"30","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1283397978308,"type":"Expanded Class of Beings","damage":"150-point animated object","range":"","input":"Limited Group","level":"0"},{"value":"+1","name":"","uid":1283397978317,"type":"Amicable","damage":"150-point animated object","range":"","input":"Slavishly Devoted","level":"0"},{"value":"-½","name":"","uid":1283397978319,"type":"Summoned Being Must Inhabit Locale","damage":"150-point animated object","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Animated Matter Lance","uid":1283397978377,"type":"Blast","damage":"7d6","range":"350m","input":"ED","level":"7","end":"7","active":"70","base":"35","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1283397978370,"type":"Indirect","damage":"7d6","range":"350m","input":"Source Point can vary from use to use, path can change with every use","level":"0"}],"adders":[]},
+	{"name":"Animated Matter Warping","uid":1283397978385,"type":"Dispel","damage":"16d6","range":"480m","input":"","level":"16","end":"7","active":"72","base":"48","XMLID":"DISPEL","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1283397978378,"type":"Variable Effect","damage":"16d6","range":"480m","input":"Variable Effect","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Animated Matter Lance","uid":1283397978377,"gameEdition":6,"tool":"7d6, Blast (vs. ED) 350m, 7 end.","diceMod":0,"dice":7,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Animated Matter Warping","uid":1283397978385,"gameEdition":6,"tool":"16d6, Dispel 480m, 7 end.","diceMod":0,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

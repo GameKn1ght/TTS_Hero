@@ -1,0 +1,239 @@
+{
+"appversion":"20201025",
+"exportid":"20210728202443",
+"name":"Ultrasonique",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [1]"},
+"dex":{"value":16,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":16,"roll":"12-","mod":0},"secondary":{"value":16,"roll":"12-","mod":0},"notes":""},
+"con":{"value":23,"roll":"14-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":15,"roll":"12-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":7,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":5,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":8,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"8/18 PD (0/10 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"13-","mod":0},"notes":"8/18 PD (0/10 rPD)"},
+"ed":{"value":8,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"8/18 ED (0/10 rED)"},
+"edr":{"value":8,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"8/18 ED (0/10 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":45,"roll":"18-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":45,"roll":"18-","mod":0},"secondary":{"value":45,"roll":"18-","mod":0},"notes":""},
+"stun":{"value":36,"roll":"16-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":36,"roll":"16-","mod":0},"secondary":{"value":36,"roll":"16-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"30m","noncombat":"60m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"24m","noncombat":"48m","primary":{"combat":{"description":"24m","value":24},"noncombat":{"description":"48m","value":48}},"secondary":{"combat":{"description":"24m","value":24},"noncombat":{"description":"48m","value":48}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284954776714,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Sonic Gauntlets Multipower","optionID":"BROAD","text":"+2 with Sonic Gauntlets Multipower"},
+	{"name":"Computer Programming ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954800041,"type":"Computer Programming","input":"","level":"0","active":"3","base":"3","XMLID":"COMPUTER_PROGRAMMING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Computer Programming 13-"},
+	{"name":"Electronics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954806193,"type":"Electronics","input":"","level":"0","active":"3","base":"3","XMLID":"ELECTRONICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Electronics 13-"},
+	{"name":"Inventor ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954808937,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Inventor 13-"},
+	{"name":"AK (French Beaches) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284954820443,"type":"Knowledge Skill","input":"French Beaches","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: French Beaches 11-"},
+	{"name":"KS (European Politics) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284954858193,"type":"KS","input":"European Politics","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: European Politics 11-"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284954868728,"type":"KS","input":"The Superhuman World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 11-"},
+	{"name":"Language (Braille) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284954860674,"type":"Language","input":"Braillefluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Braille (fluent conversation)"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284954897242,"type":"Language","input":"Englishbasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: English (basic conversation)"},
+	{"name":"Language (Esperanto) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284954905427,"type":"Language","input":"Esperantobasic conversation","level":"0","active":"1","base":"1","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"basic conversation","optionAlias":"basic conversation","optionID":"BASIC","text":"Language: Esperanto (basic conversation)"},
+	{"name":"Power (Gadgeteering) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954914537,"type":"Power","input":"Gadgeteering","level":"0","active":"3","base":"3","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power: Gadgeteering 13-"},
+	{"name":"PS (Diver) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954926065,"type":"Professional Skill","input":"Diver","level":"0","active":"3","base":"3","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Diver 13-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954940898,"type":"Stealth","input":"","level":"1","active":"5","base":"5","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"},
+	{"name":"Systems Operation ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954943585,"type":"Systems Operation","input":"","level":"0","active":"3","base":"3","XMLID":"SYSTEMS_OPERATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Systems Operation 13-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1284954954739,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 12-"},
+	{"name":"TF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284954959843,"type":"Transport Familiarity","input":"","level":"0","active":"3","base":"3","XMLID":"TRANSPORT_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"WATER","name":"","uid":1284954996386,"cost":"2","type":"Water Vehicles","input":"","level":"0"},{"XMLID":"RECREATIONALVEHICLES","name":"","uid":1284954999103,"cost":"1","type":"Recreational Vehicles","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"TF: Large Motorized Boats, SCUBA, Small Motorized Boats"},
+	{"name":"Science Skill (Marine Biology) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284955027494,"type":"Science Skill","input":"Marine Biology","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Marine Biology 11- (2 Active Points)"},
+	{"name":"Science Skill (Oceanography) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284955025394,"type":"Science Skill","input":"Oceanography","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Oceanography 11- (2 Active Points)"},
+	{"name":"Science Skill (Physics) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1284955024734,"type":"Science Skill","input":"Physics","level":"0","active":"2","base":"2","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Physics 11- (2 Active Points)"},
+	{"name":"Science Skill (Sonics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1284954990242,"type":"Science Skill","input":"Sonics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Sonics 13- (3 Active Points)"}],
+"talents":[
+	{"name":"Lightning Reflexes ","roll":"","uid":1284954761292,"type":"Lightning Reflexes","input":"All Actions","level":"4","active":"4","base":"4","XMLID":"LIGHTNING_REFLEXES_ALL","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1284955056602,"type":"Distinctive Features","input":"scarred face","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955082793,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1284955082799,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1284955082805,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284955099410,"type":"Hunted","input":"New Knights Of The Round Table","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955099374,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284955099380,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284955099386,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284955099387,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1284955099388,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1284955107876,"type":"Hunted","input":"UNTIL","level":"0","active":"25","base":"25","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955107839,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1284955107845,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1284955107851,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1284955107852,"type":"Extensive Non-Combat Influence","input":"","level":"0"},{"name":"No Name Supplied","uid":1284955107853,"type":"PC has a Public ID or is otherwise very easy to find","input":"","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1284955110698,"type":"Physical Complication","input":"Blindness","level":"0","active":"35","base":"35","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955138223,"type":"Limitation Occurs","input":"All the Time","level":"0"},{"name":"No Name Supplied","uid":1284955138230,"type":"Limitation Impairs","input":"Fully Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1284955158873,"type":"Psychological Complication","input":"Raving Paranoid; Trusts No One But Eurostar","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955160076,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1284955160082,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1284955167533,"type":"Social Complication","input":"Public Identity (Jean Dubois)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284955170413,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1284955170419,"type":"Effects of Restrictions","input":"Major","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284954776714,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"2","active":"10","base":"10","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Power Pack","uid":1284952789034,"type":"Endurance Reserve","damage":"","range":"","input":"","level":"200","end":"0","active":"64","base":"50","XMLID":"ENDURANCERESERVE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1285046975586,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Technical Support","uid":1284952931823,"type":"Variable Power Pool","damage":"","range":"","input":"Gadget Pool","level":"30","end":"","active":"45","base":"45","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284952931822,"type":"","damage":"","range":"","input":"","level":"30"}]},
+	{"name":"No Name Supplied","uid":1285047027918,"type":"Custom Power","damage":"","range":"","input":"","level":"10","end":"0","active":"10","base":"20","XMLID":"CUSTOMPOWER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285047085164,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285047085136,"type":"Sensory Power","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"No Name Supplied","uid":1285046349025,"type":"Targeting","damage":"","range":"","input":"Hearing Group","level":"0","end":"0","active":"20","base":"20","XMLID":"TARGETINGSENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":true,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1285046525513,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Flight Pack","uid":1285046450135,"type":"Flight","damage":"30m","range":"","input":"","level":"30","end":"3","active":"30","base":"30","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285046876604,"type":"Focus","damage":"30m","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Propulsion Enhancers","uid":1285046486624,"type":"Swimming","damage":"","range":"","input":"","level":"20","end":"1","active":"10","base":"10","XMLID":"SWIMMING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285046872383,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Cutter","uid":1285046522239,"type":"Killing Ranged","damage":"2d6","range":"var.","input":"ED","level":"2","end":"3","active":"30","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285046867738,"type":"Focus","damage":"2d6","range":"var.","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1285046867740,"type":"Limited Range","damage":"2d6","range":"var.","input":"","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1285046556128,"type":"Images","damage":"","range":"140m","input":"Hearing Group","level":"0","end":"3","active":"28","base":"14","XMLID":"IMAGES","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+1","name":"","uid":1285046862483,"type":"Area Of Effect","damage":"","range":"140m","input":"Radius","level":"32"},{"value":"-½","name":"","uid":1285046862512,"type":"Focus","damage":"","range":"140m","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1285046862463,"type":"+/-3 to PER Rolls","damage":"","range":"140m","input":"","level":"3"}]},
+	{"name":"Stealth Enhancer","uid":1285046675512,"type":"Invisibility","damage":"","range":"","input":"Hearing Group","level":"0","end":"1","active":"10","base":"10","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1285046851580,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Gauntlets","uid":1284954379888,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"70","base":"70","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284954395615,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonic Blast","uid":1284954402801,"type":"Blast","damage":"14d6","range":"700m","input":"ED","level":"14","end":"7","active":"70","base":"70","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Low-Powered Sonic Blast","uid":1284954416153,"type":"Blast","damage":"9d6","range":"450m","input":"ED","level":"9","end":"0","active":"67","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284954447509,"type":"Reduced Endurance","damage":"9d6","range":"450m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Ultrasonic Blast","uid":1284954454769,"type":"Blast","damage":"10d6","range":"500m","input":"ED","level":"10","end":"6","active":"62","base":"50","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284954478836,"type":"Armor Piercing","damage":"10d6","range":"500m","input":"","level":"1"}],"adders":[]},
+	{"name":"Infrasonic Blast","uid":1284954477258,"type":"Blast","damage":"9d6","range":"450m","input":"ED","level":"9","end":"7","active":"67","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284954500427,"type":"Area Of Effect","damage":"9d6","range":"450m","input":"Radius","level":"20"}],"adders":[]},
+	{"name":"Sonic Cone","uid":1284954508443,"type":"Blast","damage":"9d6","range":"","input":"ED","level":"9","end":"7","active":"67","base":"45","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284954534180,"type":"Area Of Effect","damage":"9d6","range":"","input":"Cone","level":"16"},{"value":"-½","name":"","uid":1284954548879,"type":"No Range","damage":"9d6","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Shriekers","uid":1284954548365,"type":"Flash","damage":"15d6","range":"450m","input":"Hearing Group","level":"15","end":"0","active":"67","base":"45","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284954576152,"type":"Reduced Endurance","damage":"15d6","range":"450m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Armored Diving Suit","uid":1284954575890,"type":"Resistant Protection","damage":"","range":"","input":"","level":"20","end":"0","active":"30","base":"30","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284954605958,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1284954613259,"type":"Life Support","damage":"","range":"","input":"","level":"0","end":"0","active":"11","base":"11","XMLID":"LIFESUPPORT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284954641728,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284954634365,"type":"Safe in High Pressure","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1284954631379,"type":"Self-Contained Breathing","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Underwater Propulsion Pack","uid":1284954638090,"type":"Swimming","damage":"","range":"","input":"","level":"20","end":"1","active":"10","base":"10","XMLID":"SWIMMING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284954671947,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Sonar","uid":1284954671673,"type":"Active Sonar","damage":"","range":"","input":"","level":"0","end":"0","active":"15","base":"15","XMLID":"ACTIVESONAR","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1285047122434,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1627529189874,"type":"Concealed (-5 with Active Sonar PER Rolls)","damage":"","range":"","input":"","level":"5"},{"name":"No Name Supplied","uid":1627529189875,"type":"Increased Arc Of Perception (360 Degrees)","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Auditory Sensors","uid":1284954705155,"type":"Ultrasonic Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"3","base":"3","XMLID":"ULTRASONICPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284954735823,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Radio","uid":1284954727193,"type":"Radio Perception/Transmission","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1284954760558,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1284954765562,"type":"Affected As Hearing Group As Well As Radio Group","damage":"","range":"","input":"","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Sonic Cutter","uid":1285046522239,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. ED) var., 3 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"No Name Supplied","uid":1285046556128,"gameEdition":6,"tool":"Images (vs. Hearing Group) 140m, 3 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sonic Blast","uid":1284954402801,"gameEdition":6,"tool":"14d6, Blast (vs. ED) 700m, 7 end.","diceMod":0,"dice":14,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Low-Powered Sonic Blast","uid":1284954416153,"gameEdition":6,"tool":"9d6, Blast (vs. ED) 450m, 0 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ultrasonic Blast","uid":1284954454769,"gameEdition":6,"tool":"10d6, Blast (vs. ED) 500m, 6 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Infrasonic Blast","uid":1284954477258,"gameEdition":6,"tool":"9d6, Blast (vs. ED) 450m, 7 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Sonic Cone","uid":1284954508443,"gameEdition":6,"tool":"9d6, Blast (vs. ED) , 7 end.","diceMod":0,"dice":9,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Shriekers","uid":1284954548365,"gameEdition":6,"tool":"15d6, Flash (vs. Hearing Group) 450m, 0 end.","diceMod":0,"dice":15,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[
+	{"name":"+4 DEX to act first with All Actions","levels":4,"tool":"Lightning Reflexes (+4 DEX to act first with All Actions)","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,254 @@
+{
+"appversion":"20201025",
+"exportid":"20210728211718",
+"name":"ASTRALLE",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":18,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":20,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 4d6"},
+"spd":{"value":5,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"Phases: 3, 5, 8, 10, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":6,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":6,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":8,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":29,"roll":"15-","mod":0},"notes":"8/29 PD (0/21 rPD)"},
+"pdr":{"value":0,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":21,"roll":"15-","mod":0},"notes":"8/29 PD (0/21 rPD)"},
+"ed":{"value":8,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":29,"roll":"15-","mod":0},"notes":"8/29 ED (0/21 rED)"},
+"edr":{"value":8,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":29,"roll":"15-","mod":0},"notes":"8/29 ED (0/21 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":6,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":24,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":24,"roll":"14-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"58m","noncombat":"464m","primary":{"combat":{"description":"58m","value":58},"noncombat":{"description":"464m","value":464}},"secondary":{"combat":{"description":"58m","value":58},"noncombat":{"description":"464m","value":464}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"teleport":{"current":"primary","combat":"30m","noncombat":"60m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"icon":"ui_teleport","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Combat Skill Levels ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284147104178,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a large group of attacks","optionAlias":"with Favors Of The Planetary Demons Multipower","optionID":"BROAD","text":"+3 with Favors Of The Planetary Demons Multipower"},
+	{"name":"Penalty Skill Levels: Astrology ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1284147348959,"type":"Penalty Skill Levels","input":"to offset a specific negative OCV modifier with any single attack","level":"8","active":"8","base":"8","XMLID":"PENALTY_SKILL_LEVELS","modifiers":[{"XMLID":"OIHID","value":"-¼","name":"","uid":1284147806269,"cost":"0","type":"Only In Alternate Identity","input":"","level":"0"},{"XMLID":"VARIABLELIMITATIONS","value":"-¼","name":"","uid":1284147806270,"cost":"0","type":"Variable Limitations","input":"","level":"2"},{"XMLID":"REQUIRESASKILLROLL","value":"-½","name":"","uid":1284147806305,"cost":"0","type":"Requires A Roll","input":"11- roll","level":"0"}],"adders":[],"option":"to offset a specific negative OCV modifier with any single attack","optionAlias":"to offset a specific negative OCV modifier with any single attack","optionID":"SINGLE","text":"+8 to offset a specific negative OCV modifier with any single attack (8 Active Points); Requires A PS: Astrology Roll (; -½), OIAID (-¼), Variable Limitations (requires -½ worth of Limitations; requires -� worth of Limitations chosen from OIF [sigil belt], Concentration, Extra Time, Gestures, Incantations; -¼)"},
+	{"name":"Acting ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283965077319,"type":"Acting","input":"","level":"0","active":"3","base":"3","XMLID":"ACTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acting 13-"},
+	{"name":"Charm ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283965143943,"type":"Charm","input":"","level":"0","active":"3","base":"3","XMLID":"CHARM","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Charm 13-"},
+	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283965155458,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 12-"},
+	{"name":"Conversation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283965164693,"type":"Conversation","input":"","level":"0","active":"3","base":"3","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 13-"},
+	{"name":"AK (Babylon) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283965188973,"type":"Knowledge Skill","input":"Babylon","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Babylon 11-"},
+	{"name":"AK (Astral Plane) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283965206645,"type":"Knowledge Skill","input":"Astral Plane","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Astral Plane 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283965226645,"type":"Language","input":"Englishidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic, native accent; Italian is Native","optionID":"IDIOMATIC","text":"Language: English (idiomatic, native accent; Italian is Native)"},
+	{"name":"Language (Latin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1283965293003,"type":"Language","input":"Latinfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Latin (fluent conversation)"},
+	{"name":"Navigation (Astral, Dimensional) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283965328643,"type":"Navigation","input":"","level":"0","active":"3","base":"3","XMLID":"NAVIGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Navigation (Astral, Dimensional) 12-"},
+	{"name":"PS (Astrologer) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283965361111,"type":"Professional Skill","input":"Astrologer","level":"2","active":"4","base":"4","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Astrologer 13-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1283965392298,"type":"Shadowing","input":"","level":"1","active":"5","base":"5","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 13-"},
+	{"name":"KS (Arcane And Occult Lore) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283965415922,"type":"KS","input":"Arcane And Occult Lore","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Arcane And Occult Lore (3 Active Points) 12-"},
+	{"name":"KS (Astrology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283965440922,"type":"KS","input":"Astrology","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Astrology (3 Active Points) 12-"},
+	{"name":"KS (Demonology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1283965462687,"type":"KS","input":"Demonology","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Demonology (3 Active Points) 12-"},
+	{"name":"KS (The Mystic World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283965477030,"type":"KS","input":"The Mystic World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Mystic World (2 Active Points) 11-"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283965489218,"type":"KS","input":"The Superhuman World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World (2 Active Points) 11-"},
+	{"name":"KS (Western Occultism) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1283965502327,"type":"KS","input":"Western Occultism","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Western Occultism (2 Active Points) 11-"}],
+"talents":[
+	{"name":"Striking Appearance ","roll":"","uid":1283964660359,"type":"Striking Appearance","input":"vs. all characters","level":"1","active":"3","base":"3","XMLID":"STRIKING_APPEARANCE","modifiers":[],"adders":[]}],
+"perks":[
+	{"name":"Fringe Benefit ","roll":"","uid":1283964679296,"type":"Fringe Benefit","input":"","level":"0","active":"1","base":"1","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965022693,"type":"International Driver's License","input":"","level":"0"}]},
+	{"name":"Fringe Benefit ","roll":"","uid":1283964685577,"type":"Fringe Benefit","input":"","level":"0","active":"1","base":"1","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965060807,"type":"License to practice a profession","input":"","level":"0"}]}],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1283965522248,"type":"Distinctive Features","input":"Demon-tainted aura","level":"0","active":"10","base":"10","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965880630,"type":"Concealability","input":"Not Concealable","level":"0"},{"name":"No Name Supplied","uid":1283965880636,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1283965880642,"type":"Sensing","input":"Detectable Only By Technology Or Major Effort","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283965571419,"type":"Hunted","input":"Senior Sylvestris","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965930370,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283965930376,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283965930382,"type":"Motivation","input":"Watching","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1283965593575,"type":"Hunted","input":"Planetary Demons","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965953025,"type":"Appearance","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283965953031,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1283965953037,"type":"Motivation","input":"Watching","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1283965619074,"type":"Physical Complication","input":"Planetary demons can control her main Multipower","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965979045,"type":"Limitation Occurs","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283965979052,"type":"Limitation Impairs","input":"Greatly Impairing","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1283965633809,"type":"Physical Complication","input":"Planetary demons can Summon her","level":"0","active":"20","base":"20","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283965994197,"type":"Limitation Occurs","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1283965994204,"type":"Limitation Impairs","input":"Fully Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283965651168,"type":"Psychological Complication","input":"Terrified Of Capture, Punishment, Or Death","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283966022843,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1283966022849,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283965666792,"type":"Psychological Complication","input":"Greedy For Magical Power","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283966028371,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283966028377,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1283965681276,"type":"Psychological Complication","input":"Lecherous","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283966043254,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1283966043260,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1283966045207,"type":"Social Complication","input":"Secret Identity (Perrenon Sylvestri)","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283966407684,"type":"Circumstances Occur","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1283966407690,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1284147517490,"type":"Susceptibility","input":"whenever a planetary demon wants","level":"0","active":"15","base":"15","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284147960380,"type":"Number of Dice","input":"3d6 damage","level":"0"},{"name":"No Name Supplied","uid":1284147960393,"type":"Take Damage Every","input":"Instant","level":"0"},{"name":"No Name Supplied","uid":1284147960399,"type":"Condition Is","input":"Uncommon","level":"0"}]},
+	{"name":"Susceptibility","roll":"","uid":1283966065550,"type":"Susceptibility","input":"to holy symbols/ground","level":"0","active":"10","base":"10","XMLID":"SUSCEPTIBILITY","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1283966428603,"type":"Number of Dice","input":"1d6 damage","level":"0"},{"name":"No Name Supplied","uid":1283966428616,"type":"Take Damage Every","input":"per Turn","level":"0"},{"name":"No Name Supplied","uid":1283966428622,"type":"Condition Is","input":"Uncommon","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1284147104178,"type":"Combat Skill Levels","input":"with a large group of attacks","level":"3","active":"15","base":"15","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Favors Of The Planetary Demons","uid":1283885839584,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"91","base":"91","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283886062805,"type":"Variable Limitations","damage":"","range":"","input":"","level":"2"}],"adders":[]},
+	{"name":"Och�s Solar Flare","uid":1283885810956,"type":"Flash","damage":"8d6","range":"240m","input":"Hearing Group","level":"8","end":"[8]","active":"30","base":"24","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150514415,"type":"Charges","damage":"8d6","range":"240m","input":"8","level":"0"},{"value":"+¼","name":"","uid":1284150514435,"type":"Area Of Effect","damage":"8d6","range":"240m","input":"Radius","level":"1"}],"adders":[]},
+	{"name":"Phantasms Of Phul","uid":1283907865015,"type":"Mental Illusions","damage":"12d6","range":"LOS","input":"","level":"12","end":"[8]","active":"60","base":"60","XMLID":"MENTALILLUSIONS","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150557089,"type":"Charges","damage":"12d6","range":"LOS","input":"8","level":"0"}],"adders":[]},
+	{"name":"Ophiel�s Forcible Flight","uid":1283907915328,"type":"Flight","damage":"24m","range":"240m","input":"","level":"24","end":"[8]","active":"66","base":"24","XMLID":"FLIGHT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1¼","name":"","uid":1284150574366,"type":"Usable On Others","damage":"24m","range":"240m","input":"Usable As Attack","level":"0"},{"value":"+½","name":"","uid":1284150574382,"type":"Ranged","damage":"24m","range":"240m","input":"Ranged","level":"0"},{"value":"-½","name":"","uid":1284150574448,"type":"Charges","damage":"24m","range":"240m","input":"8","level":"0"}],"adders":[]},
+	{"name":"Hagith�s Mental Mastery","uid":1283907987796,"type":"Mind Control","damage":"12d6","range":"LOS","input":"","level":"12","end":"[8]","active":"60","base":"60","XMLID":"MINDCONTROL","strMod":false,"class":{"attack":true,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150597644,"type":"Charges","damage":"12d6","range":"LOS","input":"8","level":"0"}],"adders":[]},
+	{"name":"Barsabel�s Flaming Spear","uid":1283908037359,"type":"Killing Ranged","damage":"2½d6","range":"400m","input":"ED","level":"2","end":"[8]","active":"50","base":"40","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284150609208,"type":"Armor Piercing","damage":"2½d6","range":"400m","input":"","level":"1"},{"value":"-½","name":"","uid":1284150609273,"type":"Charges","damage":"2½d6","range":"400m","input":"8","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284150609207,"type":"+½ d6","damage":"2½d6","range":"400m","input":"","level":"0"}]},
+	{"name":"Lightning Of Bethor","uid":1283908082109,"type":"Blast","damage":"12d6","range":"600m","input":"ED","level":"12","end":"[8]","active":"60","base":"60","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150643088,"type":"Charges","damage":"12d6","range":"600m","input":"8","level":"0"}],"adders":[]},
+	{"name":"Aratron�s Leaden Bonds","uid":1283908118031,"type":"Entangle","damage":"6d6, 6 PD/6 ED","range":"600m","input":"","level":"6","end":"[8]","active":"60","base":"60","XMLID":"ENTANGLE","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150653016,"type":"Charges","damage":"6d6, 6 PD/6 ED","range":"600m","input":"8","level":"0"}],"adders":[]},
+	{"name":"Och�s Illumination","uid":1283908169093,"type":"Change Environment","damage":"","range":"30m","input":"","level":"0","end":"1","active":"6","base":"3","XMLID":"CHANGEENVIRONMENT","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1284150665178,"type":"Area Of Effect","damage":"","range":"30m","input":"Radius","level":"32"}],"adders":[{"name":"No Name Supplied","uid":1284150665159,"type":"","damage":"","range":"30m","input":"","level":"0"}]},
+	{"name":"Concealment Of Phul","uid":1283908575640,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"1","active":"35","base":"28","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284150682285,"type":"Reduced Endurance","damage":"","range":"","input":"Half END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284150682279,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1284150682280,"type":"","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Ophiel�s Instant Transport","uid":1283908643265,"type":"Teleportation","damage":"30m","range":"","input":"","level":"30","end":"3","active":"30","base":"30","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Hagith�s Attractive Aura","uid":1283908677640,"type":"PRE","damage":"","range":"","input":"","level":"25","end":"","active":"25","base":"25","XMLID":"PRE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284146350254,"type":"Limited Power","damage":"","range":"","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Barsabel�s Iron Shield","uid":1283908739703,"type":"Resistant Protection","damage":"","range":"","input":"","level":"22","end":"0","active":"41","base":"33","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284150720761,"type":"Hardened","damage":"","range":"","input":"","level":"1"},{"value":"-¼","name":"","uid":1284150720763,"type":"Costs Half Endurance","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Bethor�s Revelations","uid":1283908831343,"type":"Detect","damage":"12-","range":"","input":"A Class Of Things","level":"0","end":"0","active":"10","base":"10","XMLID":"DETECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1627532188711,"type":"Discriminatory","damage":"12-","range":"","input":"","level":"0"}]},
+	{"name":"Aratron�s Subtle Clutch","uid":1283909088812,"type":"Drain","damage":"5d6","range":"500m","input":"DEX","level":"5","end":"5","active":"50","base":"50","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150735983,"type":"Costs Endurance (to maintain","damage":"5d6","range":"500m","input":"","level":"0"}],"adders":[]},
+	{"name":"Astrological Search","uid":1283909350390,"type":"Mind Scan","damage":"18d6","range":"","input":"","level":"18","end":"9","active":"90","base":"90","XMLID":"MINDSCAN","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-3","name":"","uid":1283909420175,"type":"Extra Time","damage":"18d6","range":"","input":"1 Hour","level":"0"}],"adders":[]},
+	{"name":"Contact Demon","uid":1283909407750,"type":"Mind Scan","damage":"12d6","range":"","input":"","level":"12","end":"9","active":"90","base":"60","XMLID":"MINDSCAN","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1284150759067,"type":"Transdimensional","damage":"12d6","range":"","input":"Single Dimension","level":"0"},{"value":"-3","name":"","uid":1284150759110,"type":"Extra Time","damage":"12d6","range":"","input":"1 Hour","level":"0"}],"adders":[]},
+	{"name":"Open The Way","uid":1283909530546,"type":"Extra-Dimensional Movement","damage":"","range":"200m","input":"Single Dimension","level":"0","end":"10","active":"55","base":"20","XMLID":"EXTRADIMENSIONALMOVEMENT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1284150782665,"type":"Usable On Others","damage":"","range":"200m","input":"Usable By Other","level":"0"},{"value":"+½","name":"","uid":1284150782685,"type":"Indirect","damage":"","range":"200m","input":"Source Point is the same for every use, path is indirect, but the same with every use","level":"0"},{"value":"+½","name":"","uid":1284150782692,"type":"Ranged","damage":"","range":"200m","input":"Ranged","level":"0"},{"value":"+½","name":"","uid":1284150782699,"type":"Transdimensional","damage":"","range":"200m","input":"Single Dimension","level":"0"},{"value":"-½","name":"","uid":1284150782708,"type":"Concentration","damage":"","range":"200m","input":"0 DCV","level":"0"},{"value":"-½","name":"","uid":1284150782727,"type":"Increased Endurance Cost","damage":"","range":"200m","input":"x2 END","level":"0"}],"adders":[]},
+	{"name":"Lesser Gifts Of The Planetary Demons","uid":1283909814773,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"49","base":"49","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1283910485438,"type":"Only In Alternate Identity","damage":"","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1283910493576,"type":"Variable Limitations","damage":"","range":"","input":"","level":"4"}],"adders":[]},
+	{"name":"Shield Of The Star Demons","uid":1283910467281,"type":"Resistant Protection","damage":"","range":"","input":"","level":"32","end":"0","active":"48","base":"48","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1284150850440,"type":"Costs Half Endurance","damage":"","range":"","input":"","level":"0"}],"adders":[]},
+	{"name":"Winds Of Asmodeus","uid":1283911023156,"type":"Flight","damage":"34m","range":"","input":"","level":"34","end":"4","active":"44","base":"44","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1284150870159,"type":"x4 Noncombat","damage":"34m","range":"","input":"","level":"2"}]},
+	{"name":"Astrological Forecast","uid":1283911082140,"type":"Clairsentience","damage":"","range":"200m","input":"Sight Group","level":"0","end":"4","active":"40","base":"40","XMLID":"CLAIRSENTIENCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284150890141,"type":"Limited Power","damage":"","range":"200m","input":"Power loses about half of its effectiveness","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284150890126,"type":"Precognition","damage":"","range":"200m","input":"","level":"0"}]},
+	{"name":"Astral Gate","uid":1283911214000,"type":"Extra-Dimensional Movement","damage":"","range":"","input":"Related Group of Dimensions, Any Location","level":"0","end":"8","active":"45","base":"45","XMLID":"EXTRADIMENSIONALMOVEMENT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1284150931711,"type":"Extra Time","damage":"","range":"","input":"Full Phase","level":"0"},{"value":"-½","name":"","uid":1284150931731,"type":"Increased Endurance Cost","damage":"","range":"","input":"x2 END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284150931668,"type":"x4 Increased Weight","damage":"","range":"","input":"","level":"2"}]},
+	{"name":"Conjure Imp","uid":1283911335453,"type":"Summon","damage":"245-point Imp (see HSB 73)","range":"","input":"Imp (see HSB 73)","level":"245","end":"10","active":"49","base":"49","XMLID":"SUMMON","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1¼","name":"","uid":1284150956315,"type":"Extra Time","damage":"245-point Imp (see HSB 73)","range":"","input":"1 Turn (Post-Segment 12)","level":"0"},{"value":"-½","name":"","uid":1284150956335,"type":"Increased Endurance Cost","damage":"245-point Imp (see HSB 73)","range":"","input":"x2 END","level":"0"}],"adders":[]},
+	{"name":"Contact Demon","uid":1283914234156,"type":"Mind Link","damage":"","range":"LOS","input":"Specific Group of Minds","level":"0","end":"0","active":"20","base":"20","XMLID":"MINDLINK","strMod":false,"class":{"attack":false,"mental":true,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1284150987436,"type":"Concentration","damage":"","range":"LOS","input":"0 DCV","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1284150987428,"type":"Unlimited range in this dimension and can reach into other dimensions","damage":"","range":"LOS","input":"","level":"0"}]},
+	{"name":"Stars In Her Eyes","uid":1283914372500,"type":"Flash Defense","damage":"(5 points)","range":"","input":"Sight Group","level":"5","end":"0","active":"5","base":"5","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Slippery Mind","uid":1283914402421,"type":"Mental Defense","damage":"8 points total","range":"","input":"","level":"8","end":"0","active":"8","base":"8","XMLID":"MENTALDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Astral Awareness","uid":1283964512752,"type":"Perceive into a single other dimension","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"10","base":"10","XMLID":"DIMENSIONALSINGLE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"Instant Change","uid":1283964544314,"type":"Transform","damage":"1d6","range":"30m","input":"any clothing to costume; reverses at willCosmetic","level":"1","end":"1","active":"5","base":"3","XMLID":"TRANSFORM","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¾","name":"","uid":1283964885628,"type":"Trigger","damage":"1d6","range":"30m","input":"Set Trigger","level":"0"},{"value":"-½","name":"","uid":1283964942983,"type":"Limited Target","damage":"1d6","range":"30m","input":"([Limited]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1283964841449,"type":"Healed back by","damage":"1d6","range":"30m","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Och�s Solar Flare","uid":1283885810956,"gameEdition":6,"tool":"8d6, Flash (vs. Hearing Group) 240m, [8] end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Phantasms Of Phul","uid":1283907865015,"gameEdition":6,"tool":"12d6, Mental Illusions LOS, [8] end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Ophiel�s Forcible Flight","uid":1283907915328,"gameEdition":6,"tool":"24m, Flight 240m, [8] end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Hagith�s Mental Mastery","uid":1283907987796,"gameEdition":6,"tool":"12d6, Mind Control LOS, [8] end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Barsabel�s Flaming Spear","uid":1283908037359,"gameEdition":6,"tool":"2½d6, Killing Ranged (vs. ED) 400m, [8] end.","diceMod":0,"dice":2,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Lightning Of Bethor","uid":1283908082109,"gameEdition":6,"tool":"12d6, Blast (vs. ED) 600m, [8] end.","diceMod":0,"dice":12,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Aratron�s Leaden Bonds","uid":1283908118031,"gameEdition":6,"tool":"6d6, 6 PD/6 ED, Entangle 600m, [8] end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Och�s Illumination","uid":1283908169093,"gameEdition":6,"tool":"Change Environment 30m, 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Aratron�s Subtle Clutch","uid":1283909088812,"gameEdition":6,"tool":"5d6, Drain (vs. DEX) 500m, 5 end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Instant Change","uid":1283964544314,"gameEdition":6,"tool":"1d6, Transform (vs. any clothing to costume; reverses at will,Cosmetic) 30m, 1 end.","diceMod":0,"dice":1,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
