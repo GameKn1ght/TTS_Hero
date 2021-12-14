@@ -1,14 +1,11 @@
 {
 	"folders": [
 		{
-			"path": "C:\\Users\\jimdi\\Kereon Group\\GameKnight's - General\\HDC Files"
-		},
-		{
 			"path": "."
 		},
 		{
 			"uri": "tabletop-simulator:/",
-			"name": "Tabletop Simulator",
+			"name": "Tabletop Simulator"
 		}
 	],
 	"settings": {}
